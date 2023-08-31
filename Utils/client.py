@@ -58,10 +58,13 @@ def generate_seo_metatitle(keyword):
         # print(d)
         result_dict= d['result'][0]['items']
         summary= ''
-        for i in result_dict[:25]:
-            summary+= i['title']+' '
-
-        return summary
+        for i in result_dict[:10]:
+            # summary+= i['title']+' '
+            x= i['description']
+            if x:
+                summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
+        print(summary)
+        return summary.replace('\n', ' ')
         
         
         # do something with result

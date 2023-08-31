@@ -138,13 +138,13 @@ async def large(text:dict):
 
 @app.get('/train')
 async def trainRoute():
-    os.system("python main.py")
+    os.system("python train.py")
     # os.system("dvc repro")
     return "Training done successfully!"
 
 
 @app.get('/intent')
-async def large(text):
+async def intent(text):
     
     try: 
         # text= str_2_list_of_str(text)
@@ -187,4 +187,4 @@ async def large(text):
 
 
 if __name__=='__main__':
-    uvicorn.run(app, host='0.0.0.0', port=8080)
+    uvicorn.run(app, host='0.0.0.0', port=8083)

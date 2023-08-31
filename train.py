@@ -11,6 +11,7 @@ reverse_intent= {
     3: 'commercial',
     4: 'local'
 }
+print("<<<<<<<<<<<<<<<<<<<    TRAINING STARTED   >>>>>>>>>>>>>>>>")
 
 from main import generate_base_embeddings
 
@@ -28,7 +29,7 @@ for i in informational_keywords:
 informational= sum(informational_keywords_embeddings)/len(informational_keywords_embeddings)
 
 
-
+print("Successfully generated the Informational Embeddings")
 
 
 
@@ -53,6 +54,7 @@ for i in navigational_keywords:
 navigational= sum(navigational_keywords_embeddings)/len(navigational_keywords_embeddings)
 
 
+print("Successfully generated the Navigational Embeddings")
 
 
 
@@ -74,6 +76,7 @@ for i in transactional_keywords:
     transactional_keywords_embeddings.append(e_i)
 
 transactional= sum(transactional_keywords_embeddings)/len(transactional_keywords_embeddings)
+print("Successfully generated the Transactional Embeddings")
 
 
 
@@ -93,6 +96,7 @@ for i in commercial_keywords:
     
 commercial= sum(commercial_keywords_embeddings)/len(commercial_keywords_embeddings)
 
+print("Successfully generated the Commercial Embeddings")
 
 
 
@@ -110,6 +114,7 @@ for i in local_keywords:
     local_keywords_embeddings.append(e_i)
     
 local= sum(local_keywords_embeddings)/len(local_keywords_embeddings)
+print("Successfully generated the Local Embeddings")
 
 
 
@@ -118,3 +123,6 @@ intent_embeddings= [informational, navigational, transactional, commercial, loca
 
 
 pickle.dump(intent_embeddings, open('Utils/intent_embeddings.pkl', 'wb'))
+
+print("Successfully dumped Embeddings")
+print("<<<<<<<<<<<<<<<<<<<    TRAINING COMPLETED    >>>>>>>>>>>>>>>>")
