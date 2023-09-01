@@ -26,6 +26,7 @@ intents= {
 # intent_embeddings= np.array(data, dtype=np.double)
 
 intent_embeddings= pickle.load(open('Utils/intent_embeddings.pkl', 'rb'))
+intent_embeddings= np.array(intent_embeddings)
 
 
 

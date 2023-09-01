@@ -118,3 +118,951 @@ nike shoes,Transactional
 plumber in arizona,Local
 plumber in canada,Local
 saloons in nyc,Local
+Facebook login,Navigational
+Google maps,Navigational
+YouTube,Navigational
+Amazon,Navigational
+Netflix,Navigational
+Gmail login,Navigational
+Instagram,Navigational
+Twitter,Navigational
+LinkedIn,Navigational
+Pinterest,Navigational
+WhatsApp,Navigational
+eBay,Navigational
+Spotify,Navigational
+Microsoft,Navigational
+Apple,Navigational
+Yahoo Mail,Navigational
+Dropbox,Navigational
+PayPal,Navigational
+Adobe,Navigational
+Wikipedia,Navigational
+Reddit,Navigational
+Zoom,Navigational
+Airbnb,Navigational
+Booking.com,Navigational
+Expedia,Navigational
+Walmart,Navigational
+Target,Navigational
+Best Buy,Navigational
+Home Depot,Navigational
+Lowe's,Navigational
+CVS,Navigational
+Walgreens,Navigational
+Office Depot,Navigational
+Staples,Navigational
+FedEx tracking,Navigational
+UPS tracking,Navigational
+USPS tracking,Navigational
+Bank of America login,Navigational
+Chase online banking,Navigational
+Wells Fargo login,Navigational
+Citibank online,Navigational
+PayPal login,Navigational
+Credit Karma login,Navigational
+TurboTax login,Navigational
+LinkedIn login,Navigational
+Facebook messenger,Navigational
+Instagram login,Navigational
+Twitter login,Navigational
+TikTok,Navigational
+Pinterest login,Navigational
+WhatsApp web,Navigational
+Uber,Navigational
+Lyft,Navigational
+DoorDash,Navigational
+Grubhub,Navigational
+Postmates,Navigational
+Instacart,Navigational
+Zillow,Navigational
+Realtor.com,Navigational
+Trulia,Navigational
+Redfin,Navigational
+Airbnb login,Navigational
+Booking.com login,Navigational
+Expedia login,Navigational
+Walmart login,Navigational
+Target login,Navigational
+Best Buy login,Navigational
+Home Depot login,Navigational
+Lowe's login,Navigational
+CVS login,Navigational
+Walgreens login,Navigational
+Office Depot login,Navigational
+Staples login,Navigational
+Bank of America,Navigational
+Chase bank,Navigational
+Wells Fargo,Navigational
+Citibank,Navigational
+American Express,Navigational
+Discover card,Navigational
+Capital One,Navigational
+TD Bank,Navigational
+PNC Bank,Navigational
+US Bank,Navigational
+Fifth Third Bank,Navigational
+Regions Bank,Navigational
+SunTrust Bank,Navigational
+PayPal credit,Navigational
+Credit Karma,Navigational
+TurboTax,Navigational
+H&R Block,Navigational
+LinkedIn learning,Navigational
+Facebook marketplace,Navigational
+Facebook ads,Navigational
+Google Drive,Navigational
+Microsoft Office,Navigational
+Gmail,Navigational
+Yahoo Mail login,Navigational
+Outlook login,Navigational
+Hotmail login,Navigational
+Adobe Creative Cloud,Navigational
+Google Analytics,Navigational
+Shopify login,Navigational
+WordPress login,Navigational
+Wix login,Navigational
+Squarespace login,Navigational
+Blogger login,Navigational
+Tumblr login,Navigational
+Reddit login,Navigational
+Amazon Prime,Navigational
+Netflix login,Navigational
+Hulu login,Navigational
+Disney+ login,Navigational
+HBO Max login,Navigational
+Spotify login,Navigational
+Apple Music login,Navigational
+Google Play Store,Navigational
+Apple App Store,Navigational
+Android login,Navigational
+iOS login,Navigational
+Windows login,Navigational
+MacOS login,Navigational
+Chrome login,Navigational
+Firefox login,Navigational
+Safari login,Navigational
+Internet Explorer login,Navigational
+Microsoft Edge login,Navigational
+Adobe Acrobat login,Navigational
+Adobe Photoshop login,Navigational
+Adobe Illustrator login,Navigational
+Adobe Premiere Pro login,Navigational
+Adobe After Effects login,Navigational
+Adobe InDesign login,Navigational
+Adobe Lightroom login,Navigational
+YouTube Studio login,Navigational
+Google Ads login,Navigational
+Google My Business login,Navigational
+Google Analytics login,Navigational
+Google Search Console login,Navigational
+Microsoft Word login,Navigational
+Microsoft Excel login,Navigational
+Microsoft PowerPoint login,Navigational
+Microsoft Teams login,Navigational
+Microsoft Outlook login,Navigational
+Microsoft OneDrive login,Navigational
+Facebook Business Manager login,Navigational
+Instagram Business login,Navigational
+Twitter Business login,Navigational
+LinkedIn Business login,Navigational
+Pinterest Business login,Navigational
+TikTok Business login,Navigational
+Snapchat Business login,Navigational
+YouTube Business login,Navigational
+Vimeo Business login,Navigational
+PayPal Business login,Navigational
+eBay Business login,Navigational
+Amazon Seller login,Navigational
+Etsy login,Navigational
+Shopify Business login,Navigational
+WordPress Business login,Navigational
+Wix Business login,Navigational
+Squarespace Business login,Navigational
+Blogger Business login,Navigational
+Tumblr Business login,Navigational
+Reddit Business login,Navigational
+Google Workspace login,Navigational
+Microsoft 365 login,Navigational
+Zoom login,Navigational
+Skype login,Navigational
+Microsoft Teams login,Navigational
+Slack login,Navigational
+WhatsApp Business login,Navigational
+WeChat Business login,Navigational
+Viber Business login,Navigational
+Telegram Business login,Navigational
+Uber Business login,Navigational
+Lyft Business login,Navigational
+DoorDash Business login,Navigational
+Grubhub Business login,Navigational
+Postmates Business login,Navigational
+Instacart Business login,Navigational
+Zillow Business login,Navigational
+Realtor.com Business login,Navigational
+Trulia Business login,Navigational
+Redfin Business login,Navigational
+Airbnb Business login,Navigational
+Booking.com Business login,Navigational
+Expedia Business login,Navigational
+Walmart Business login,Navigational
+Target Business login,Navigational
+Best Buy Business login,Navigational
+Home Depot Business login,Navigational
+Lowe's Business login,Navigational
+CVS Business login,Navigational
+Walgreens Business login,Navigational
+Office Depot Business login,Navigational
+Staples Business login,Navigational
+Bank of America Business login,Navigational
+Chase Bank Business login,Navigational
+What is photosynthesis?,Informational
+How does solar energy work?,Informational
+Why do leaves change color in the fall?,Informational
+Who was Leonardo da Vinci?,Informational
+Where is the Great Barrier Reef located?,Informational
+When was the Declaration of Independence signed?,Informational
+How to bake a chocolate cake?,Informational
+What causes earthquakes?,Informational
+How to improve concentration?,Informational
+Why is water essential for life?,Informational
+What is climate change?,Informational
+How do plants grow?,Informational
+Why is the sky blue?,Informational
+How does the human brain work?,Informational
+What is the history of the Eiffel Tower?,Informational
+How to tie a tie?,Informational
+Why do birds migrate?,Informational
+What is the meaning of "carpe diem"?,Informational
+How to meditate for beginners?,Informational
+What are renewable energy sources?,Informational
+How do antibiotics work?,Informational
+Why is exercise important?,Informational
+How to take care of a pet cat?,Informational
+What is the theory of relativity?,Informational
+How to write a resume?,Informational
+Why do stars twinkle?,Informational
+What are the benefits of eating vegetables?,Informational
+How to grow a bonsai tree?,Informational
+Why do people dream?,Informational
+How does the internet work?,Informational
+What is the process of digestion?,Informational
+How to start a blog?,Informational
+Why is the Amazon rainforest important?,Informational
+What are the different types of clouds?,Informational
+How to make homemade pizza?,Informational
+Why is recycling important?,Informational
+What is the water cycle?,Informational
+How to learn a new language?,Informational
+Why do earthquakes happen more in certain areas?,Informational
+What are the Seven Wonders of the World?,Informational
+How to draw a realistic portrait?,Informational
+Why is the moon sometimes visible during the day?,Informational
+What is the theory of evolution?,Informational
+How to do basic first aid?,Informational
+Why do leaves fall off trees in the fall?,Informational
+What is the history of ancient Rome?,Informational
+How to take care of indoor plants?,Informational
+Why do some animals hibernate?,Informational
+What is the concept of time?,Informational
+How to cook pasta al dente?,Informational
+Best laptop for graphic design,Commercial
+Affordable running shoes,Commercial
+Buy gaming console online,Commercial
+Discounted winter coats,Commercial
+Top rated wireless headphones,Commercial
+Cheap smartphone deals,Commercial
+Purchase yoga mat,Commercial
+Budget-friendly home decor,Commercial
+Best deals on kitchen appliances,Commercial
+Buy organic skincare products,Commercial
+Affordable digital cameras,Commercial
+Purchase office furniture online,Commercial
+Discounted luxury watches,Commercial
+Best budget-friendly laptops,Commercial
+Buy eco-friendly cleaning products,Commercial
+Cheap flight tickets to Europe,Commercial
+Purchase outdoor camping gear,Commercial
+Affordable baby strollers,Commercial
+Buy energy-efficient light bulbs,Commercial
+Discounted fitness equipment,Commercial
+Best deals on smart TVs,Commercial
+Affordable jewelry online,Commercial
+Buy home gym equipment,Commercial
+Cheap car rental services,Commercial
+Purchase solar panels,Commercial
+Discounted camping tents,Commercial
+Best deals on home security systems,Commercial
+Affordable musical instruments,Commercial
+Buy sustainable clothing,Commercial
+Cheap travel packages,Commercial
+Purchase DIY home improvement tools,Commercial
+Discounted wireless routers,Commercial
+Best budget-friendly smartphones,Commercial
+Affordable pet supplies,Commercial
+Buy eco-friendly household products,Commercial
+Cheap furniture sets,Commercial
+Purchase professional camera gear,Commercial
+Discounted gaming laptops,Commercial
+Best deals on outdoor furniture,Commercial
+Affordable beauty products,Commercial
+Buy eco-friendly gardening tools,Commercial
+Cheap workout apparel,Commercial
+Purchase eco-friendly home appliances,Commercial
+Discounted headphones and speakers,Commercial
+Best budget-friendly fashion brands,Commercial
+Affordable art supplies,Commercial
+Buy sustainable kitchenware,Commercial
+Cheap camping essentials,Commercial
+Purchase energy-efficient appliances,Commercial
+Discounted smart home devices,Commercial
+Best deals on fitness trackers,Commercial
+Affordable luxury handbags,Commercial
+Buy eco-friendly office supplies,Commercial
+Cheap hiking gear,Commercial
+Purchase solar-powered gadgets,Commercial
+Discounted vacuum cleaners,Commercial
+Best budget-friendly home gym equipment,Commercial
+Affordable wireless earbuds,Commercial
+Buy eco-friendly cleaning tools,Commercial
+Cheap outdoor recreation gear,Commercial
+Purchase energy-efficient light fixtures,Commercial
+Discounted fitness wearables,Commercial
+Best deals on electric cars,Commercial
+Affordable home organization products,Commercial
+Buy sustainable fashion,Commercial
+Cheap gardening supplies,Commercial
+Purchase energy-efficient heating systems,Commercial
+Discounted home security cameras,Commercial
+Best budget-friendly streaming devices,Commercial
+Affordable eco-friendly skincare,Commercial
+Buy green cleaning supplies,Commercial
+Cheap pet accessories,Commercial
+Purchase energy-efficient appliances,Commercial
+Discounted eco-friendly office furniture,Commercial
+Best deals on sustainable home decor,Commercial
+Affordable reusable kitchen products,Commercial
+Buy organic clothing,Commercial
+Cheap sustainable home improvement tools,Commercial
+Purchase energy-efficient cooling systems,Commercial
+Discounted eco-friendly outdoor furniture,Commercial
+Best budget-friendly electric bikes,Commercial
+Affordable reusable household items,Commercial
+Buy sustainable shoes,Commercial
+Cheap eco-friendly gardening supplies,Commercial
+Purchase energy-efficient water heaters,Commercial
+Discounted eco-friendly bathroom products,Commercial
+Best deals on hybrid cars,Commercial
+Affordable reusable cleaning products,Commercial
+Buy eco-friendly baby products,Commercial
+Cheap eco-friendly office supplies,Commercial
+Purchase energy-efficient home appliances,Commercial
+Discounted eco-friendly lighting options,Commercial
+Best budget-friendly solar panels,Commercial
+Affordable sustainable beauty products,Commercial
+Buy organic skincare,Commercial
+Cheap eco-friendly kitchenware,Commercial
+Purchase energy-efficient windows,Commercial
+Discounted eco-friendly outdoor gear,Commercial
+Best deals on electric scooters,Commercial
+Affordable reusable fashion,Commercial
+Buy sustainable activewear,Commercial
+Cheap eco-friendly cleaning supplies,Commercial
+Purchase energy-efficient home heating systems,Commercial
+Discounted eco-friendly home decor,Commercial
+Best budget-friendly smart home devices,Commercial
+Affordable reusable shopping bags,Commercial
+Buy organic food products,Commercial
+Cheap eco-friendly gardening tools,Commercial
+Purchase energy-efficient home cooling systems,Commercial
+Discounted eco-friendly furniture,Commercial
+Best deals on hybrid SUVs,Commercial
+Affordable sustainable jewelry,Commercial
+Buy eco-friendly beauty products,Commercial
+Cheap eco-friendly office furniture,Commercial
+Purchase energy-efficient appliances,Commercial
+Discounted eco-friendly bathroom decor,Commercial
+Best budget-friendly electric cars,Commercial
+Affordable reusable kitchen appliances,Commercial
+Buy organic household products,Commercial
+Cheap sustainable clothing brands,Commercial
+Purchase energy-efficient lighting solutions,Commercial
+Discounted eco-friendly outdoor furniture,Commercial
+Best deals on electric bicycles,Commercial
+Affordable reusable household goods,Commercial
+Buy sustainable footwear,Commercial
+Cheap eco-friendly kitchen products,Commercial
+Purchase energy-efficient water systems,Commercial
+Discounted eco-friendly gardening equipment,Commercial
+Best budget-friendly solar panels for home,Commercial
+Affordable sustainable skincare,Commercial
+Buy organic makeup products,Commercial
+Cheap eco-friendly cleaning tools,Commercial
+Purchase energy-efficient home insulation,Commercial
+Discounted eco-friendly bedroom decor,Commercial
+Best deals on hybrid sedans,Commercial
+Affordable reusable beauty products,Commercial
+Buy eco-friendly hair care items,Commercial
+Cheap eco-friendly office supplies,Commercial
+Purchase energy-efficient appliances for kitchen,Commercial
+Discounted eco-friendly living room furniture,Commercial
+Best budget-friendly electric SUVs,Commercial
+Affordable sustainable clothing stores,Commercial
+Buy organic cleaning supplies,Commercial
+Cheap eco-friendly bathroom products,Commercial
+Purchase energy-efficient home cooling solutions,Commercial
+Discounted eco-friendly outdoor apparel,Commercial
+Best deals on electric motorcycles,Commercial
+Affordable reusable home goods,Commercial
+Buy sustainable fashion accessories,Commercial
+Cheap eco-friendly pet products,Commercial
+Purchase energy-efficient lighting fixtures,Commercial
+Discounted eco-friendly dining room furniture,Commercial
+Best budget-friendly solar power systems,Commercial
+Affordable sustainable beauty brands,Commercial
+Buy organic skincare products,Commercial
+Cheap eco-friendly gardening supplies,Commercial
+Purchase energy-efficient appliances for laundry,Commercial
+Discounted eco-friendly outdoor lighting,Commercial
+Best deals on hybrid trucks,Commercial
+Affordable reusable fashion brands,Commercial
+Buy sustainable activewear,Commercial
+Cheap eco-friendly cleaning products,Commercial
+Purchase energy-efficient home heating solutions,Commercial
+Discounted eco-friendly patio furniture,Commercial
+Best budget-friendly electric trucks,Commercial
+Affordable reusable kitchenware,Commercial
+Buy organic cooking supplies,Commercial
+Cheap eco-friendly kitchen tools,Commercial
+Purchase energy-efficient water systems,Commercial
+Discounted eco-friendly camping gear,Commercial
+Best deals on electric vans,Commercial
+Affordable sustainable clothing lines,Commercial
+Buy eco-friendly travel accessories,Commercial
+Cheap eco-friendly bathroom supplies,Commercial
+Purchase energy-efficient home insulation,Commercial
+Discounted eco-friendly outdoor decor,Commercial
+Best budget-friendly solar water heaters,Commercial
+Affordable sustainable shoe brands,Commercial
+Buy organic clothing,Commercial
+Cheap eco-friendly gardening equipment,Commercial
+Purchase energy-efficient appliances for home,Commercial
+Discounted eco-friendly bedroom furniture,Commercial
+Best deals on electric buses,Commercial
+Affordable reusable household items,Commercial
+Buy sustainable fashion,Commercial
+Cheap eco-friendly cleaning supplies,Commercial
+Purchase energy-efficient home cooling systems,Commercial
+Discounted eco-friendly living room decor,Commercial
+Best budget-friendly solar panels for business,Commercial
+Affordable sustainable jewelry brands,Commercial
+Buy organic makeup,Commercial
+Cheap eco-friendly office products,Commercial
+Purchase energy-efficient appliances for kitchen,Commercial
+Discounted eco-friendly dining room decor,Commercial
+Best deals on hybrid vans,Commercial
+Affordable reusable home products,Commercial
+Buy sustainable fashion accessories,Commercial
+Cheap eco-friendly pet supplies,Commercial
+Purchase energy-efficient lighting solutions,Commercial
+Discounted eco-friendly patio decor,Commercial
+Buy iPhone 13,Transactional
+Purchase laptop online,Transactional
+Order fitness tracker,Transactional
+Shop for running shoes,Transactional
+Buy gaming console,Transactional
+Purchase digital camera,Transactional
+Get headphones online,Transactional
+Buy home gym equipment,Transactional
+Purchase cookware set,Transactional
+Order smartwatch,Transactional
+Shop for outdoor furniture,Transactional
+Buy skincare products,Transactional
+Purchase yoga mat,Transactional
+Get wireless earbuds,Transactional
+Order garden tools,Transactional
+Buy baby stroller,Transactional
+Purchase bicycle accessories,Transactional
+Shop for camping gear,Transactional
+Buy office chair online,Transactional
+Purchase sewing machine,Transactional
+Order pet grooming supplies,Transactional
+Get coffee machine,Transactional
+Buy backpacking gear,Transactional
+Purchase drone,Transactional
+Shop for workout clothes,Transactional
+Buy camping tent,Transactional
+Purchase telescope,Transactional
+Order makeup kit,Transactional
+Get fishing equipment,Transactional
+Buy musical instruments,Transactional
+Purchase power tools,Transactional
+Shop for board games,Transactional
+Buy party decorations,Transactional
+Purchase kitchen appliances,Transactional
+Order fitness equipment,Transactional
+Get gardening supplies,Transactional
+Buy outdoor grill,Transactional
+Purchase vacuum cleaner,Transactional
+Shop for computer accessories,Transactional
+Buy home decor items,Transactional
+Purchase car accessories,Transactional
+Order art supplies,Transactional
+Get cooking utensils,Transactional
+Buy home theater system,Transactional
+Purchase baby products,Transactional
+Shop for hiking boots,Transactional
+Buy cycling gear,Transactional
+Purchase water filter,Transactional
+Order soundbar,Transactional
+Get fitness apparel,Transactional
+Buy camping essentials,Transactional
+Purchase air purifier,Transactional
+Shop for skincare products,Transactional
+Buy photography gear,Transactional
+Purchase home security system,Transactional
+Order grooming products,Transactional
+Get wireless speakers,Transactional
+Buy party supplies,Transactional
+Purchase gaming accessories,Transactional
+Shop for musical instruments,Transactional
+Buy outdoor lighting,Transactional
+Purchase fitness tracker,Transactional
+Order pet supplies online,Transactional
+Get painting supplies,Transactional
+Buy home office furniture,Transactional
+Purchase camping accessories,Transactional
+Shop for DJ equipment,Transactional
+Buy kitchen gadgets,Transactional
+Purchase bike accessories,Transactional
+Order gardening tools,Transactional
+Get camping gear,Transactional
+Buy hiking gear online,Transactional
+Purchase workout equipment,Transactional
+Shop for cooking appliances,Transactional
+Buy outdoor clothing,Transactional
+Purchase pet products,Transactional
+Order fishing gear,Transactional
+Get art materials,Transactional
+Buy car care products,Transactional
+Purchase hiking boots,Transactional
+Shop for party decorations,Transactional
+Buy cycling accessories,Transactional
+Purchase musical instruments,Transactional
+Order home theater system,Transactional
+Get photography equipment,Transactional
+Buy outdoor furniture,Transactional
+Purchase gaming headset,Transactional
+Shop for home security cameras,Transactional
+Buy fitness accessories,Transactional
+Purchase pet accessories,Transactional
+Order camping gear online,Transactional
+Get painting supplies,Transactional
+Buy kitchen appliances,Transactional
+Purchase outdoor lighting,Transactional
+Shop for workout clothes,Transactional
+Buy home decor items,Transactional
+Purchase baby products,Transactional
+Order photography gear,Transactional
+Get hiking gear,Transactional
+Buy camping accessories,Transactional
+Purchase party supplies,Transactional
+Shop for DJ equipment,Transactional
+Buy cooking utensils,Transactional
+Purchase wireless headphones,Transactional
+Order fitness apparel,Transactional
+Get musical instruments,Transactional
+Buy pet grooming supplies,Transactional
+Purchase garden tools,Transactional
+Shop for fishing equipment,Transactional
+Buy gaming console,Transactional
+Purchase home office furniture,Transactional
+Order outdoor clothing,Transactional
+Get air purifier,Transactional
+Buy home gym equipment,Transactional
+Purchase kitchen gadgets,Transactional
+Shop for bike accessories,Transactional
+Buy painting supplies,Transactional
+Purchase party decorations,Transactional
+Order car accessories,Transactional
+Get makeup kit,Transactional
+Buy outdoor grill,Transactional
+Purchase home theater system,Transactional
+Shop for fitness tracker,Transactional
+Buy pet supplies online,Transactional
+Purchase photography equipment,Transactional
+Order camping gear,Transactional
+Get gardening supplies,Transactional
+Buy workout equipment,Transactional
+Purchase board games,Transactional
+Shop for baby products,Transactional
+Buy musical instruments online,Transactional
+Purchase wireless speakers,Transactional
+Order art supplies,Transactional
+Get hiking boots,Transactional
+Buy gaming accessories,Transactional
+Purchase DJ equipment,Transactional
+Shop for cooking appliances,Transactional
+Buy home security system,Transactional
+Purchase fitness accessories,Transactional
+Order pet accessories,Transactional
+Get camping accessories,Transactional
+Buy outdoor lighting,Transactional
+Purchase car care products,Transactional
+Shop for party supplies,Transactional
+Buy kitchen appliances online,Transactional
+Purchase photography gear,Transactional
+Order workout clothes,Transactional
+Get home decor items,Transactional
+Buy baby stroller online,Transactional
+Purchase home gym equipment,Transactional
+Shop for makeup kit,Transactional
+Buy pet grooming supplies,Transactional
+Purchase outdoor furniture,Transactional
+Order gardening tools,Transactional
+Get wireless headphones,Transactional
+Buy musical instruments,Transactional
+Purchase fitness tracker,Transactional
+Shop for gaming accessories,Transactional
+Buy cooking utensils online,Transactional
+Purchase air purifier,Transactional
+Order board games,Transactional
+Get outdoor grill,Transactional
+Buy home office furniture,Transactional
+Purchase workout equipment,Transactional
+Shop for painting supplies,Transactional
+Buy party decorations online,Transactional
+Purchase car accessories,Transactional
+Order home theater system,Transactional
+Get kitchen gadgets,Transactional
+Buy baby products online,Transactional
+Purchase pet supplies,Transactional
+Shop for photography equipment,Transactional
+Buy fitness apparel,Transactional
+Purchase DJ equipment,Transactional
+Order wireless speakers,Transactional
+Get camping gear,Transactional
+Buy gardening supplies online,Transactional
+Purchase makeup kit,Transactional
+Shop for musical instruments,Transactional
+Buy outdoor lighting,Transactional
+Purchase pet grooming supplies,Transactional
+Order home decor items,Transactional
+Get home security system,Transactional
+Buy workout clothes online,Transactional
+Purchase gaming accessories,Transactional
+Shop for cooking appliances,Transactional
+Buy fitness tracker online,Transactional
+Purchase outdoor furniture,Transactional
+Order photography gear,Transactional
+Get painting supplies,Transactional
+Buy baby stroller,Transactional
+Purchase kitchen appliances,Transactional
+Shop for home office furniture,Transactional
+Buy pet supplies online,Transactional
+Purchase board games,Transactional
+Order workout equipment,Transactional
+Get makeup kit,Transactional
+Buy gaming headset online,Transactional
+Purchase party supplies,Transactional
+Shop for DJ equipment,Transactional
+Restaurants in Los Angeles,Local
+Coffee shops near me,Local
+Dentist in New York City,Local
+Best pizza in Chicago,Local
+Hair salons in Miami,Local
+Bookstores near San Francisco,Local
+Gas stations in Houston,Local
+Hotels in Las Vegas Strip,Local
+Gym memberships in Boston,Local
+Boutiques in Seattle,Local
+Dog parks near Denver,Local
+Pediatrician in Atlanta,Local
+Shopping malls in Dallas,Local
+Food delivery services in Portland,Local
+Home cleaning services in Nashville,Local
+Car repair shops in Phoenix,Local
+Yoga studios in Austin,Local
+Public parks in Central Park,Local
+Concert venues in New Orleans,Local
+Farmers' markets in San Diego,Local
+Dog-friendly beaches in Miami,Local
+Spa treatments in Beverly Hills,Local
+Ice cream shops in Santa Monica,Local
+Craft breweries in Portland,Local
+Art galleries in Chelsea NYC,Local
+Hiking trails near Boulder,Local
+Sushi restaurants in Manhattan,Local
+Historic sites in Charleston,Local
+Vegan restaurants in San Francisco,Local
+Rooftop bars in Chicago,Local
+Wine tasting in Napa Valley,Local
+Beach resorts in Hawaii,Local
+Ski resorts near Aspen,Local
+Barbecue restaurants in Kansas City,Local
+Wedding venues in Miami Beach,Local
+Nightclubs in Las Vegas,Local
+Antique shops in Savannah,Local
+Outdoor activities in Lake Tahoe,Local
+Farmers' markets in Seattle,Local
+Bowling alleys in Orlando,Local
+Running trails in Central Park,Local
+Family-friendly attractions in Disneyland,Local
+Theaters in Broadway NYC,Local
+Tourist attractions in Washington D.C.,Local
+Historic landmarks in Philadelphia,Local
+Golf courses in Palm Springs,Local
+Live music venues in Austin,Local
+Comedy clubs in Los Angeles,Local
+Craft fairs in Portland,Local
+Yoga retreats in Sedona,Local
+Brewpubs in Denver,Local
+Beaches in Malibu,Local
+Shopping districts in SoHo NYC,Local
+Scenic drives in Blue Ridge Mountains,Local
+Farmers' markets in Portland,Local
+Lakes for fishing in Minnesota,Local
+Art walks in Santa Fe,Local
+Dance clubs in Miami Beach,Local
+Picnic spots in Golden Gate Park,Local
+Fine dining in New York City,Local
+Food truck festivals in Austin,Local
+National parks in Yellowstone,Local
+Book readings in Brooklyn,Local
+Skydiving centers in Arizona,Local
+Biking trails in Portland,Local
+Luxury spas in Scottsdale,Local
+Craft cocktail bars in New Orleans,Local
+Surfing schools in Malibu,Local
+Distilleries in Kentucky,Local
+Waterfront dining in Boston,Local
+Art studios in Asheville,Local
+Wine bars in Sonoma,Local
+Baseball games in Yankee Stadium,Local
+Fishing charters in Florida Keys,Local
+Shopping outlets in Orlando,Local
+Boutique hotels in San Francisco,Local
+Wineries in Finger Lakes,Local
+Food tours in San Antonio,Local
+Scenic viewpoints in Grand Canyon,Local
+Kayaking spots in Puget Sound,Local
+Comedy shows in Chicago,Local
+Beachfront resorts in Cancun,Local
+Jazz clubs in New Orleans,Local
+Dog-friendly parks in Portland,Local
+Cultural festivals in Santa Fe,Local
+Beer gardens in Denver,Local
+Spas in Miami Beach,Local
+Music festivals in Coachella Valley,Local
+Historical museums in Boston,Local
+Paint and sip classes in Nashville,Local
+Skiing resorts in Vermont,Local
+Amusement parks in Orlando,Local
+Surfing beaches in Hawaii,Local
+Live theater in Broadway NYC,Local
+Farmers' markets in Austin,Local
+Wineries in Napa Valley,Local
+Music venues in Nashville,Local
+Boutique shopping in Beverly Hills,Local
+Food trucks in Portland,Local
+Horseback riding in Wyoming,Local
+Scenic overlooks in Smoky Mountains,Local
+Sailing tours in San Diego,Local
+Jazz festivals in New Orleans,Local
+Public art installations in Chicago,Local
+Hot air balloon rides in Albuquerque,Local
+Salsa dancing clubs in Miami,Local
+Art galleries in Santa Fe,Local
+Comedy festivals in Montreal,Local
+Farmers' markets in Denver,Local
+Hiking trails in Pacific Northwest,Local
+Wine tours in Willamette Valley,Local
+Performing arts theaters in New York City,Local
+Botanical gardens in Atlanta,Local
+Food and wine events in Napa Valley,Local
+Waterfront parks in San Francisco,Local
+Ski resorts in Colorado,Local
+Sculpture gardens in Minneapolis,Local
+Concerts in Los Angeles,Local
+Beer festivals in Portland,Local
+Lake activities in Lake Tahoe,Local
+Dance classes in New York City,Local
+Art walks in Wynwood Miami,Local
+Jazz bars in Kansas City,Local
+Craft shows in Portland,Local
+Farmers' markets in Seattle,Local
+Vineyards in Sonoma County,Local
+Music events in Austin,Local
+Outlet shopping in Woodbury Common,Local
+Snowboarding parks in Utah,Local
+Beach activities in Myrtle Beach,Local
+Broadway shows in New York City,Local
+Wine tastings in Paso Robles,Local
+Art fairs in Chicago,Local
+Water sports in Florida Keys,Local
+Live comedy shows in Los Angeles,Local
+Natural parks in Colorado,Local
+Sculpture parks in Seattle,Local
+Theater productions in Broadway NYC,Local
+Craft markets in Portland,Local
+Farmers' markets in San Francisco,Local
+Food and wine tours in Napa Valley,Local
+Ski lodges in Lake Tahoe,Local
+Horseback riding trails in Montana,Local
+Outdoor concerts in Central Park,Local
+Dance clubs in Miami Beach,Local
+Art galleries in New Orleans,Local
+Rock climbing spots in Joshua Tree,Local
+Craft breweries in Portland,Local
+Beach resorts in Caribbean,Local
+Nature trails in Great Smoky Mountains,Local
+Live music shows in Nashville,Local
+Wine bars in Austin,Local
+Cultural museums in Washington D.C.,Local
+Shopping streets in Beverly Hills,Local
+Food festivals in Portland,Local
+Lake cruises in Lake Michigan,Local
+Historic tours in Boston,Local
+Cooking classes in New York City,Local
+Ski resorts in Lake Placid,Local
+Beach volleyball courts in Los Angeles,Local
+Broadway musicals in NYC,Local
+Wineries in Santa Barbara,Local
+Art exhibitions in Los Angeles,Local
+Waterfront dining in Miami,Local
+Dance performances in New York City,Local
+Craft markets in Asheville,Local
+Farmers' markets in Portland,Local
+Wine tasting tours in Finger Lakes,Local
+Mountain biking trails in Colorado,Local
+Beachfront resorts in Florida,Local
+Jazz concerts in New Orleans,Local
+Outdoor theater in Central Park,Local
+Nightclubs in Miami Beach,Local
+Art installations in Chicago,Local
+Food truck festivals in Portland,Local
+Wine bars in Napa Valley,Local
+Outdoor markets in Seattle,Local
+Scenic boat tours in San Francisco Bay,Local
+Running events in Boston,Local
+Yoga retreats in Hawaii,Local
+Farmers' markets in Austin,Local
+Wineries in Oregon,Local
+Symphony orchestras in New York City,Local
+Shopping districts in Manhattan,Local
+Food tours in New Orleans,Local
+Ski resorts in Aspen,Local
+Beachfront hotels in Miami,Local
+Salsa dancing lessons in Los Angeles,Local
+Outdoor sculpture parks in Seattle,Local
+Theater performances in Broadway NYC,Local
+Comedy clubs in Chicago,Local
+Farmers' markets in Portland,Local
+Wine tasting rooms in Temecula,Local
+Historic sites in Boston,Local
+River cruises in Chicago,Local
+Outdoor concerts in Austin,Local
+Dance workshops in New York City,Local
+Art galleries in Miami,Local
+Craft beer festivals in Portland,Local
+Beach volleyball tournaments in California,Local
+What is photosynthesis?,Informational
+How to tie a tie?,Informational
+Why is the sky blue?,Informational
+Who was Leonardo da Vinci?,Informational
+When was the Declaration of Independence signed?,Informational
+How does solar energy work?,Informational
+What causes earthquakes?,Informational
+How to cook pasta?,Informational
+What is the stock market?,Informational
+How to meditate?,Informational
+Why do leaves change color in the fall?,Informational
+What is global warming?,Informational
+How to start a blog?,Informational
+Why do we dream?,Informational
+What is the meaning of life?,Informational
+How to improve memory?,Informational
+What is a black hole?,Informational
+Why is exercise important?,Informational
+How to make a paper airplane?,Informational
+What is the water cycle?,Informational
+How to grow tomatoes?,Informational
+Why do cats purr?,Informational
+What is DNA?,Informational
+How to draw a cat?,Informational
+Why do stars twinkle?,Informational
+What is the history of chocolate?,Informational
+How to bake a cake?,Informational
+Why do people yawn?,Informational
+What is the internet?,Informational
+How to plant a garden?,Informational
+Why is the ocean salty?,Informational
+What is the Big Bang Theory?,Informational
+How to play chess?,Informational
+Why do birds migrate?,Informational
+What is a healthy diet?,Informational
+How to change a tire?,Informational
+Why do flowers have colors?,Informational
+What is the human brain?,Informational
+How to knit a scarf?,Informational
+Why do we get hiccups?,Informational
+What is the Great Barrier Reef?,Informational
+How to write a resume?,Informational
+Why do leaves fall in autumn?,Informational
+What is renewable energy?,Informational
+How to make a volcano?,Informational
+Why do dogs wag their tails?,Informational
+What is the Amazon Rainforest?,Informational
+How to paint a sunset?,Informational
+Why do we have seasons?,Informational
+What is the immune system?,Informational
+How to make a paper mache mask?,Informational
+Why do bees make honey?,Informational
+What is the concept of time?,Informational
+How to play a guitar?,Informational
+Why do rivers flow?,Informational
+What is the theory of evolution?,Informational
+How to cook scrambled eggs?,Informational
+Why do we need sleep?,Informational
+What is the human heart?,Informational
+How to solve a Rubik's Cube?,Informational
+Why do leaves have veins?,Informational
+What is the solar system?,Informational
+How to sew a button?,Informational
+Why do zebras have stripes?,Informational
+What is the moon made of?,Informational
+How to make a smoothie?,Informational
+Why do we see rainbows?,Informational
+What is the water crisis?,Informational
+How to make a paper boat?,Informational
+Why do some foods taste spicy?,Informational
+What is climate change?,Informational
+How to do a handstand?,Informational
+Why do we yawn when others yawn?,Informational
+What is the history of photography?,Informational
+How to make a paper kite?,Informational
+Why do some animals hibernate?,Informational
+What is the theory of relativity?,Informational
+How to make a volcano model?,Informational
+Why do leaves have different shapes?,Informational
+What is the concept of gravity?,Informational
+How to write a book review?,Informational
+Why do we have different time zones?,Informational
+What is the history of the internet?,Informational
+How to make a solar oven?,Informational
+Why do people have allergies?,Informational
+What is the meaning of dreams?,Informational
+How to make a rainbow with a prism?,Informational
+Why do planets orbit the sun?,Informational
+What is the history of the English language?,Informational
+How to make a potato battery?,Informational
+Why do some animals have tails?,Informational
+What is the concept of infinity?,Informational
+How to make a volcano erupt?,Informational
+Why do leaves change color in the fall?,Informational
+What is the origin of the universe?,Informational
+How to make a paper flower?,Informational
+Why do some animals camouflage?,Informational
+What is the history of ancient civilizations?,Informational
+How to make a simple machine?,Informational
+Why do we see the phases of the moon?,Informational

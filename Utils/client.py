@@ -64,9 +64,67 @@ def generate_seo_metatitle(keyword):
             if x:
                 summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
         print(summary)
-        return summary.replace('\n', ' ')
-        
+        return summary.replace('\n', ' ') 
         
         # do something with result
     else:
         print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"] , f" for keyword {keyword}"))
+        
+
+def generate_seo_metatitle_train(keyword):
+    post_data = dict()
+    # You can set only one task at a time
+    post_data[len(post_data)] = dict(
+        language_code="en",
+        location_code=2840,
+        keyword=keyword
+    )
+    
+    response = client.post("/v3/serp/google/organic/live/regular", post_data)
+
+
+
+    if response["status_code"] == 20000:
+        # print(response)
+        d= response['tasks'][0]
+        # print(d)
+        result_dict= d['result'][0]['items']
+        summary= ''
+        for i in result_dict[:10]:
+            # summary+= i['title']+' '
+            x= i['description']
+            if x:
+                summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
+        # print(summary)
+        return summary.replace('\n', ' ') 
+        
+        # do something with result
+    else:
+        print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"] , f" for keyword {keyword}"))
+        
+        
+        
+def generate_intent_using_dataforseo(keyword_list):
+    post_data = dict()
+    # simple way to set a task
+    post_data[len(post_data)] = dict(
+        keywords= keyword_list,
+        language_name="English"
+    )
+    
+    response = client.post("/v3/dataforseo_labs/google/search_intent/live", post_data)
+    # you can find the full list of the response codes here https://docs.dataforseo.com/v3/appendix/errors
+    if response["status_code"] == 20000:
+        # print(response)
+        # do something with result
+        d= response['tasks'][0]
+        # print(d)
+        result_dict= d['result'][0]['items']
+        intent_dict= dict()
+        for i in result_dict:
+            key= i['keyword']
+            value= i['keyword_intent']['label']
+            intent_dict[key]= value
+        return intent_dict
+    else:
+        print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"]))

@@ -56,6 +56,20 @@ def generate_base_embeddings(text):
     # return util.cos_sim(embeddings[0], embeddings[1])
     return embeddings.cpu().numpy()
 
+def generate_base_embeddings_v2(text_list): 
+    """
+    Generate embeddings for the given text using GTE-base.
+    """
+    # for i in range(len(text)):
+    #     text[i]= clean(text[i])
+    #     print(text[i])
+    # print()
+    embeddings= model_base.encode(text_list, convert_to_tensor=True)
+    
+    
+    # return util.cos_sim(embeddings[0], embeddings[1])
+    return embeddings.cpu().numpy()
+
 
 
 

@@ -1,8 +1,10 @@
-from Utils.client import generate_seo_metatitle
+from Utils.client import generate_seo_metatitle_train
 import pandas as pd
 df= pd.read_csv('data/keyword_intent.csv')
 # df.head()
 import pickle
+from tqdm import tqdm
+
 
 reverse_intent= {
     0: 'informational',
@@ -21,8 +23,8 @@ df_informational= df[df.intent=='Informational']
 informational_keywords= list(df_informational.keyword)
 # informational_keywords
 informational_keywords_embeddings= []
-for i in informational_keywords:
-    s_i= generate_seo_metatitle(i)
+for i in tqdm(informational_keywords):
+    s_i= generate_seo_metatitle_train(i)
     e_i= generate_base_embeddings(s_i)
     informational_keywords_embeddings.append(e_i)
     
@@ -46,8 +48,8 @@ navigational_keywords
 #     'elevenlabs'
 # ]
 navigational_keywords_embeddings= []
-for i in navigational_keywords:
-    s_i= generate_seo_metatitle(i)
+for i in tqdm(navigational_keywords):
+    s_i= generate_seo_metatitle_train(i)
     e_i= generate_base_embeddings(s_i)
     navigational_keywords_embeddings.append(e_i)
     
@@ -70,8 +72,8 @@ transactional_keywords
 #     'cat shelves'
 # ]
 transactional_keywords_embeddings= []
-for i in transactional_keywords:
-    s_i= generate_seo_metatitle(i)
+for i in tqdm(transactional_keywords):
+    s_i= generate_seo_metatitle_train(i)
     e_i= generate_base_embeddings(s_i)
     transactional_keywords_embeddings.append(e_i)
 
@@ -89,8 +91,8 @@ commercial_keywords
 #     'screen protector'
 # ]
 commercial_keywords_embeddings= []
-for i in commercial_keywords:
-    s_i= generate_seo_metatitle(i)
+for i in tqdm(commercial_keywords):
+    s_i= generate_seo_metatitle_train(i)
     e_i= generate_base_embeddings(s_i)
     commercial_keywords_embeddings.append(e_i)
     
@@ -108,8 +110,8 @@ local_keywords
 #     'chinese food delivery near me'
 # ]
 local_keywords_embeddings= []
-for i in local_keywords:
-    s_i= generate_seo_metatitle(i)
+for i in tqdm(local_keywords):
+    s_i= generate_seo_metatitle_train(i)
     e_i= generate_base_embeddings(s_i)
     local_keywords_embeddings.append(e_i)
     
