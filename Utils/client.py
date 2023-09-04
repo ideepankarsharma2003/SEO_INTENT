@@ -39,7 +39,7 @@ client = RestClient("kumar@warewe.com", "fd5a40e08700c882")
 # client = RestClient("deepankar@warewe.com", "cb1661e9ec7c1fba")
 
 
-def generate_seo_metatitle(keyword):
+def generate_seo_metatitle(keyword, num_query_results=10):
     post_data = dict()
     # You can set only one task at a time
     post_data[len(post_data)] = dict(
@@ -58,7 +58,7 @@ def generate_seo_metatitle(keyword):
         # print(d)
         result_dict= d['result'][0]['items']
         summary= ''
-        for i in result_dict[:10]:
+        for i in result_dict[:num_query_results]:
             # summary+= i['title']+' '
             x= i['description']
             if x:
@@ -71,7 +71,7 @@ def generate_seo_metatitle(keyword):
         print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"] , f" for keyword {keyword}"))
         
 
-def generate_seo_metatitle_train(keyword):
+def generate_seo_metatitle_train(keyword, num_query_results=10):
     post_data = dict()
     # You can set only one task at a time
     post_data[len(post_data)] = dict(
@@ -90,11 +90,45 @@ def generate_seo_metatitle_train(keyword):
         # print(d)
         result_dict= d['result'][0]['items']
         summary= ''
-        for i in result_dict[:10]:
+        for i in result_dict[:num_query_results]:
             # summary+= i['title']+' '
             x= i['description']
             if x:
                 summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
+        # print(summary)
+        return summary.replace('\n', ' ') 
+        
+        # do something with result
+    else:
+        print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"] , f" for keyword {keyword}"))
+        
+        
+
+def generate_seo_metatitle_train_for_kg(keyword, num_query_results=10):
+    post_data = dict()
+    # You can set only one task at a time
+    post_data[len(post_data)] = dict(
+        language_code="en",
+        location_code=2840,
+        keyword=keyword
+    )
+    
+    response = client.post("/v3/serp/google/organic/live/regular", post_data)
+
+
+
+    if response["status_code"] == 20000:
+        # print(response)
+        d= response['tasks'][0]
+        # print(d)
+        result_dict= d['result'][0]['items']
+        summary= ''
+        for i in result_dict[:num_query_results]:
+            # summary+= i['title']+' '
+            x= i['description']
+            if x:
+                # summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
+                summary+= i['title']+' '+x+' '
         # print(summary)
         return summary.replace('\n', ' ') 
         
