@@ -13,7 +13,17 @@ from main import (
     # generate_e5_large_v2_embeddings,
     generate_intent_v2  
     )
+
+from pydantic import BaseModel
+
+class Keyword(BaseModel):
+    url_list: list
+
+
 import json
+
+from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2
+from Utils.client import generate_top_urls
 
 
 
@@ -163,6 +173,71 @@ async def intent(text):
         # return Response(f'Error occured: {e}')
 
 
+@app.get('/get_keywords')
+async def intent(text):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # text= text.get("text")
+        
+        keyword_list= generate_keyword_list(text)
+        # embeddings= embeddings.reshape(1, -1)
+        
+        # print(f"n_urls: {len(text)}")
+        # print(f"embeddings: {embeddings.shape}")
+
+        # return (embeddings[0][0].item())
+        return keyword_list
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
+        
+        
+        
+@app.get('/get_top_urls')
+async def get_top_urls(text):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # n_urls= int(text.get("num_urls"))
+        # text= text.get("text")
+        # print(text)
+        # print(type(text))
+        list_of_urls= generate_top_urls(text)
+        # print('list_of_urls', list_of_urls)
+        return list_of_urls
+        # return get_top_urls(text)
+        # return JSONResponse({
+        #     "embeddings": (get_top_urls(text))
+        # }, media_type='application/json')
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
+
+        
+@app.post('/get_keywords_from_urls_list')
+async def post_top_urls(keyword:Keyword):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # n_urls= int(text.get("num_urls"))
+        # url_list= text.get("text")
+        url_list= keyword.url_list
+        # print(text)
+        # print(type(text))
+        list_of_keywords= generate_keyword_list_v2(url_list)
+        # print('list_of_urls', list_of_urls)
+        return list_of_keywords
+        # return get_top_urls(text)
+        # return JSONResponse({
+        #     "embeddings": (get_top_urls(text))
+        # }, media_type='application/json')
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
+
+
+
 
 # @app.post('/e5_large_v2')
 # async def model_e5_large_v2(text:dict):
@@ -187,4 +262,4 @@ async def intent(text):
 
 
 if __name__=='__main__':
-    uvicorn.run(app, host='0.0.0.0', port=8083)
+    uvicorn.run(app, host='127.0.0.1', port=9000)

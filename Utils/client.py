@@ -104,7 +104,8 @@ def generate_seo_metatitle_train(keyword, num_query_results=10):
         
         
 
-def generate_top_urls(keyword, num_query_results=10):
+def generate_top_urls(keyword, num_query_results=10)->list:
+    # print(keyword)
     post_data = dict()
     # You can set only one task at a time
     post_data[len(post_data)] = dict(
@@ -130,7 +131,8 @@ def generate_top_urls(keyword, num_query_results=10):
             # if x:
             #     summary+= i['title']+' '+ i['domain']+' '+ i['url']+' '+x+' '
         # print(summary)
-        return urls
+        # print(urls)
+        return (urls)
         
         # do something with result
     else:
