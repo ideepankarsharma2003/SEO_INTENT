@@ -38,12 +38,14 @@ def generate_keyword_list(keyword, num_queries=10):
 def generate_keyword_list_v2(url_list, num_queries=10):
     # top_10_urls= generate_top_urls(keyword, 10)
     cleaned_text= ""
+    retrieved_url= []
     for i in url_list:
         print(i)
         cleaned_text_i= clean(i)
         # print(cleaned_text)
-        # if cleaned_text_i:
-        cleaned_text+=cleaned_text_i+''
+        if cleaned_text_i!='':
+            retrieved_url.append(i)
+        cleaned_text+=cleaned_text_i+'\n'
         
         print('**'*30)
     cleaned_text= (cleaned_text).lower()
@@ -57,8 +59,8 @@ def generate_keyword_list_v2(url_list, num_queries=10):
     
     keyword_list= []
     for phrase in doc._.phrases[:200]:
-        keyword_list.append(f"{phrase.text}, rank={phrase.rank}, #count={phrase.count}\n")
-    return keyword_list
+        keyword_list.append(f"{phrase.text}, rank={phrase.rank}, #count={phrase.count}")
+    return (keyword_list, retrieved_url)
     
     
     
