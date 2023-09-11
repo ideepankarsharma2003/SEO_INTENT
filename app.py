@@ -19,6 +19,10 @@ from pydantic import BaseModel
 class Keyword(BaseModel):
     url_list: list
 
+class Url(BaseModel):
+    keyword: str
+    num_urls: int
+
 
 import json
 
@@ -194,8 +198,8 @@ async def intent(text):
         
         
         
-@app.get('/get_top_urls')
-async def get_top_urls(text):
+@app.post('/get_top_urls')
+async def get_top_urls(text:Url):
     
     try: 
         # text= str_2_list_of_str(text)
@@ -203,7 +207,7 @@ async def get_top_urls(text):
         # text= text.get("text")
         # print(text)
         # print(type(text))
-        list_of_urls= generate_top_urls(text)
+        list_of_urls= generate_top_urls(text.keyword, text.num_urls)
         # print('list_of_urls', list_of_urls)
         return list_of_urls
         # return get_top_urls(text)
