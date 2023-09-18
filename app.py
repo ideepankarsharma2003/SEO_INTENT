@@ -26,7 +26,7 @@ class Url(BaseModel):
 
 import json
 
-from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2
+from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 from Utils.client import generate_top_urls
 
 
@@ -239,6 +239,29 @@ async def post_top_urls(keyword:Keyword):
     except Exception as e:
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
+        
+        
+@app.post('/post_top_urls_metadescription')
+async def post_top_urls_metadescription(url:Url):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # n_urls= int(text.get("num_urls"))
+        # url_list= text.get("text")
+        keyword= url.keyword
+        num_urls= url.num_urls
+        # print(text)
+        # print(type(text))
+        list_of_keywords= generate_keyword_list_v3(keyword, num_urls)
+        # print('list_of_urls', list_of_urls)
+        return list_of_keywords
+        # return get_top_urls(text)
+        # return JSONResponse({
+        #     "embeddings": (get_top_urls(text))
+        # }, media_type='application/json')
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
 
 
 
@@ -266,4 +289,4 @@ async def post_top_urls(keyword:Keyword):
 
 
 if __name__=='__main__':
-    uvicorn.run(app, host='127.0.0.1', port=9000)
+    uvicorn.run(app, host='127.0.0.1', port=9003)

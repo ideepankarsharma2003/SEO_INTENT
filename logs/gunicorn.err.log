@@ -1,0 +1,693 @@
+/home/ubuntu/intent_generation/gunicorn_run: line 16: exec: gunicorn: not found
+/home/ubuntu/intent_generation/gunicorn_run: line 16: exec: gunicorn: not found
+/home/ubuntu/intent_generation/gunicorn_run: line 16: exec: gunicorn: not found
+/home/ubuntu/intent_generation/gunicorn_run: line 16: exec: gunicorn: not found
+[2023-09-12 04:40:16 +0000] [110302] [INFO] Starting gunicorn 21.2.0
+[2023-09-12 04:40:16 +0000] [110302] [INFO] Listening at: http://0.0.0.0:9000 (110302)
+[2023-09-12 04:40:16 +0000] [110302] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-12 04:40:16 +0000] [110305] [INFO] Booting worker with pid: 110305
+[2023-09-12 04:40:17 +0000] [110320] [INFO] Booting worker with pid: 110320
+[2023-09-12 04:40:36 +0000] [110320] [INFO] Started server process [110320]
+[2023-09-12 04:40:36 +0000] [110320] [INFO] Waiting for application startup.
+[2023-09-12 04:40:36 +0000] [110320] [INFO] Application startup complete.
+[2023-09-12 04:40:36 +0000] [110305] [INFO] Started server process [110305]
+[2023-09-12 04:40:36 +0000] [110305] [INFO] Waiting for application startup.
+[2023-09-12 04:40:36 +0000] [110305] [INFO] Application startup complete.
+[2023-09-12 04:45:52 +0000] [110302] [CRITICAL] WORKER TIMEOUT (pid:110305)
+[2023-09-12 04:45:52 +0000] [110302] [ERROR] Worker (pid:110305) was sent code 134!
+[2023-09-12 04:45:52 +0000] [112149] [INFO] Booting worker with pid: 112149
+[2023-09-12 04:45:58 +0000] [112149] [INFO] Started server process [112149]
+[2023-09-12 04:45:58 +0000] [112149] [INFO] Waiting for application startup.
+[2023-09-12 04:45:58 +0000] [112149] [INFO] Application startup complete.
+[2023-09-12 05:13:15 +0000] [110302] [INFO] Handling signal: term
+[2023-09-12 05:13:15 +0000] [110320] [INFO] Shutting down
+[2023-09-12 05:13:15 +0000] [112149] [INFO] Shutting down
+[2023-09-12 05:13:15 +0000] [110320] [INFO] Waiting for application shutdown.
+[2023-09-12 05:13:15 +0000] [110320] [INFO] Application shutdown complete.
+[2023-09-12 05:13:15 +0000] [110320] [INFO] Finished server process [110320]
+[2023-09-12 05:13:15 +0000] [110320] [INFO] Worker exiting (pid: 110320)
+[2023-09-12 05:13:15 +0000] [112149] [INFO] Waiting for application shutdown.
+[2023-09-12 05:13:15 +0000] [112149] [INFO] Application shutdown complete.
+[2023-09-12 05:13:15 +0000] [112149] [INFO] Finished server process [112149]
+[2023-09-12 05:13:15 +0000] [112149] [INFO] Worker exiting (pid: 112149)
+[2023-09-12 05:13:17 +0000] [110302] [INFO] Shutting down: Master
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function tail_f_producer.__del__ at 0x7f92e4f6e680>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 649, in __del__
+    self._close()
+  File "/usr/lib/python3/dist-packages/supervisor/http.py", line 675, in _close
+    self.file.close()
+OSError: [Errno 9] Bad file descriptor
+[2023-09-12 05:13:19 +0000] [115187] [INFO] Starting gunicorn 21.2.0
+[2023-09-12 05:13:19 +0000] [115187] [INFO] Listening at: http://0.0.0.0:9000 (115187)
+[2023-09-12 05:13:19 +0000] [115187] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-12 05:13:19 +0000] [115196] [INFO] Booting worker with pid: 115196
+[2023-09-12 05:13:19 +0000] [115199] [INFO] Booting worker with pid: 115199
+[2023-09-12 05:13:32 +0000] [115196] [INFO] Started server process [115196]
+[2023-09-12 05:13:32 +0000] [115196] [INFO] Waiting for application startup.
+[2023-09-12 05:13:32 +0000] [115196] [INFO] Application startup complete.
+[2023-09-12 05:13:32 +0000] [115199] [INFO] Started server process [115199]
+[2023-09-12 05:13:32 +0000] [115199] [INFO] Waiting for application startup.
+[2023-09-12 05:13:32 +0000] [115199] [INFO] Application startup complete.
+[2023-09-12 06:54:59 +0000] [115187] [CRITICAL] WORKER TIMEOUT (pid:115199)
+[2023-09-12 06:54:59 +0000] [115187] [ERROR] Worker (pid:115199) was sent code 134!
+[2023-09-12 06:54:59 +0000] [119760] [INFO] Booting worker with pid: 119760
+[2023-09-12 06:55:08 +0000] [119760] [INFO] Started server process [119760]
+[2023-09-12 06:55:08 +0000] [119760] [INFO] Waiting for application startup.
+[2023-09-12 06:55:08 +0000] [119760] [INFO] Application startup complete.
+[2023-09-12 07:47:26 +0000] [115187] [CRITICAL] WORKER TIMEOUT (pid:119760)
+[2023-09-12 07:47:26 +0000] [115187] [ERROR] Worker (pid:119760) was sent code 134!
+[2023-09-12 07:47:26 +0000] [121643] [INFO] Booting worker with pid: 121643
+[2023-09-12 07:47:32 +0000] [121643] [INFO] Started server process [121643]
+[2023-09-12 07:47:32 +0000] [121643] [INFO] Waiting for application startup.
+[2023-09-12 07:47:32 +0000] [121643] [INFO] Application startup complete.
+[2023-09-12 08:25:16 +0000] [115187] [CRITICAL] WORKER TIMEOUT (pid:121643)
+[2023-09-12 08:25:16 +0000] [115187] [ERROR] Worker (pid:121643) was sent code 134!
+[2023-09-12 08:25:16 +0000] [125013] [INFO] Booting worker with pid: 125013
+[2023-09-12 08:25:23 +0000] [125013] [INFO] Started server process [125013]
+[2023-09-12 08:25:23 +0000] [125013] [INFO] Waiting for application startup.
+[2023-09-12 08:25:23 +0000] [125013] [INFO] Application startup complete.
+[2023-09-12 08:41:51 +0000] [115187] [CRITICAL] WORKER TIMEOUT (pid:125013)
+[2023-09-12 08:41:51 +0000] [115187] [ERROR] Worker (pid:125013) was sent code 134!
+[2023-09-12 08:41:51 +0000] [125820] [INFO] Booting worker with pid: 125820
+[2023-09-12 08:41:57 +0000] [125820] [INFO] Started server process [125820]
+[2023-09-12 08:41:57 +0000] [125820] [INFO] Waiting for application startup.
+[2023-09-12 08:41:57 +0000] [125820] [INFO] Application startup complete.
+[2023-09-13 06:38:34 +0000] [115187] [INFO] Handling signal: term
+[2023-09-13 06:38:34 +0000] [125820] [INFO] Shutting down
+[2023-09-13 06:38:34 +0000] [115196] [INFO] Shutting down
+[2023-09-13 06:38:34 +0000] [125820] [INFO] Waiting for application shutdown.
+[2023-09-13 06:38:34 +0000] [125820] [INFO] Application shutdown complete.
+[2023-09-13 06:38:34 +0000] [125820] [INFO] Finished server process [125820]
+[2023-09-13 06:38:34 +0000] [125820] [INFO] Worker exiting (pid: 125820)
+[2023-09-13 06:38:34 +0000] [115196] [INFO] Waiting for application shutdown.
+[2023-09-13 06:38:34 +0000] [115196] [INFO] Application shutdown complete.
+[2023-09-13 06:38:34 +0000] [115196] [INFO] Finished server process [115196]
+[2023-09-13 06:38:34 +0000] [115196] [INFO] Worker exiting (pid: 115196)
+[2023-09-13 06:38:36 +0000] [115187] [INFO] Shutting down: Master
+[2023-09-13 06:46:20 +0000] [137073] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 06:46:20 +0000] [137073] [INFO] Listening at: http://0.0.0.0:9000 (137073)
+[2023-09-13 06:46:20 +0000] [137073] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 06:46:20 +0000] [137082] [INFO] Booting worker with pid: 137082
+[2023-09-13 06:46:21 +0000] [137085] [INFO] Booting worker with pid: 137085
+[2023-09-13 06:46:34 +0000] [137085] [INFO] Started server process [137085]
+[2023-09-13 06:46:34 +0000] [137085] [INFO] Waiting for application startup.
+[2023-09-13 06:46:34 +0000] [137085] [INFO] Application startup complete.
+[2023-09-13 06:46:34 +0000] [137082] [INFO] Started server process [137082]
+[2023-09-13 06:46:34 +0000] [137082] [INFO] Waiting for application startup.
+[2023-09-13 06:46:34 +0000] [137082] [INFO] Application startup complete.
+[2023-09-13 06:51:05 +0000] [137073] [INFO] Handling signal: term
+[2023-09-13 06:51:05 +0000] [137082] [INFO] Shutting down
+[2023-09-13 06:51:05 +0000] [137085] [INFO] Shutting down
+[2023-09-13 06:51:05 +0000] [137082] [INFO] Waiting for application shutdown.
+[2023-09-13 06:51:05 +0000] [137082] [INFO] Application shutdown complete.
+[2023-09-13 06:51:05 +0000] [137082] [INFO] Finished server process [137082]
+[2023-09-13 06:51:05 +0000] [137082] [INFO] Worker exiting (pid: 137082)
+[2023-09-13 06:51:05 +0000] [137085] [INFO] Waiting for application shutdown.
+[2023-09-13 06:51:05 +0000] [137085] [INFO] Application shutdown complete.
+[2023-09-13 06:51:05 +0000] [137085] [INFO] Finished server process [137085]
+[2023-09-13 06:51:05 +0000] [137085] [INFO] Worker exiting (pid: 137085)
+[2023-09-13 06:51:06 +0000] [137073] [INFO] Shutting down: Master
+[2023-09-13 06:51:09 +0000] [138914] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 06:51:09 +0000] [138914] [INFO] Listening at: http://0.0.0.0:9000 (138914)
+[2023-09-13 06:51:09 +0000] [138914] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 06:51:09 +0000] [138928] [INFO] Booting worker with pid: 138928
+[2023-09-13 06:51:09 +0000] [138934] [INFO] Booting worker with pid: 138934
+[2023-09-13 06:51:27 +0000] [138914] [INFO] Handling signal: term
+[2023-09-13 06:51:27 +0000] [138914] [ERROR] Worker (pid:138934) was sent SIGTERM!
+[2023-09-13 06:51:27 +0000] [138914] [ERROR] Worker (pid:138928) was sent SIGTERM!
+[2023-09-13 06:51:27 +0000] [138914] [INFO] Shutting down: Master
+[2023-09-13 06:51:51 +0000] [687] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 06:51:51 +0000] [687] [INFO] Listening at: http://0.0.0.0:9000 (687)
+[2023-09-13 06:51:51 +0000] [687] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 06:51:51 +0000] [771] [INFO] Booting worker with pid: 771
+[2023-09-13 06:51:51 +0000] [776] [INFO] Booting worker with pid: 776
+[2023-09-13 06:52:15 +0000] [771] [INFO] Started server process [771]
+[2023-09-13 06:52:15 +0000] [776] [INFO] Started server process [776]
+[2023-09-13 06:52:15 +0000] [776] [INFO] Waiting for application startup.
+[2023-09-13 06:52:15 +0000] [771] [INFO] Waiting for application startup.
+[2023-09-13 06:52:15 +0000] [776] [INFO] Application startup complete.
+[2023-09-13 06:52:15 +0000] [771] [INFO] Application startup complete.
+[2023-09-13 10:47:43 +0000] [687] [INFO] Handling signal: term
+[2023-09-13 10:47:43 +0000] [776] [INFO] Shutting down
+[2023-09-13 10:47:43 +0000] [771] [INFO] Shutting down
+[2023-09-13 10:47:44 +0000] [776] [INFO] Waiting for application shutdown.
+[2023-09-13 10:47:44 +0000] [776] [INFO] Application shutdown complete.
+[2023-09-13 10:47:44 +0000] [776] [INFO] Finished server process [776]
+[2023-09-13 10:47:44 +0000] [776] [INFO] Worker exiting (pid: 776)
+[2023-09-13 10:47:44 +0000] [771] [INFO] Waiting for application shutdown.
+[2023-09-13 10:47:44 +0000] [771] [INFO] Application shutdown complete.
+[2023-09-13 10:47:44 +0000] [771] [INFO] Finished server process [771]
+[2023-09-13 10:47:44 +0000] [771] [INFO] Worker exiting (pid: 771)
+[2023-09-13 10:47:46 +0000] [687] [INFO] Shutting down: Master
+[2023-09-13 10:47:49 +0000] [51937] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 10:47:49 +0000] [51937] [INFO] Listening at: http://0.0.0.0:9000 (51937)
+[2023-09-13 10:47:49 +0000] [51937] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 10:47:49 +0000] [51946] [INFO] Booting worker with pid: 51946
+[2023-09-13 10:47:49 +0000] [51948] [INFO] Booting worker with pid: 51948
+[2023-09-13 10:48:15 +0000] [51948] [INFO] Started server process [51948]
+[2023-09-13 10:48:15 +0000] [51946] [INFO] Started server process [51946]
+[2023-09-13 10:48:15 +0000] [51948] [INFO] Waiting for application startup.
+[2023-09-13 10:48:15 +0000] [51946] [INFO] Waiting for application startup.
+[2023-09-13 10:48:15 +0000] [51948] [INFO] Application startup complete.
+[2023-09-13 10:48:15 +0000] [51946] [INFO] Application startup complete.
+[2023-09-13 10:57:42 +0000] [51937] [CRITICAL] WORKER TIMEOUT (pid:51948)
+[2023-09-13 11:00:09 +0000] [51937] [CRITICAL] WORKER TIMEOUT (pid:51946)
+[2023-09-13 11:02:25 +0000] [51937] [ERROR] Worker (pid:51948) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:02:25 +0000] [52552] [INFO] Booting worker with pid: 52552
+[2023-09-13 11:02:25 +0000] [51937] [ERROR] Worker (pid:51946) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:02:25 +0000] [52558] [INFO] Booting worker with pid: 52558
+[2023-09-13 11:12:01 +0000] [682] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 11:12:01 +0000] [682] [INFO] Listening at: http://0.0.0.0:9000 (682)
+[2023-09-13 11:12:01 +0000] [682] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 11:12:01 +0000] [755] [INFO] Booting worker with pid: 755
+[2023-09-13 11:12:02 +0000] [784] [INFO] Booting worker with pid: 784
+[2023-09-13 11:12:24 +0000] [784] [INFO] Started server process [784]
+[2023-09-13 11:12:24 +0000] [755] [INFO] Started server process [755]
+[2023-09-13 11:12:24 +0000] [755] [INFO] Waiting for application startup.
+[2023-09-13 11:12:24 +0000] [784] [INFO] Waiting for application startup.
+[2023-09-13 11:12:24 +0000] [755] [INFO] Application startup complete.
+[2023-09-13 11:12:24 +0000] [784] [INFO] Application startup complete.
+[2023-09-13 11:16:40 +0000] [684] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 11:16:40 +0000] [684] [INFO] Listening at: http://0.0.0.0:9000 (684)
+[2023-09-13 11:16:40 +0000] [684] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 11:16:40 +0000] [780] [INFO] Booting worker with pid: 780
+[2023-09-13 11:16:40 +0000] [783] [INFO] Booting worker with pid: 783
+[2023-09-13 11:17:03 +0000] [780] [INFO] Started server process [780]
+[2023-09-13 11:17:03 +0000] [783] [INFO] Started server process [783]
+[2023-09-13 11:17:03 +0000] [783] [INFO] Waiting for application startup.
+[2023-09-13 11:17:03 +0000] [780] [INFO] Waiting for application startup.
+[2023-09-13 11:17:03 +0000] [783] [INFO] Application startup complete.
+[2023-09-13 11:17:03 +0000] [780] [INFO] Application startup complete.
+[2023-09-13 11:26:25 +0000] [684] [CRITICAL] WORKER TIMEOUT (pid:780)
+[2023-09-13 11:27:03 +0000] [684] [CRITICAL] WORKER TIMEOUT (pid:783)
+[2023-09-13 11:27:32 +0000] [684] [ERROR] Worker (pid:780) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:27:33 +0000] [2077] [INFO] Booting worker with pid: 2077
+[2023-09-13 11:27:33 +0000] [684] [ERROR] Worker (pid:783) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:27:33 +0000] [2080] [INFO] Booting worker with pid: 2080
+[2023-09-13 11:28:03 +0000] [684] [CRITICAL] WORKER TIMEOUT (pid:2077)
+[2023-09-13 11:28:03 +0000] [684] [CRITICAL] WORKER TIMEOUT (pid:2080)
+[2023-09-13 11:28:04 +0000] [684] [ERROR] Worker (pid:2080) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:28:04 +0000] [684] [ERROR] Worker (pid:2077) was sent SIGKILL! Perhaps out of memory?
+[2023-09-13 11:28:04 +0000] [2533] [INFO] Booting worker with pid: 2533
+[2023-09-13 11:28:04 +0000] [2535] [INFO] Booting worker with pid: 2535
+[2023-09-13 11:28:31 +0000] [2535] [INFO] Started server process [2535]
+[2023-09-13 11:28:31 +0000] [2533] [INFO] Started server process [2533]
+[2023-09-13 11:28:31 +0000] [2535] [INFO] Waiting for application startup.
+[2023-09-13 11:28:31 +0000] [2533] [INFO] Waiting for application startup.
+[2023-09-13 11:28:31 +0000] [2535] [INFO] Application startup complete.
+[2023-09-13 11:28:31 +0000] [2533] [INFO] Application startup complete.
+[2023-09-13 12:02:38 +0000] [684] [INFO] Handling signal: term
+[2023-09-13 12:02:38 +0000] [2533] [INFO] Shutting down
+[2023-09-13 12:02:38 +0000] [2535] [INFO] Shutting down
+[2023-09-13 12:02:38 +0000] [2533] [INFO] Waiting for application shutdown.
+[2023-09-13 12:02:38 +0000] [2533] [INFO] Application shutdown complete.
+[2023-09-13 12:02:38 +0000] [2533] [INFO] Finished server process [2533]
+[2023-09-13 12:02:38 +0000] [2533] [INFO] Worker exiting (pid: 2533)
+[2023-09-13 12:02:38 +0000] [2535] [INFO] Waiting for application shutdown.
+[2023-09-13 12:02:38 +0000] [2535] [INFO] Application shutdown complete.
+[2023-09-13 12:02:38 +0000] [2535] [INFO] Finished server process [2535]
+[2023-09-13 12:02:38 +0000] [2535] [INFO] Worker exiting (pid: 2535)
+[2023-09-13 12:02:40 +0000] [684] [INFO] Shutting down: Master
+[2023-09-13 12:02:59 +0000] [694] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 12:02:59 +0000] [694] [INFO] Listening at: http://0.0.0.0:9000 (694)
+[2023-09-13 12:02:59 +0000] [694] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 12:02:59 +0000] [765] [INFO] Booting worker with pid: 765
+[2023-09-13 12:02:59 +0000] [797] [INFO] Booting worker with pid: 797
+[2023-09-13 12:03:23 +0000] [765] [INFO] Started server process [765]
+[2023-09-13 12:03:23 +0000] [797] [INFO] Started server process [797]
+[2023-09-13 12:03:23 +0000] [765] [INFO] Waiting for application startup.
+[2023-09-13 12:03:23 +0000] [797] [INFO] Waiting for application startup.
+[2023-09-13 12:03:23 +0000] [765] [INFO] Application startup complete.
+[2023-09-13 12:03:23 +0000] [797] [INFO] Application startup complete.
+[2023-09-13 12:14:09 +0000] [694] [INFO] Handling signal: term
+[2023-09-13 12:14:09 +0000] [765] [INFO] Shutting down
+[2023-09-13 12:14:09 +0000] [797] [INFO] Shutting down
+[2023-09-13 12:14:09 +0000] [765] [INFO] Waiting for application shutdown.
+[2023-09-13 12:14:09 +0000] [765] [INFO] Application shutdown complete.
+[2023-09-13 12:14:09 +0000] [765] [INFO] Finished server process [765]
+[2023-09-13 12:14:09 +0000] [765] [INFO] Worker exiting (pid: 765)
+[2023-09-13 12:14:09 +0000] [797] [INFO] Waiting for application shutdown.
+[2023-09-13 12:14:09 +0000] [797] [INFO] Application shutdown complete.
+[2023-09-13 12:14:09 +0000] [797] [INFO] Finished server process [797]
+[2023-09-13 12:14:09 +0000] [797] [INFO] Worker exiting (pid: 797)
+[2023-09-13 12:14:10 +0000] [694] [INFO] Shutting down: Master
+[2023-09-13 12:14:30 +0000] [667] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 12:14:30 +0000] [667] [INFO] Listening at: http://0.0.0.0:9000 (667)
+[2023-09-13 12:14:30 +0000] [667] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 12:14:30 +0000] [735] [INFO] Booting worker with pid: 735
+[2023-09-13 12:14:30 +0000] [757] [INFO] Booting worker with pid: 757
+[2023-09-13 12:15:00 +0000] [667] [CRITICAL] WORKER TIMEOUT (pid:735)
+[2023-09-13 12:15:00 +0000] [667] [CRITICAL] WORKER TIMEOUT (pid:757)
+[2023-09-13 12:15:00 +0000] [667] [ERROR] Worker (pid:735) was sent code 134!
+[2023-09-13 12:15:00 +0000] [1773] [INFO] Booting worker with pid: 1773
+[2023-09-13 12:15:00 +0000] [667] [ERROR] Worker (pid:757) was sent code 134!
+[2023-09-13 12:15:00 +0000] [1774] [INFO] Booting worker with pid: 1774
+[2023-09-13 12:15:08 +0000] [1773] [INFO] Started server process [1773]
+[2023-09-13 12:15:08 +0000] [1773] [INFO] Waiting for application startup.
+[2023-09-13 12:15:08 +0000] [1774] [INFO] Started server process [1774]
+[2023-09-13 12:15:08 +0000] [1774] [INFO] Waiting for application startup.
+[2023-09-13 12:15:08 +0000] [1773] [INFO] Application startup complete.
+[2023-09-13 12:15:08 +0000] [1774] [INFO] Application startup complete.
+[2023-09-13 12:21:05 +0000] [667] [INFO] Handling signal: term
+[2023-09-13 12:21:05 +0000] [1774] [INFO] Shutting down
+[2023-09-13 12:21:05 +0000] [1773] [INFO] Shutting down
+[2023-09-13 12:21:05 +0000] [1774] [INFO] Waiting for application shutdown.
+[2023-09-13 12:21:05 +0000] [1774] [INFO] Application shutdown complete.
+[2023-09-13 12:21:05 +0000] [1774] [INFO] Finished server process [1774]
+[2023-09-13 12:21:05 +0000] [1774] [INFO] Worker exiting (pid: 1774)
+[2023-09-13 12:21:05 +0000] [1773] [INFO] Waiting for application shutdown.
+[2023-09-13 12:21:05 +0000] [1773] [INFO] Application shutdown complete.
+[2023-09-13 12:21:05 +0000] [1773] [INFO] Finished server process [1773]
+[2023-09-13 12:21:05 +0000] [1773] [INFO] Worker exiting (pid: 1773)
+[2023-09-13 12:21:06 +0000] [667] [INFO] Shutting down: Master
+[2023-09-13 12:21:25 +0000] [651] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 12:21:25 +0000] [651] [INFO] Listening at: http://0.0.0.0:9000 (651)
+[2023-09-13 12:21:25 +0000] [651] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 12:21:25 +0000] [704] [INFO] Booting worker with pid: 704
+[2023-09-13 12:21:26 +0000] [726] [INFO] Booting worker with pid: 726
+[2023-09-13 12:21:49 +0000] [704] [INFO] Started server process [704]
+[2023-09-13 12:21:49 +0000] [726] [INFO] Started server process [726]
+[2023-09-13 12:21:49 +0000] [704] [INFO] Waiting for application startup.
+[2023-09-13 12:21:49 +0000] [726] [INFO] Waiting for application startup.
+[2023-09-13 12:21:49 +0000] [726] [INFO] Application startup complete.
+[2023-09-13 12:21:49 +0000] [704] [INFO] Application startup complete.
+[2023-09-13 13:44:13 +0000] [651] [INFO] Handling signal: term
+[2023-09-13 13:44:13 +0000] [726] [INFO] Shutting down
+[2023-09-13 13:44:13 +0000] [704] [INFO] Shutting down
+[2023-09-13 13:44:13 +0000] [726] [INFO] Waiting for application shutdown.
+[2023-09-13 13:44:13 +0000] [704] [INFO] Waiting for application shutdown.
+[2023-09-13 13:44:13 +0000] [726] [INFO] Application shutdown complete.
+[2023-09-13 13:44:13 +0000] [726] [INFO] Finished server process [726]
+[2023-09-13 13:44:13 +0000] [704] [INFO] Application shutdown complete.
+[2023-09-13 13:44:13 +0000] [704] [INFO] Finished server process [704]
+[2023-09-13 13:44:13 +0000] [726] [INFO] Worker exiting (pid: 726)
+[2023-09-13 13:44:13 +0000] [704] [INFO] Worker exiting (pid: 704)
+[2023-09-13 13:44:16 +0000] [651] [INFO] Shutting down: Master
+[2023-09-13 13:44:17 +0000] [36253] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 13:44:17 +0000] [36253] [INFO] Listening at: http://0.0.0.0:9000 (36253)
+[2023-09-13 13:44:17 +0000] [36253] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 13:44:17 +0000] [36262] [INFO] Booting worker with pid: 36262
+[2023-09-13 13:44:17 +0000] [36265] [INFO] Booting worker with pid: 36265
+[2023-09-13 13:44:37 +0000] [36262] [INFO] Started server process [36262]
+[2023-09-13 13:44:37 +0000] [36265] [INFO] Started server process [36265]
+[2023-09-13 13:44:37 +0000] [36265] [INFO] Waiting for application startup.
+[2023-09-13 13:44:37 +0000] [36262] [INFO] Waiting for application startup.
+[2023-09-13 13:44:37 +0000] [36262] [INFO] Application startup complete.
+[2023-09-13 13:44:37 +0000] [36265] [INFO] Application startup complete.
+[2023-09-13 13:57:21 +0000] [36253] [INFO] Handling signal: term
+[2023-09-13 13:57:21 +0000] [36262] [INFO] Shutting down
+[2023-09-13 13:57:21 +0000] [36265] [INFO] Shutting down
+[2023-09-13 13:57:21 +0000] [36262] [INFO] Waiting for application shutdown.
+[2023-09-13 13:57:21 +0000] [36265] [INFO] Waiting for application shutdown.
+[2023-09-13 13:57:21 +0000] [36262] [INFO] Application shutdown complete.
+[2023-09-13 13:57:21 +0000] [36265] [INFO] Application shutdown complete.
+[2023-09-13 13:57:21 +0000] [36262] [INFO] Finished server process [36262]
+[2023-09-13 13:57:21 +0000] [36265] [INFO] Finished server process [36265]
+[2023-09-13 13:57:21 +0000] [36262] [INFO] Worker exiting (pid: 36262)
+[2023-09-13 13:57:21 +0000] [36265] [INFO] Worker exiting (pid: 36265)
+[2023-09-13 13:57:24 +0000] [36253] [INFO] Shutting down: Master
+[2023-09-13 13:57:43 +0000] [688] [INFO] Starting gunicorn 21.2.0
+[2023-09-13 13:57:43 +0000] [688] [INFO] Listening at: http://0.0.0.0:9000 (688)
+[2023-09-13 13:57:43 +0000] [688] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-13 13:57:43 +0000] [763] [INFO] Booting worker with pid: 763
+[2023-09-13 13:57:43 +0000] [767] [INFO] Booting worker with pid: 767
+[2023-09-13 13:58:07 +0000] [767] [INFO] Started server process [767]
+[2023-09-13 13:58:07 +0000] [763] [INFO] Started server process [763]
+[2023-09-13 13:58:07 +0000] [763] [INFO] Waiting for application startup.
+[2023-09-13 13:58:07 +0000] [767] [INFO] Waiting for application startup.
+[2023-09-13 13:58:07 +0000] [767] [INFO] Application startup complete.
+[2023-09-13 13:58:07 +0000] [763] [INFO] Application startup complete.
+[2023-09-14 05:30:24 +0000] [688] [INFO] Handling signal: term
+[2023-09-14 05:30:24 +0000] [767] [INFO] Shutting down
+[2023-09-14 05:30:24 +0000] [763] [INFO] Shutting down
+[2023-09-14 05:30:24 +0000] [767] [INFO] Waiting for application shutdown.
+[2023-09-14 05:30:24 +0000] [767] [INFO] Application shutdown complete.
+[2023-09-14 05:30:24 +0000] [767] [INFO] Finished server process [767]
+[2023-09-14 05:30:24 +0000] [767] [INFO] Worker exiting (pid: 767)
+[2023-09-14 05:30:24 +0000] [763] [INFO] Waiting for application shutdown.
+[2023-09-14 05:30:24 +0000] [763] [INFO] Application shutdown complete.
+[2023-09-14 05:30:24 +0000] [763] [INFO] Finished server process [763]
+[2023-09-14 05:30:24 +0000] [763] [INFO] Worker exiting (pid: 763)
+[2023-09-14 05:30:26 +0000] [688] [INFO] Shutting down: Master
+[2023-09-14 05:30:45 +0000] [684] [INFO] Starting gunicorn 21.2.0
+[2023-09-14 05:30:45 +0000] [684] [INFO] Listening at: http://0.0.0.0:9000 (684)
+[2023-09-14 05:30:45 +0000] [684] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-14 05:30:45 +0000] [761] [INFO] Booting worker with pid: 761
+[2023-09-14 05:30:45 +0000] [789] [INFO] Booting worker with pid: 789
+[2023-09-14 05:31:08 +0000] [761] [INFO] Started server process [761]
+[2023-09-14 05:31:08 +0000] [761] [INFO] Waiting for application startup.
+[2023-09-14 05:31:08 +0000] [761] [INFO] Application startup complete.
+[2023-09-14 05:31:08 +0000] [789] [INFO] Started server process [789]
+[2023-09-14 05:31:08 +0000] [789] [INFO] Waiting for application startup.
+[2023-09-14 05:31:08 +0000] [789] [INFO] Application startup complete.
+[2023-09-14 05:35:53 +0000] [684] [INFO] Handling signal: term
+[2023-09-14 05:35:53 +0000] [761] [INFO] Shutting down
+[2023-09-14 05:35:53 +0000] [789] [INFO] Shutting down
+[2023-09-14 05:35:53 +0000] [761] [INFO] Waiting for application shutdown.
+[2023-09-14 05:35:53 +0000] [789] [INFO] Waiting for application shutdown.
+[2023-09-14 05:35:53 +0000] [789] [INFO] Application shutdown complete.
+[2023-09-14 05:35:53 +0000] [761] [INFO] Application shutdown complete.
+[2023-09-14 05:35:53 +0000] [789] [INFO] Finished server process [789]
+[2023-09-14 05:35:53 +0000] [761] [INFO] Finished server process [761]
+[2023-09-14 05:35:53 +0000] [789] [INFO] Worker exiting (pid: 789)
+[2023-09-14 05:35:53 +0000] [761] [INFO] Worker exiting (pid: 761)
+[2023-09-14 05:35:55 +0000] [684] [INFO] Shutting down: Master
+[2023-09-14 05:36:13 +0000] [657] [INFO] Starting gunicorn 21.2.0
+[2023-09-14 05:36:13 +0000] [657] [INFO] Listening at: http://0.0.0.0:9000 (657)
+[2023-09-14 05:36:13 +0000] [657] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-14 05:36:13 +0000] [727] [INFO] Booting worker with pid: 727
+[2023-09-14 05:36:13 +0000] [730] [INFO] Booting worker with pid: 730
+[2023-09-14 05:36:38 +0000] [727] [INFO] Started server process [727]
+[2023-09-14 05:36:38 +0000] [730] [INFO] Started server process [730]
+[2023-09-14 05:36:38 +0000] [730] [INFO] Waiting for application startup.
+[2023-09-14 05:36:38 +0000] [727] [INFO] Waiting for application startup.
+[2023-09-14 05:36:38 +0000] [727] [INFO] Application startup complete.
+[2023-09-14 05:36:38 +0000] [730] [INFO] Application startup complete.
+[2023-09-14 05:55:55 +0000] [657] [INFO] Handling signal: term
+[2023-09-14 05:55:55 +0000] [727] [INFO] Shutting down
+[2023-09-14 05:55:55 +0000] [730] [INFO] Shutting down
+[2023-09-14 05:55:56 +0000] [727] [INFO] Waiting for application shutdown.
+[2023-09-14 05:55:56 +0000] [730] [INFO] Waiting for application shutdown.
+[2023-09-14 05:55:56 +0000] [727] [INFO] Application shutdown complete.
+[2023-09-14 05:55:56 +0000] [727] [INFO] Finished server process [727]
+[2023-09-14 05:55:56 +0000] [730] [INFO] Application shutdown complete.
+[2023-09-14 05:55:56 +0000] [730] [INFO] Finished server process [730]
+[2023-09-14 05:55:56 +0000] [727] [INFO] Worker exiting (pid: 727)
+[2023-09-14 05:55:56 +0000] [730] [INFO] Worker exiting (pid: 730)
+[2023-09-14 05:55:57 +0000] [657] [INFO] Shutting down: Master
+[2023-09-14 05:56:16 +0000] [676] [INFO] Starting gunicorn 21.2.0
+[2023-09-14 05:56:16 +0000] [676] [INFO] Listening at: http://0.0.0.0:9000 (676)
+[2023-09-14 05:56:16 +0000] [676] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-14 05:56:16 +0000] [747] [INFO] Booting worker with pid: 747
+[2023-09-14 05:56:16 +0000] [755] [INFO] Booting worker with pid: 755
+[2023-09-14 05:56:39 +0000] [747] [INFO] Started server process [747]
+[2023-09-14 05:56:39 +0000] [755] [INFO] Started server process [755]
+[2023-09-14 05:56:39 +0000] [747] [INFO] Waiting for application startup.
+[2023-09-14 05:56:39 +0000] [755] [INFO] Waiting for application startup.
+[2023-09-14 05:56:39 +0000] [755] [INFO] Application startup complete.
+[2023-09-14 05:56:39 +0000] [747] [INFO] Application startup complete.
+[2023-09-14 06:25:05 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:755)
+[2023-09-14 06:25:45 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:747)
+[2023-09-14 06:25:45 +0000] [676] [ERROR] Worker (pid:755) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 06:25:45 +0000] [5859] [INFO] Booting worker with pid: 5859
+[2023-09-14 06:25:45 +0000] [676] [ERROR] Worker (pid:747) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 06:25:45 +0000] [5862] [INFO] Booting worker with pid: 5862
+[2023-09-14 06:26:14 +0000] [5862] [INFO] Started server process [5862]
+[2023-09-14 06:26:14 +0000] [5859] [INFO] Started server process [5859]
+[2023-09-14 06:26:14 +0000] [5859] [INFO] Waiting for application startup.
+[2023-09-14 06:26:14 +0000] [5862] [INFO] Waiting for application startup.
+[2023-09-14 06:26:14 +0000] [5859] [INFO] Application startup complete.
+[2023-09-14 06:26:14 +0000] [5862] [INFO] Application startup complete.
+[2023-09-14 06:30:41 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:5859)
+[2023-09-14 06:31:43 +0000] [676] [ERROR] Worker (pid:5859) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 06:31:43 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:5862)
+[2023-09-14 06:31:43 +0000] [6399] [INFO] Booting worker with pid: 6399
+[2023-09-14 06:31:43 +0000] [676] [ERROR] Worker (pid:5862) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 06:31:43 +0000] [6405] [INFO] Booting worker with pid: 6405
+[2023-09-14 06:32:13 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:6399)
+[2023-09-14 06:32:13 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:6405)
+[2023-09-14 06:32:13 +0000] [676] [ERROR] Worker (pid:6405) was sent code 134!
+[2023-09-14 06:32:13 +0000] [7254] [INFO] Booting worker with pid: 7254
+[2023-09-14 06:32:13 +0000] [676] [ERROR] Worker (pid:6399) was sent code 134!
+[2023-09-14 06:32:13 +0000] [7255] [INFO] Booting worker with pid: 7255
+[2023-09-14 06:33:39 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:7254)
+[2023-09-14 06:33:39 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:7255)
+[2023-09-14 06:33:40 +0000] [676] [ERROR] Worker (pid:7254) was sent code 134!
+[2023-09-14 06:33:40 +0000] [7290] [INFO] Booting worker with pid: 7290
+[2023-09-14 06:33:40 +0000] [676] [ERROR] Worker (pid:7255) was sent code 134!
+[2023-09-14 06:33:41 +0000] [7291] [INFO] Booting worker with pid: 7291
+[2023-09-14 06:34:02 +0000] [7290] [INFO] Started server process [7290]
+[2023-09-14 06:34:02 +0000] [7291] [INFO] Started server process [7291]
+[2023-09-14 06:34:02 +0000] [7290] [INFO] Waiting for application startup.
+[2023-09-14 06:34:02 +0000] [7291] [INFO] Waiting for application startup.
+[2023-09-14 06:34:02 +0000] [7290] [INFO] Application startup complete.
+[2023-09-14 06:34:02 +0000] [7291] [INFO] Application startup complete.
+[2023-09-14 06:55:34 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:7290)
+[2023-09-14 06:55:42 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:7291)
+[2023-09-14 06:55:43 +0000] [676] [ERROR] Worker (pid:7291) was sent code 134!
+[2023-09-14 06:55:43 +0000] [9992] [INFO] Booting worker with pid: 9992
+[2023-09-14 06:55:43 +0000] [676] [ERROR] Worker (pid:7290) was sent code 134!
+[2023-09-14 06:55:43 +0000] [9993] [INFO] Booting worker with pid: 9993
+[2023-09-14 06:56:04 +0000] [9992] [INFO] Started server process [9992]
+[2023-09-14 06:56:04 +0000] [9992] [INFO] Waiting for application startup.
+[2023-09-14 06:56:04 +0000] [9993] [INFO] Started server process [9993]
+[2023-09-14 06:56:04 +0000] [9993] [INFO] Waiting for application startup.
+[2023-09-14 06:56:04 +0000] [9992] [INFO] Application startup complete.
+[2023-09-14 06:56:04 +0000] [9993] [INFO] Application startup complete.
+[2023-09-14 06:58:42 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:9992)
+[2023-09-14 06:58:42 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:9993)
+[2023-09-14 06:58:43 +0000] [676] [ERROR] Worker (pid:9992) was sent code 134!
+[2023-09-14 06:58:43 +0000] [10378] [INFO] Booting worker with pid: 10378
+[2023-09-14 06:58:43 +0000] [676] [ERROR] Worker (pid:9993) was sent code 134!
+[2023-09-14 06:58:43 +0000] [10379] [INFO] Booting worker with pid: 10379
+[2023-09-14 06:59:05 +0000] [10378] [INFO] Started server process [10378]
+[2023-09-14 06:59:05 +0000] [10379] [INFO] Started server process [10379]
+[2023-09-14 06:59:05 +0000] [10378] [INFO] Waiting for application startup.
+[2023-09-14 06:59:05 +0000] [10379] [INFO] Waiting for application startup.
+[2023-09-14 06:59:05 +0000] [10378] [INFO] Application startup complete.
+[2023-09-14 06:59:05 +0000] [10379] [INFO] Application startup complete.
+[2023-09-14 07:03:57 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:10378)
+[2023-09-14 07:04:59 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:10379)
+[2023-09-14 07:05:09 +0000] [676] [ERROR] Worker (pid:10379) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:05:09 +0000] [11631] [INFO] Booting worker with pid: 11631
+[2023-09-14 07:05:10 +0000] [676] [ERROR] Worker (pid:10378) was sent code 134!
+[2023-09-14 07:05:10 +0000] [11635] [INFO] Booting worker with pid: 11635
+[2023-09-14 07:05:34 +0000] [11631] [INFO] Started server process [11631]
+[2023-09-14 07:05:34 +0000] [11631] [INFO] Waiting for application startup.
+[2023-09-14 07:05:34 +0000] [11635] [INFO] Started server process [11635]
+[2023-09-14 07:05:34 +0000] [11631] [INFO] Application startup complete.
+[2023-09-14 07:05:34 +0000] [11635] [INFO] Waiting for application startup.
+[2023-09-14 07:05:34 +0000] [11635] [INFO] Application startup complete.
+[2023-09-14 07:10:17 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:11631)
+[2023-09-14 07:16:38 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:11635)
+[2023-09-14 07:17:45 +0000] [676] [ERROR] Worker (pid:11635) was sent code 134!
+[2023-09-14 07:17:45 +0000] [14063] [INFO] Booting worker with pid: 14063
+[2023-09-14 07:17:45 +0000] [676] [ERROR] Worker (pid:11631) was sent code 134!
+[2023-09-14 07:17:45 +0000] [14064] [INFO] Booting worker with pid: 14064
+[2023-09-14 07:18:05 +0000] [14063] [INFO] Started server process [14063]
+[2023-09-14 07:18:05 +0000] [14064] [INFO] Started server process [14064]
+[2023-09-14 07:18:05 +0000] [14063] [INFO] Waiting for application startup.
+[2023-09-14 07:18:05 +0000] [14064] [INFO] Waiting for application startup.
+[2023-09-14 07:18:05 +0000] [14063] [INFO] Application startup complete.
+[2023-09-14 07:18:05 +0000] [14064] [INFO] Application startup complete.
+[2023-09-14 07:47:29 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:14063)
+[2023-09-14 07:48:24 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:14064)
+[2023-09-14 07:49:04 +0000] [676] [ERROR] Worker (pid:14063) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:49:04 +0000] [676] [ERROR] Worker (pid:14064) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:49:04 +0000] [24950] [INFO] Booting worker with pid: 24950
+[2023-09-14 07:49:04 +0000] [24953] [INFO] Booting worker with pid: 24953
+[2023-09-14 07:49:50 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:24950)
+[2023-09-14 07:50:34 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:24953)
+[2023-09-14 07:51:50 +0000] [676] [ERROR] Worker (pid:24950) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:51:50 +0000] [26045] [INFO] Booting worker with pid: 26045
+[2023-09-14 07:51:50 +0000] [676] [ERROR] Worker (pid:24953) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:51:50 +0000] [26046] [INFO] Booting worker with pid: 26046
+[2023-09-14 07:52:29 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:26045)
+[2023-09-14 07:59:46 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:26046)
+[2023-09-14 07:59:47 +0000] [676] [ERROR] Worker (pid:26046) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:59:47 +0000] [676] [ERROR] Worker (pid:26045) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 07:59:47 +0000] [27207] [INFO] Booting worker with pid: 27207
+[2023-09-14 07:59:48 +0000] [27210] [INFO] Booting worker with pid: 27210
+[2023-09-14 08:00:10 +0000] [27210] [INFO] Started server process [27210]
+[2023-09-14 08:00:10 +0000] [27207] [INFO] Started server process [27207]
+[2023-09-14 08:00:10 +0000] [27207] [INFO] Waiting for application startup.
+[2023-09-14 08:00:10 +0000] [27210] [INFO] Waiting for application startup.
+[2023-09-14 08:00:10 +0000] [27207] [INFO] Application startup complete.
+[2023-09-14 08:00:10 +0000] [27210] [INFO] Application startup complete.
+[2023-09-14 09:32:29 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:27210)
+[2023-09-14 09:34:57 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:27207)
+[2023-09-14 09:37:11 +0000] [676] [ERROR] Worker (pid:27210) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 09:37:11 +0000] [43999] [INFO] Booting worker with pid: 43999
+[2023-09-14 09:37:11 +0000] [676] [ERROR] Worker (pid:27207) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 09:37:11 +0000] [44005] [INFO] Booting worker with pid: 44005
+[2023-09-14 09:37:35 +0000] [44005] [INFO] Started server process [44005]
+[2023-09-14 09:37:35 +0000] [43999] [INFO] Started server process [43999]
+[2023-09-14 09:37:35 +0000] [44005] [INFO] Waiting for application startup.
+[2023-09-14 09:37:35 +0000] [43999] [INFO] Waiting for application startup.
+[2023-09-14 09:37:35 +0000] [44005] [INFO] Application startup complete.
+[2023-09-14 09:37:35 +0000] [43999] [INFO] Application startup complete.
+[2023-09-14 09:38:50 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:44005)
+[2023-09-14 09:38:51 +0000] [676] [ERROR] Worker (pid:44005) was sent code 134!
+[2023-09-14 09:38:51 +0000] [45366] [INFO] Booting worker with pid: 45366
+[2023-09-14 09:38:57 +0000] [45366] [INFO] Started server process [45366]
+[2023-09-14 09:38:57 +0000] [45366] [INFO] Waiting for application startup.
+[2023-09-14 09:38:57 +0000] [45366] [INFO] Application startup complete.
+[2023-09-14 09:43:10 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:43999)
+[2023-09-14 09:46:52 +0000] [676] [ERROR] Worker (pid:43999) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 09:46:52 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:45366)
+[2023-09-14 09:46:52 +0000] [47247] [INFO] Booting worker with pid: 47247
+[2023-09-14 09:46:52 +0000] [676] [ERROR] Worker (pid:45366) was sent SIGKILL! Perhaps out of memory?
+[2023-09-14 09:46:52 +0000] [47252] [INFO] Booting worker with pid: 47252
+[2023-09-14 09:47:18 +0000] [47247] [INFO] Started server process [47247]
+[2023-09-14 09:47:18 +0000] [47252] [INFO] Started server process [47252]
+[2023-09-14 09:47:18 +0000] [47247] [INFO] Waiting for application startup.
+[2023-09-14 09:47:18 +0000] [47252] [INFO] Waiting for application startup.
+[2023-09-14 09:47:18 +0000] [47252] [INFO] Application startup complete.
+[2023-09-14 09:47:18 +0000] [47247] [INFO] Application startup complete.
+[2023-09-15 05:58:26 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:47247)
+[2023-09-15 05:58:26 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:47252)
+[2023-09-15 05:58:27 +0000] [676] [ERROR] Worker (pid:47252) was sent code 134!
+[2023-09-15 05:58:27 +0000] [77158] [INFO] Booting worker with pid: 77158
+[2023-09-15 05:58:27 +0000] [676] [ERROR] Worker (pid:47247) was sent code 134!
+[2023-09-15 05:58:27 +0000] [77165] [INFO] Booting worker with pid: 77165
+[2023-09-15 05:58:51 +0000] [77158] [INFO] Started server process [77158]
+[2023-09-15 05:58:51 +0000] [77165] [INFO] Started server process [77165]
+[2023-09-15 05:58:51 +0000] [77158] [INFO] Waiting for application startup.
+[2023-09-15 05:58:51 +0000] [77165] [INFO] Waiting for application startup.
+[2023-09-15 05:58:51 +0000] [77158] [INFO] Application startup complete.
+[2023-09-15 05:58:51 +0000] [77165] [INFO] Application startup complete.
+[2023-09-15 06:38:19 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:77158)
+[2023-09-15 06:39:41 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:77165)
+[2023-09-15 06:42:15 +0000] [676] [ERROR] Worker (pid:77158) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 06:42:15 +0000] [85758] [INFO] Booting worker with pid: 85758
+[2023-09-15 06:42:15 +0000] [676] [ERROR] Worker (pid:77165) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 06:42:15 +0000] [85759] [INFO] Booting worker with pid: 85759
+[2023-09-15 06:42:46 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:85758)
+[2023-09-15 06:42:46 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:85759)
+[2023-09-15 06:42:46 +0000] [676] [ERROR] Worker (pid:85759) was sent code 134!
+[2023-09-15 06:42:46 +0000] [86962] [INFO] Booting worker with pid: 86962
+[2023-09-15 06:42:46 +0000] [676] [ERROR] Worker (pid:85758) was sent code 134!
+[2023-09-15 06:42:46 +0000] [86972] [INFO] Booting worker with pid: 86972
+[2023-09-15 06:43:16 +0000] [86962] [INFO] Started server process [86962]
+[2023-09-15 06:43:16 +0000] [86972] [INFO] Started server process [86972]
+[2023-09-15 06:43:16 +0000] [86962] [INFO] Waiting for application startup.
+[2023-09-15 06:43:16 +0000] [86972] [INFO] Waiting for application startup.
+[2023-09-15 06:43:16 +0000] [86962] [INFO] Application startup complete.
+[2023-09-15 06:43:16 +0000] [86972] [INFO] Application startup complete.
+[2023-09-15 06:45:44 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:86962)
+[2023-09-15 06:47:40 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:86972)
+[2023-09-15 06:49:53 +0000] [676] [ERROR] Worker (pid:86962) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 06:49:54 +0000] [88312] [INFO] Booting worker with pid: 88312
+[2023-09-15 06:49:54 +0000] [676] [ERROR] Worker (pid:86972) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 06:49:54 +0000] [88322] [INFO] Booting worker with pid: 88322
+[2023-09-15 06:50:24 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:88312)
+[2023-09-15 06:50:24 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:88322)
+[2023-09-15 06:50:24 +0000] [676] [ERROR] Worker (pid:88322) was sent code 134!
+[2023-09-15 06:50:24 +0000] [89557] [INFO] Booting worker with pid: 89557
+[2023-09-15 06:50:24 +0000] [676] [ERROR] Worker (pid:88312) was sent code 134!
+[2023-09-15 06:50:24 +0000] [89558] [INFO] Booting worker with pid: 89558
+[2023-09-15 06:50:54 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:89557)
+[2023-09-15 06:50:54 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:89558)
+[2023-09-15 06:50:55 +0000] [676] [ERROR] Worker (pid:89557) was sent code 134!
+[2023-09-15 06:50:55 +0000] [90036] [INFO] Booting worker with pid: 90036
+[2023-09-15 06:50:55 +0000] [676] [ERROR] Worker (pid:89558) was sent code 134!
+[2023-09-15 06:50:55 +0000] [90037] [INFO] Booting worker with pid: 90037
+[2023-09-15 06:51:09 +0000] [90036] [INFO] Started server process [90036]
+[2023-09-15 06:51:09 +0000] [90037] [INFO] Started server process [90037]
+[2023-09-15 06:51:09 +0000] [90036] [INFO] Waiting for application startup.
+[2023-09-15 06:51:09 +0000] [90037] [INFO] Waiting for application startup.
+[2023-09-15 06:51:09 +0000] [90037] [INFO] Application startup complete.
+[2023-09-15 06:51:09 +0000] [90036] [INFO] Application startup complete.
+[2023-09-15 07:10:01 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:90036)
+[2023-09-15 07:10:01 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:90037)
+[2023-09-15 07:10:03 +0000] [676] [ERROR] Worker (pid:90036) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 07:10:03 +0000] [676] [ERROR] Worker (pid:90037) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 07:10:03 +0000] [98027] [INFO] Booting worker with pid: 98027
+[2023-09-15 07:10:03 +0000] [98028] [INFO] Booting worker with pid: 98028
+[2023-09-15 07:10:33 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:98027)
+[2023-09-15 07:10:33 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:98028)
+[2023-09-15 07:10:33 +0000] [676] [ERROR] Worker (pid:98028) was sent code 134!
+[2023-09-15 07:10:33 +0000] [98660] [INFO] Booting worker with pid: 98660
+[2023-09-15 07:10:33 +0000] [676] [ERROR] Worker (pid:98027) was sent code 134!
+[2023-09-15 07:10:33 +0000] [98661] [INFO] Booting worker with pid: 98661
+[2023-09-15 07:10:42 +0000] [98661] [INFO] Started server process [98661]
+[2023-09-15 07:10:42 +0000] [98660] [INFO] Started server process [98660]
+[2023-09-15 07:10:42 +0000] [98661] [INFO] Waiting for application startup.
+[2023-09-15 07:10:42 +0000] [98660] [INFO] Waiting for application startup.
+[2023-09-15 07:10:42 +0000] [98661] [INFO] Application startup complete.
+[2023-09-15 07:10:42 +0000] [98660] [INFO] Application startup complete.
+[2023-09-15 08:33:51 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:98660)
+[2023-09-15 08:34:10 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:98661)
+[2023-09-15 08:36:26 +0000] [676] [ERROR] Worker (pid:98660) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 08:36:26 +0000] [127496] [INFO] Booting worker with pid: 127496
+[2023-09-15 08:36:26 +0000] [676] [ERROR] Worker (pid:98661) was sent SIGKILL! Perhaps out of memory?
+[2023-09-15 08:36:26 +0000] [127503] [INFO] Booting worker with pid: 127503
+[2023-09-15 08:36:49 +0000] [127503] [INFO] Started server process [127503]
+[2023-09-15 08:36:49 +0000] [127496] [INFO] Started server process [127496]
+[2023-09-15 08:36:49 +0000] [127496] [INFO] Waiting for application startup.
+[2023-09-15 08:36:49 +0000] [127503] [INFO] Waiting for application startup.
+[2023-09-15 08:36:49 +0000] [127496] [INFO] Application startup complete.
+[2023-09-15 08:36:49 +0000] [127503] [INFO] Application startup complete.
+[2023-09-18 06:00:59 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:127503)
+[2023-09-18 06:00:59 +0000] [676] [ERROR] Worker (pid:127503) was sent code 134!
+[2023-09-18 06:00:59 +0000] [230676] [INFO] Booting worker with pid: 230676
+[2023-09-18 06:01:16 +0000] [230676] [INFO] Started server process [230676]
+[2023-09-18 06:01:16 +0000] [230676] [INFO] Waiting for application startup.
+[2023-09-18 06:01:16 +0000] [230676] [INFO] Application startup complete.
+[2023-09-18 06:04:32 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:230676)
+[2023-09-18 06:04:32 +0000] [676] [ERROR] Worker (pid:230676) was sent code 134!
+[2023-09-18 06:04:32 +0000] [230705] [INFO] Booting worker with pid: 230705
+[2023-09-18 06:04:48 +0000] [230705] [INFO] Started server process [230705]
+[2023-09-18 06:04:48 +0000] [230705] [INFO] Waiting for application startup.
+[2023-09-18 06:04:48 +0000] [230705] [INFO] Application startup complete.
+[2023-09-18 06:33:53 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:127496)
+[2023-09-18 06:33:53 +0000] [676] [ERROR] Worker (pid:127496) was sent code 134!
+[2023-09-18 06:33:53 +0000] [230957] [INFO] Booting worker with pid: 230957
+[2023-09-18 06:34:02 +0000] [230957] [INFO] Started server process [230957]
+[2023-09-18 06:34:02 +0000] [230957] [INFO] Waiting for application startup.
+[2023-09-18 06:34:02 +0000] [230957] [INFO] Application startup complete.
+[2023-09-18 06:35:02 +0000] [676] [CRITICAL] WORKER TIMEOUT (pid:230957)
+[2023-09-18 06:35:03 +0000] [676] [ERROR] Worker (pid:230957) was sent code 134!
+[2023-09-18 06:35:03 +0000] [231426] [INFO] Booting worker with pid: 231426
+[2023-09-18 06:35:09 +0000] [231426] [INFO] Started server process [231426]
+[2023-09-18 06:35:09 +0000] [231426] [INFO] Waiting for application startup.
+[2023-09-18 06:35:09 +0000] [231426] [INFO] Application startup complete.
+[2023-09-18 10:06:06 +0000] [676] [INFO] Handling signal: term
+[2023-09-18 10:06:06 +0000] [230705] [INFO] Shutting down
+[2023-09-18 10:06:06 +0000] [231426] [INFO] Shutting down
+[2023-09-18 10:06:06 +0000] [230705] [INFO] Waiting for application shutdown.
+[2023-09-18 10:06:06 +0000] [231426] [INFO] Waiting for application shutdown.
+[2023-09-18 10:06:06 +0000] [230705] [INFO] Application shutdown complete.
+[2023-09-18 10:06:06 +0000] [230705] [INFO] Finished server process [230705]
+[2023-09-18 10:06:06 +0000] [231426] [INFO] Application shutdown complete.
+[2023-09-18 10:06:06 +0000] [231426] [INFO] Finished server process [231426]
+[2023-09-18 10:06:06 +0000] [230705] [INFO] Worker exiting (pid: 230705)
+[2023-09-18 10:06:06 +0000] [231426] [INFO] Worker exiting (pid: 231426)
+[2023-09-18 10:06:07 +0000] [676] [INFO] Shutting down: Master
+[2023-09-18 10:06:10 +0000] [240155] [INFO] Starting gunicorn 21.2.0
+[2023-09-18 10:06:10 +0000] [240155] [INFO] Listening at: http://0.0.0.0:9000 (240155)
+[2023-09-18 10:06:10 +0000] [240155] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-18 10:06:10 +0000] [240163] [INFO] Booting worker with pid: 240163
+[2023-09-18 10:06:10 +0000] [240165] [INFO] Booting worker with pid: 240165
+[2023-09-18 10:06:19 +0000] [240165] [INFO] Started server process [240165]
+[2023-09-18 10:06:19 +0000] [240165] [INFO] Waiting for application startup.
+[2023-09-18 10:06:19 +0000] [240165] [INFO] Application startup complete.
+[2023-09-18 10:06:19 +0000] [240163] [INFO] Started server process [240163]
+[2023-09-18 10:06:19 +0000] [240163] [INFO] Waiting for application startup.
+[2023-09-18 10:06:19 +0000] [240163] [INFO] Application startup complete.

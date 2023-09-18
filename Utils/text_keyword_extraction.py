@@ -1,4 +1,4 @@
-from Utils.client import generate_top_urls
+from Utils.client import generate_top_urls, generate_seo_metatitle
 from Utils.basic_cleaner import clean
 import spacy
 import spacy_transformers
@@ -56,6 +56,19 @@ def generate_keyword_list_v2(url_list, num_queries=10):
         # doc = nlp(cleaned_text)
     # except: 
         # return f"Token Size exceeded ,try setting num_queries < {num_queries}"
+    
+    keyword_list= []
+    for phrase in doc._.phrases[:200]:
+        keyword_list.append(f"{phrase.text}, rank={phrase.rank}, #count={phrase.count}")
+    return (keyword_list, retrieved_url)
+
+def generate_keyword_list_v3(keyword, num_urls):
+    retrieved_url= generate_top_urls(keyword, num_urls)
+    cleaned_text= generate_seo_metatitle(keyword, num_urls)
+    try:
+        doc = nlp(cleaned_text)
+    except: 
+        return f"Token Size exceeded ,try setting num_urls < {num_urls}"
     
     keyword_list= []
     for phrase in doc._.phrases[:200]:
