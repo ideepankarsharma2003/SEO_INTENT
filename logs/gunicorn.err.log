@@ -691,3 +691,508 @@ OSError: [Errno 9] Bad file descriptor
 [2023-09-18 10:06:19 +0000] [240163] [INFO] Started server process [240163]
 [2023-09-18 10:06:19 +0000] [240163] [INFO] Waiting for application startup.
 [2023-09-18 10:06:19 +0000] [240163] [INFO] Application startup complete.
+[2023-09-18 10:07:05 +0000] [240155] [CRITICAL] WORKER TIMEOUT (pid:240165)
+[2023-09-18 10:07:05 +0000] [240155] [ERROR] Worker (pid:240165) was sent code 134!
+[2023-09-18 10:07:05 +0000] [240328] [INFO] Booting worker with pid: 240328
+[2023-09-18 10:07:11 +0000] [240328] [INFO] Started server process [240328]
+[2023-09-18 10:07:11 +0000] [240328] [INFO] Waiting for application startup.
+[2023-09-18 10:07:11 +0000] [240328] [INFO] Application startup complete.
+[2023-09-19 06:01:37 +0000] [240155] [CRITICAL] WORKER TIMEOUT (pid:240328)
+[2023-09-19 06:01:37 +0000] [240155] [ERROR] Worker (pid:240328) was sent code 134!
+[2023-09-19 06:01:37 +0000] [249410] [INFO] Booting worker with pid: 249410
+[2023-09-19 06:01:45 +0000] [249410] [INFO] Started server process [249410]
+[2023-09-19 06:01:45 +0000] [249410] [INFO] Waiting for application startup.
+[2023-09-19 06:01:45 +0000] [249410] [INFO] Application startup complete.
+[2023-09-19 13:40:52 +0000] [240155] [CRITICAL] WORKER TIMEOUT (pid:249410)
+[2023-09-19 13:40:52 +0000] [240155] [ERROR] Worker (pid:249410) was sent code 134!
+[2023-09-19 13:40:52 +0000] [266313] [INFO] Booting worker with pid: 266313
+[2023-09-19 13:41:04 +0000] [266313] [INFO] Started server process [266313]
+[2023-09-19 13:41:04 +0000] [266313] [INFO] Waiting for application startup.
+[2023-09-19 13:41:04 +0000] [266313] [INFO] Application startup complete.
+[2023-09-21 06:32:39 +0000] [240155] [CRITICAL] WORKER TIMEOUT (pid:266313)
+[2023-09-21 06:32:40 +0000] [240155] [ERROR] Worker (pid:266313) was sent code 134!
+[2023-09-21 06:32:40 +0000] [296198] [INFO] Booting worker with pid: 296198
+[2023-09-21 06:32:55 +0000] [296198] [INFO] Started server process [296198]
+[2023-09-21 06:32:55 +0000] [296198] [INFO] Waiting for application startup.
+[2023-09-21 06:32:55 +0000] [296198] [INFO] Application startup complete.
+[2023-09-21 07:07:46 +0000] [240155] [INFO] Handling signal: term
+[2023-09-21 07:07:46 +0000] [296198] [INFO] Shutting down
+[2023-09-21 07:07:46 +0000] [240163] [INFO] Shutting down
+[2023-09-21 07:07:46 +0000] [296198] [INFO] Waiting for application shutdown.
+[2023-09-21 07:07:46 +0000] [296198] [INFO] Application shutdown complete.
+[2023-09-21 07:07:46 +0000] [296198] [INFO] Finished server process [296198]
+[2023-09-21 07:07:46 +0000] [296198] [INFO] Worker exiting (pid: 296198)
+[2023-09-21 07:07:46 +0000] [240163] [INFO] Waiting for application shutdown.
+[2023-09-21 07:07:46 +0000] [240163] [INFO] Application shutdown complete.
+[2023-09-21 07:07:46 +0000] [240163] [INFO] Finished server process [240163]
+[2023-09-21 07:07:46 +0000] [240163] [INFO] Worker exiting (pid: 240163)
+[2023-09-21 07:07:48 +0000] [240155] [INFO] Shutting down: Master
+[2023-09-21 07:08:13 +0000] [691] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 07:08:13 +0000] [691] [INFO] Listening at: http://0.0.0.0:9000 (691)
+[2023-09-21 07:08:13 +0000] [691] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-21 07:08:13 +0000] [786] [INFO] Booting worker with pid: 786
+[2023-09-21 07:08:13 +0000] [787] [INFO] Booting worker with pid: 787
+[2023-09-21 07:08:40 +0000] [786] [INFO] Started server process [786]
+[2023-09-21 07:08:40 +0000] [787] [INFO] Started server process [787]
+[2023-09-21 07:08:40 +0000] [786] [INFO] Waiting for application startup.
+[2023-09-21 07:08:40 +0000] [787] [INFO] Waiting for application startup.
+[2023-09-21 07:08:40 +0000] [786] [INFO] Application startup complete.
+[2023-09-21 07:08:40 +0000] [787] [INFO] Application startup complete.
+[2023-09-21 09:13:53 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:787)
+[2023-09-21 09:15:11 +0000] [691] [ERROR] Worker (pid:787) was sent SIGKILL! Perhaps out of memory?
+[2023-09-21 09:15:11 +0000] [5866] [INFO] Booting worker with pid: 5866
+[2023-09-21 09:15:37 +0000] [5866] [INFO] Started server process [5866]
+[2023-09-21 09:15:37 +0000] [5866] [INFO] Waiting for application startup.
+[2023-09-21 09:15:37 +0000] [5866] [INFO] Application startup complete.
+[2023-09-21 09:22:04 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:786)
+[2023-09-21 09:23:39 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:5866)
+[2023-09-21 09:26:17 +0000] [691] [ERROR] Worker (pid:786) was sent SIGKILL! Perhaps out of memory?
+[2023-09-21 09:26:17 +0000] [6940] [INFO] Booting worker with pid: 6940
+[2023-09-21 09:26:18 +0000] [691] [ERROR] Worker (pid:5866) was sent SIGKILL! Perhaps out of memory?
+[2023-09-21 09:26:18 +0000] [6946] [INFO] Booting worker with pid: 6946
+[2023-09-21 09:26:40 +0000] [6940] [INFO] Started server process [6940]
+[2023-09-21 09:26:40 +0000] [6946] [INFO] Started server process [6946]
+[2023-09-21 09:26:40 +0000] [6940] [INFO] Waiting for application startup.
+[2023-09-21 09:26:40 +0000] [6946] [INFO] Waiting for application startup.
+[2023-09-21 09:26:40 +0000] [6940] [INFO] Application startup complete.
+[2023-09-21 09:26:40 +0000] [6946] [INFO] Application startup complete.
+[2023-09-22 08:18:09 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:6940)
+[2023-09-22 08:18:09 +0000] [691] [ERROR] Worker (pid:6940) was sent code 134!
+[2023-09-22 08:18:09 +0000] [18731] [INFO] Booting worker with pid: 18731
+[2023-09-22 08:18:26 +0000] [18731] [INFO] Started server process [18731]
+[2023-09-22 08:18:26 +0000] [18731] [INFO] Waiting for application startup.
+[2023-09-22 08:18:26 +0000] [18731] [INFO] Application startup complete.
+[2023-09-22 09:39:34 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:6946)
+[2023-09-22 09:40:41 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:18731)
+[2023-09-22 09:41:08 +0000] [691] [ERROR] Worker (pid:6946) was sent SIGKILL! Perhaps out of memory?
+[2023-09-22 09:41:08 +0000] [19268] [INFO] Booting worker with pid: 19268
+[2023-09-22 09:41:09 +0000] [691] [ERROR] Worker (pid:18731) was sent code 134!
+[2023-09-22 09:41:09 +0000] [19277] [INFO] Booting worker with pid: 19277
+[2023-09-22 09:41:30 +0000] [19277] [INFO] Started server process [19277]
+[2023-09-22 09:41:30 +0000] [19277] [INFO] Waiting for application startup.
+[2023-09-22 09:41:30 +0000] [19268] [INFO] Started server process [19268]
+[2023-09-22 09:41:30 +0000] [19268] [INFO] Waiting for application startup.
+[2023-09-22 09:41:30 +0000] [19277] [INFO] Application startup complete.
+[2023-09-22 09:41:30 +0000] [19268] [INFO] Application startup complete.
+[2023-09-22 12:04:04 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:19277)
+[2023-09-22 12:07:09 +0000] [691] [CRITICAL] WORKER TIMEOUT (pid:19268)
+[2023-09-22 12:12:11 +0000] [691] [ERROR] Worker (pid:19277) was sent SIGKILL! Perhaps out of memory?
+[2023-09-22 12:12:11 +0000] [21553] [INFO] Booting worker with pid: 21553
+[2023-09-22 12:12:11 +0000] [691] [ERROR] Worker (pid:19268) was sent SIGKILL! Perhaps out of memory?
+[2023-09-22 12:12:11 +0000] [21554] [INFO] Booting worker with pid: 21554
+[2023-09-22 12:12:33 +0000] [21554] [INFO] Started server process [21554]
+[2023-09-22 12:12:33 +0000] [21553] [INFO] Started server process [21553]
+[2023-09-22 12:12:33 +0000] [21554] [INFO] Waiting for application startup.
+[2023-09-22 12:12:33 +0000] [21553] [INFO] Waiting for application startup.
+[2023-09-22 12:12:33 +0000] [21554] [INFO] Application startup complete.
+[2023-09-22 12:12:33 +0000] [21553] [INFO] Application startup complete.
+[2023-09-25 08:48:06 +0000] [691] [INFO] Handling signal: term
+[2023-09-25 08:48:06 +0000] [21554] [INFO] Shutting down
+[2023-09-25 08:48:06 +0000] [21553] [INFO] Shutting down
+[2023-09-25 08:48:06 +0000] [21554] [INFO] Waiting for application shutdown.
+[2023-09-25 08:48:06 +0000] [21554] [INFO] Application shutdown complete.
+[2023-09-25 08:48:06 +0000] [21554] [INFO] Finished server process [21554]
+[2023-09-25 08:48:06 +0000] [21553] [INFO] Waiting for application shutdown.
+[2023-09-25 08:48:06 +0000] [21554] [INFO] Worker exiting (pid: 21554)
+[2023-09-25 08:48:06 +0000] [21553] [INFO] Application shutdown complete.
+[2023-09-25 08:48:06 +0000] [21553] [INFO] Finished server process [21553]
+[2023-09-25 08:48:06 +0000] [21553] [INFO] Worker exiting (pid: 21553)
+[2023-09-25 08:48:08 +0000] [691] [INFO] Shutting down: Master
+[2023-09-25 08:48:31 +0000] [747] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 08:48:31 +0000] [747] [INFO] Listening at: http://0.0.0.0:9000 (747)
+[2023-09-25 08:48:31 +0000] [747] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 08:48:31 +0000] [836] [INFO] Booting worker with pid: 836
+[2023-09-25 08:48:31 +0000] [845] [INFO] Booting worker with pid: 845
+[2023-09-25 08:48:54 +0000] [747] [INFO] Handling signal: term
+[2023-09-25 08:48:54 +0000] [747] [ERROR] Worker (pid:836) was sent SIGTERM!
+[2023-09-25 08:48:54 +0000] [747] [ERROR] Worker (pid:845) was sent SIGTERM!
+[2023-09-25 08:48:54 +0000] [747] [INFO] Shutting down: Master
+[2023-09-25 08:49:21 +0000] [757] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 08:49:21 +0000] [757] [INFO] Listening at: http://0.0.0.0:9000 (757)
+[2023-09-25 08:49:21 +0000] [757] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 08:49:21 +0000] [830] [INFO] Booting worker with pid: 830
+[2023-09-25 08:49:21 +0000] [845] [INFO] Booting worker with pid: 845
+[2023-09-25 08:49:46 +0000] [830] [INFO] Started server process [830]
+[2023-09-25 08:49:46 +0000] [845] [INFO] Started server process [845]
+[2023-09-25 08:49:46 +0000] [845] [INFO] Waiting for application startup.
+[2023-09-25 08:49:46 +0000] [830] [INFO] Waiting for application startup.
+[2023-09-25 08:49:46 +0000] [845] [INFO] Application startup complete.
+[2023-09-25 08:49:46 +0000] [830] [INFO] Application startup complete.
+[2023-09-25 08:49:53 +0000] [757] [INFO] Handling signal: term
+[2023-09-25 08:49:53 +0000] [830] [INFO] Shutting down
+[2023-09-25 08:49:53 +0000] [845] [INFO] Shutting down
+[2023-09-25 08:49:53 +0000] [830] [INFO] Waiting for application shutdown.
+[2023-09-25 08:49:53 +0000] [830] [INFO] Application shutdown complete.
+[2023-09-25 08:49:53 +0000] [845] [INFO] Waiting for application shutdown.
+[2023-09-25 08:49:53 +0000] [830] [INFO] Finished server process [830]
+[2023-09-25 08:49:53 +0000] [845] [INFO] Application shutdown complete.
+[2023-09-25 08:49:53 +0000] [845] [INFO] Finished server process [845]
+[2023-09-25 08:49:53 +0000] [830] [INFO] Worker exiting (pid: 830)
+[2023-09-25 08:49:53 +0000] [845] [INFO] Worker exiting (pid: 845)
+[2023-09-25 08:49:54 +0000] [757] [INFO] Shutting down: Master
+[2023-09-25 08:51:28 +0000] [738] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 08:51:28 +0000] [738] [INFO] Listening at: http://0.0.0.0:9000 (738)
+[2023-09-25 08:51:28 +0000] [738] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 08:51:28 +0000] [817] [INFO] Booting worker with pid: 817
+[2023-09-25 08:51:28 +0000] [816] [INFO] Booting worker with pid: 816
+[2023-09-25 08:51:54 +0000] [817] [INFO] Started server process [817]
+[2023-09-25 08:51:54 +0000] [816] [INFO] Started server process [816]
+[2023-09-25 08:51:54 +0000] [816] [INFO] Waiting for application startup.
+[2023-09-25 08:51:54 +0000] [817] [INFO] Waiting for application startup.
+[2023-09-25 08:51:54 +0000] [816] [INFO] Application startup complete.
+[2023-09-25 08:51:54 +0000] [817] [INFO] Application startup complete.
+[2023-09-25 09:03:29 +0000] [738] [INFO] Handling signal: term
+[2023-09-25 09:03:29 +0000] [817] [INFO] Shutting down
+[2023-09-25 09:03:29 +0000] [816] [INFO] Shutting down
+[2023-09-25 09:03:29 +0000] [817] [INFO] Waiting for application shutdown.
+[2023-09-25 09:03:29 +0000] [817] [INFO] Application shutdown complete.
+[2023-09-25 09:03:29 +0000] [817] [INFO] Finished server process [817]
+[2023-09-25 09:03:29 +0000] [817] [INFO] Worker exiting (pid: 817)
+[2023-09-25 09:03:29 +0000] [816] [INFO] Waiting for application shutdown.
+[2023-09-25 09:03:29 +0000] [816] [INFO] Application shutdown complete.
+[2023-09-25 09:03:29 +0000] [816] [INFO] Finished server process [816]
+[2023-09-25 09:03:29 +0000] [816] [INFO] Worker exiting (pid: 816)
+[2023-09-25 09:03:30 +0000] [738] [INFO] Shutting down: Master
+[2023-09-25 09:03:54 +0000] [742] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 09:03:54 +0000] [742] [INFO] Listening at: http://0.0.0.0:9000 (742)
+[2023-09-25 09:03:54 +0000] [742] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 09:03:54 +0000] [839] [INFO] Booting worker with pid: 839
+[2023-09-25 09:03:54 +0000] [843] [INFO] Booting worker with pid: 843
+[2023-09-25 09:04:18 +0000] [843] [INFO] Started server process [843]
+[2023-09-25 09:04:18 +0000] [843] [INFO] Waiting for application startup.
+[2023-09-25 09:04:18 +0000] [839] [INFO] Started server process [839]
+[2023-09-25 09:04:18 +0000] [839] [INFO] Waiting for application startup.
+[2023-09-25 09:04:18 +0000] [843] [INFO] Application startup complete.
+[2023-09-25 09:04:18 +0000] [839] [INFO] Application startup complete.
+[2023-09-25 09:26:01 +0000] [742] [INFO] Handling signal: term
+[2023-09-25 09:26:01 +0000] [839] [INFO] Shutting down
+[2023-09-25 09:26:01 +0000] [843] [INFO] Shutting down
+[2023-09-25 09:26:01 +0000] [839] [INFO] Waiting for application shutdown.
+[2023-09-25 09:26:01 +0000] [839] [INFO] Application shutdown complete.
+[2023-09-25 09:26:01 +0000] [839] [INFO] Finished server process [839]
+[2023-09-25 09:26:01 +0000] [839] [INFO] Worker exiting (pid: 839)
+[2023-09-25 09:26:01 +0000] [843] [INFO] Waiting for application shutdown.
+[2023-09-25 09:26:01 +0000] [843] [INFO] Application shutdown complete.
+[2023-09-25 09:26:01 +0000] [843] [INFO] Finished server process [843]
+[2023-09-25 09:26:01 +0000] [843] [INFO] Worker exiting (pid: 843)
+[2023-09-25 09:26:03 +0000] [742] [INFO] Shutting down: Master
+[2023-09-25 09:27:35 +0000] [803] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 09:27:35 +0000] [803] [INFO] Listening at: http://0.0.0.0:9000 (803)
+[2023-09-25 09:27:35 +0000] [803] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 09:27:35 +0000] [854] [INFO] Booting worker with pid: 854
+[2023-09-25 09:27:35 +0000] [869] [INFO] Booting worker with pid: 869
+[2023-09-25 09:27:59 +0000] [854] [INFO] Started server process [854]
+[2023-09-25 09:27:59 +0000] [869] [INFO] Started server process [869]
+[2023-09-25 09:27:59 +0000] [869] [INFO] Waiting for application startup.
+[2023-09-25 09:27:59 +0000] [854] [INFO] Waiting for application startup.
+[2023-09-25 09:27:59 +0000] [854] [INFO] Application startup complete.
+[2023-09-25 09:27:59 +0000] [869] [INFO] Application startup complete.
+[2023-09-25 09:35:41 +0000] [803] [INFO] Handling signal: term
+[2023-09-25 09:35:41 +0000] [854] [INFO] Shutting down
+[2023-09-25 09:35:41 +0000] [869] [INFO] Shutting down
+[2023-09-25 09:35:41 +0000] [854] [INFO] Waiting for application shutdown.
+[2023-09-25 09:35:41 +0000] [854] [INFO] Application shutdown complete.
+[2023-09-25 09:35:41 +0000] [854] [INFO] Finished server process [854]
+[2023-09-25 09:35:41 +0000] [854] [INFO] Worker exiting (pid: 854)
+[2023-09-25 09:35:41 +0000] [869] [INFO] Waiting for application shutdown.
+[2023-09-25 09:35:41 +0000] [869] [INFO] Application shutdown complete.
+[2023-09-25 09:35:41 +0000] [869] [INFO] Finished server process [869]
+[2023-09-25 09:35:41 +0000] [869] [INFO] Worker exiting (pid: 869)
+[2023-09-25 09:35:43 +0000] [803] [INFO] Shutting down: Master
+[2023-09-25 09:38:26 +0000] [754] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 09:38:26 +0000] [754] [INFO] Listening at: http://0.0.0.0:9000 (754)
+[2023-09-25 09:38:26 +0000] [754] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 09:38:26 +0000] [841] [INFO] Booting worker with pid: 841
+[2023-09-25 09:38:26 +0000] [846] [INFO] Booting worker with pid: 846
+[2023-09-25 09:38:52 +0000] [841] [INFO] Started server process [841]
+[2023-09-25 09:38:52 +0000] [846] [INFO] Started server process [846]
+[2023-09-25 09:38:52 +0000] [841] [INFO] Waiting for application startup.
+[2023-09-25 09:38:52 +0000] [846] [INFO] Waiting for application startup.
+[2023-09-25 09:38:52 +0000] [841] [INFO] Application startup complete.
+[2023-09-25 09:38:52 +0000] [846] [INFO] Application startup complete.
+[2023-09-25 10:01:23 +0000] [754] [INFO] Handling signal: term
+[2023-09-25 10:01:23 +0000] [841] [INFO] Shutting down
+[2023-09-25 10:01:23 +0000] [846] [INFO] Shutting down
+[2023-09-25 10:01:23 +0000] [841] [INFO] Waiting for application shutdown.
+[2023-09-25 10:01:23 +0000] [841] [INFO] Application shutdown complete.
+[2023-09-25 10:01:23 +0000] [841] [INFO] Finished server process [841]
+[2023-09-25 10:01:23 +0000] [841] [INFO] Worker exiting (pid: 841)
+[2023-09-25 10:01:23 +0000] [846] [INFO] Waiting for application shutdown.
+[2023-09-25 10:01:23 +0000] [846] [INFO] Application shutdown complete.
+[2023-09-25 10:01:23 +0000] [846] [INFO] Finished server process [846]
+[2023-09-25 10:01:23 +0000] [846] [INFO] Worker exiting (pid: 846)
+[2023-09-25 10:01:24 +0000] [754] [INFO] Shutting down: Master
+[2023-09-25 10:19:29 +0000] [757] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 10:19:29 +0000] [757] [INFO] Listening at: http://0.0.0.0:9000 (757)
+[2023-09-25 10:19:29 +0000] [757] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 10:19:29 +0000] [827] [INFO] Booting worker with pid: 827
+[2023-09-25 10:19:29 +0000] [835] [INFO] Booting worker with pid: 835
+[2023-09-25 10:19:57 +0000] [835] [INFO] Started server process [835]
+[2023-09-25 10:19:57 +0000] [827] [INFO] Started server process [827]
+[2023-09-25 10:19:57 +0000] [827] [INFO] Waiting for application startup.
+[2023-09-25 10:19:57 +0000] [835] [INFO] Waiting for application startup.
+[2023-09-25 10:19:57 +0000] [827] [INFO] Application startup complete.
+[2023-09-25 10:19:57 +0000] [835] [INFO] Application startup complete.
+[2023-09-25 10:56:37 +0000] [757] [INFO] Handling signal: term
+[2023-09-25 10:56:37 +0000] [827] [INFO] Shutting down
+[2023-09-25 10:56:37 +0000] [835] [INFO] Shutting down
+[2023-09-25 10:56:37 +0000] [835] [INFO] Waiting for application shutdown.
+[2023-09-25 10:56:37 +0000] [827] [INFO] Waiting for application shutdown.
+[2023-09-25 10:56:37 +0000] [835] [INFO] Application shutdown complete.
+[2023-09-25 10:56:37 +0000] [835] [INFO] Finished server process [835]
+[2023-09-25 10:56:37 +0000] [827] [INFO] Application shutdown complete.
+[2023-09-25 10:56:37 +0000] [827] [INFO] Finished server process [827]
+[2023-09-25 10:56:37 +0000] [835] [INFO] Worker exiting (pid: 835)
+[2023-09-25 10:56:37 +0000] [827] [INFO] Worker exiting (pid: 827)
+[2023-09-25 10:56:38 +0000] [757] [INFO] Shutting down: Master
+[2023-09-25 11:09:41 +0000] [742] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 11:09:41 +0000] [742] [INFO] Listening at: http://0.0.0.0:9000 (742)
+[2023-09-25 11:09:41 +0000] [742] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 11:09:41 +0000] [835] [INFO] Booting worker with pid: 835
+[2023-09-25 11:09:41 +0000] [837] [INFO] Booting worker with pid: 837
+[2023-09-25 11:10:04 +0000] [837] [INFO] Started server process [837]
+[2023-09-25 11:10:04 +0000] [835] [INFO] Started server process [835]
+[2023-09-25 11:10:04 +0000] [835] [INFO] Waiting for application startup.
+[2023-09-25 11:10:04 +0000] [837] [INFO] Waiting for application startup.
+[2023-09-25 11:10:04 +0000] [835] [INFO] Application startup complete.
+[2023-09-25 11:10:04 +0000] [837] [INFO] Application startup complete.
+[2023-09-25 11:38:40 +0000] [742] [INFO] Handling signal: term
+[2023-09-25 11:38:40 +0000] [835] [INFO] Shutting down
+[2023-09-25 11:38:40 +0000] [837] [INFO] Shutting down
+[2023-09-25 11:38:40 +0000] [835] [INFO] Waiting for application shutdown.
+[2023-09-25 11:38:40 +0000] [835] [INFO] Application shutdown complete.
+[2023-09-25 11:38:40 +0000] [835] [INFO] Finished server process [835]
+[2023-09-25 11:38:40 +0000] [835] [INFO] Worker exiting (pid: 835)
+[2023-09-25 11:38:40 +0000] [837] [INFO] Waiting for application shutdown.
+[2023-09-25 11:38:40 +0000] [837] [INFO] Application shutdown complete.
+[2023-09-25 11:38:40 +0000] [837] [INFO] Finished server process [837]
+[2023-09-25 11:38:40 +0000] [837] [INFO] Worker exiting (pid: 837)
+[2023-09-25 11:38:42 +0000] [742] [INFO] Shutting down: Master
+[2023-09-25 11:39:04 +0000] [769] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 11:39:04 +0000] [769] [INFO] Listening at: http://0.0.0.0:9000 (769)
+[2023-09-25 11:39:04 +0000] [769] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 11:39:04 +0000] [800] [INFO] Booting worker with pid: 800
+[2023-09-25 11:39:04 +0000] [801] [INFO] Booting worker with pid: 801
+[2023-09-25 11:39:34 +0000] [769] [CRITICAL] WORKER TIMEOUT (pid:800)
+[2023-09-25 11:39:34 +0000] [769] [CRITICAL] WORKER TIMEOUT (pid:801)
+[2023-09-25 11:39:35 +0000] [769] [ERROR] Worker (pid:800) was sent code 134!
+[2023-09-25 11:39:35 +0000] [1011] [INFO] Booting worker with pid: 1011
+[2023-09-25 11:39:35 +0000] [769] [ERROR] Worker (pid:801) was sent code 134!
+[2023-09-25 11:39:35 +0000] [1012] [INFO] Booting worker with pid: 1012
+[2023-09-25 11:39:42 +0000] [1011] [INFO] Started server process [1011]
+[2023-09-25 11:39:42 +0000] [1011] [INFO] Waiting for application startup.
+[2023-09-25 11:39:42 +0000] [1012] [INFO] Started server process [1012]
+[2023-09-25 11:39:42 +0000] [1012] [INFO] Waiting for application startup.
+[2023-09-25 11:39:42 +0000] [1011] [INFO] Application startup complete.
+[2023-09-25 11:39:42 +0000] [1012] [INFO] Application startup complete.
+[2023-09-25 12:13:36 +0000] [769] [INFO] Handling signal: term
+[2023-09-25 12:13:36 +0000] [1012] [INFO] Shutting down
+[2023-09-25 12:13:37 +0000] [1011] [INFO] Shutting down
+[2023-09-25 12:13:37 +0000] [1012] [INFO] Waiting for application shutdown.
+[2023-09-25 12:13:37 +0000] [1012] [INFO] Application shutdown complete.
+[2023-09-25 12:13:37 +0000] [1012] [INFO] Finished server process [1012]
+[2023-09-25 12:13:37 +0000] [1012] [INFO] Worker exiting (pid: 1012)
+[2023-09-25 12:13:37 +0000] [1011] [INFO] Waiting for application shutdown.
+[2023-09-25 12:13:37 +0000] [1011] [INFO] Application shutdown complete.
+[2023-09-25 12:13:37 +0000] [1011] [INFO] Finished server process [1011]
+[2023-09-25 12:13:37 +0000] [1011] [INFO] Worker exiting (pid: 1011)
+[2023-09-25 12:13:38 +0000] [769] [INFO] Shutting down: Master
+[2023-09-25 12:28:24 +0000] [737] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 12:28:24 +0000] [737] [INFO] Listening at: http://0.0.0.0:9000 (737)
+[2023-09-25 12:28:24 +0000] [737] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 12:28:24 +0000] [828] [INFO] Booting worker with pid: 828
+[2023-09-25 12:28:24 +0000] [849] [INFO] Booting worker with pid: 849
+[2023-09-25 12:28:48 +0000] [849] [INFO] Started server process [849]
+[2023-09-25 12:28:48 +0000] [849] [INFO] Waiting for application startup.
+[2023-09-25 12:28:48 +0000] [828] [INFO] Started server process [828]
+[2023-09-25 12:28:48 +0000] [828] [INFO] Waiting for application startup.
+[2023-09-25 12:28:48 +0000] [849] [INFO] Application startup complete.
+[2023-09-25 12:28:48 +0000] [828] [INFO] Application startup complete.
+[2023-09-25 12:37:55 +0000] [737] [INFO] Handling signal: term
+[2023-09-25 12:37:55 +0000] [849] [INFO] Shutting down
+[2023-09-25 12:37:55 +0000] [828] [INFO] Shutting down
+[2023-09-25 12:37:55 +0000] [849] [INFO] Waiting for application shutdown.
+[2023-09-25 12:37:55 +0000] [849] [INFO] Application shutdown complete.
+[2023-09-25 12:37:55 +0000] [849] [INFO] Finished server process [849]
+[2023-09-25 12:37:55 +0000] [849] [INFO] Worker exiting (pid: 849)
+[2023-09-25 12:37:55 +0000] [828] [INFO] Waiting for application shutdown.
+[2023-09-25 12:37:55 +0000] [828] [INFO] Application shutdown complete.
+[2023-09-25 12:37:55 +0000] [828] [INFO] Finished server process [828]
+[2023-09-25 12:37:55 +0000] [828] [INFO] Worker exiting (pid: 828)
+[2023-09-25 12:37:56 +0000] [737] [INFO] Shutting down: Master
+[2023-09-25 12:39:53 +0000] [746] [INFO] Starting gunicorn 21.2.0
+[2023-09-25 12:39:53 +0000] [746] [INFO] Listening at: http://0.0.0.0:9000 (746)
+[2023-09-25 12:39:53 +0000] [746] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-25 12:39:53 +0000] [845] [INFO] Booting worker with pid: 845
+[2023-09-25 12:39:53 +0000] [857] [INFO] Booting worker with pid: 857
+[2023-09-25 12:40:23 +0000] [746] [CRITICAL] WORKER TIMEOUT (pid:845)
+[2023-09-25 12:40:23 +0000] [746] [CRITICAL] WORKER TIMEOUT (pid:857)
+[2023-09-25 12:40:23 +0000] [746] [ERROR] Worker (pid:857) was sent code 134!
+[2023-09-25 12:40:23 +0000] [1657] [INFO] Booting worker with pid: 1657
+[2023-09-25 12:40:23 +0000] [746] [ERROR] Worker (pid:845) was sent code 134!
+[2023-09-25 12:40:23 +0000] [1658] [INFO] Booting worker with pid: 1658
+[2023-09-25 12:40:32 +0000] [1658] [INFO] Started server process [1658]
+[2023-09-25 12:40:32 +0000] [1657] [INFO] Started server process [1657]
+[2023-09-25 12:40:32 +0000] [1658] [INFO] Waiting for application startup.
+[2023-09-25 12:40:32 +0000] [1657] [INFO] Waiting for application startup.
+[2023-09-25 12:40:32 +0000] [1658] [INFO] Application startup complete.
+[2023-09-25 12:40:32 +0000] [1657] [INFO] Application startup complete.
+[2023-09-26 05:01:04 +0000] [746] [CRITICAL] WORKER TIMEOUT (pid:1658)
+[2023-09-26 05:01:04 +0000] [746] [ERROR] Worker (pid:1658) was sent code 134!
+[2023-09-26 05:01:04 +0000] [14398] [INFO] Booting worker with pid: 14398
+[2023-09-26 05:01:19 +0000] [14398] [INFO] Started server process [14398]
+[2023-09-26 05:01:19 +0000] [14398] [INFO] Waiting for application startup.
+[2023-09-26 05:01:19 +0000] [14398] [INFO] Application startup complete.
+[2023-09-30 05:43:59 +0000] [746] [CRITICAL] WORKER TIMEOUT (pid:14398)
+[2023-09-30 05:43:59 +0000] [746] [ERROR] Worker (pid:14398) was sent code 134!
+[2023-09-30 05:43:59 +0000] [98878] [INFO] Booting worker with pid: 98878
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-09-30 05:44:15 +0000] [98878] [INFO] Started server process [98878]
+[2023-09-30 05:44:15 +0000] [98878] [INFO] Waiting for application startup.
+[2023-09-30 05:44:15 +0000] [98878] [INFO] Application startup complete.
+[2023-09-30 12:20:59 +0000] [746] [INFO] Handling signal: term
+[2023-09-30 12:20:59 +0000] [1657] [INFO] Shutting down
+[2023-09-30 12:20:59 +0000] [98878] [INFO] Shutting down
+[2023-09-30 12:20:59 +0000] [1657] [INFO] Waiting for application shutdown.
+[2023-09-30 12:20:59 +0000] [98878] [INFO] Waiting for application shutdown.
+[2023-09-30 12:20:59 +0000] [98878] [INFO] Application shutdown complete.
+[2023-09-30 12:20:59 +0000] [98878] [INFO] Finished server process [98878]
+[2023-09-30 12:20:59 +0000] [1657] [INFO] Application shutdown complete.
+[2023-09-30 12:20:59 +0000] [1657] [INFO] Finished server process [1657]
+[2023-09-30 12:20:59 +0000] [98878] [INFO] Worker exiting (pid: 98878)
+[2023-09-30 12:20:59 +0000] [1657] [INFO] Worker exiting (pid: 1657)
+[2023-09-30 12:21:01 +0000] [746] [INFO] Shutting down: Master
+[2023-09-30 12:21:10 +0000] [100144] [INFO] Starting gunicorn 21.2.0
+[2023-09-30 12:21:10 +0000] [100144] [INFO] Listening at: http://0.0.0.0:9000 (100144)
+[2023-09-30 12:21:10 +0000] [100144] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-09-30 12:21:10 +0000] [100156] [INFO] Booting worker with pid: 100156
+[2023-09-30 12:21:10 +0000] [100160] [INFO] Booting worker with pid: 100160
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-09-30 12:21:21 +0000] [100160] [INFO] Started server process [100160]
+[2023-09-30 12:21:21 +0000] [100160] [INFO] Waiting for application startup.
+[2023-09-30 12:21:21 +0000] [100160] [INFO] Application startup complete.
+[2023-09-30 12:21:21 +0000] [100156] [INFO] Started server process [100156]
+[2023-09-30 12:21:21 +0000] [100156] [INFO] Waiting for application startup.
+[2023-09-30 12:21:21 +0000] [100156] [INFO] Application startup complete.
+[2023-10-04 07:32:48 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:100156)
+[2023-10-04 07:34:25 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:100160)
+[2023-10-04 07:35:47 +0000] [100144] [ERROR] Worker (pid:100156) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:35:47 +0000] [112714] [INFO] Booting worker with pid: 112714
+[2023-10-04 07:35:47 +0000] [100144] [ERROR] Worker (pid:100160) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:35:47 +0000] [112717] [INFO] Booting worker with pid: 112717
+[2023-10-04 07:36:35 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:112714)
+[2023-10-04 07:38:19 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:112717)
+[2023-10-04 07:40:31 +0000] [100144] [ERROR] Worker (pid:112714) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:40:32 +0000] [113190] [INFO] Booting worker with pid: 113190
+[2023-10-04 07:40:32 +0000] [100144] [ERROR] Worker (pid:112717) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:40:32 +0000] [113192] [INFO] Booting worker with pid: 113192
+[2023-10-04 07:41:19 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:113192)
+[2023-10-04 07:42:54 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:113190)
+[2023-10-04 07:46:54 +0000] [100144] [ERROR] Worker (pid:113192) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:46:54 +0000] [113864] [INFO] Booting worker with pid: 113864
+[2023-10-04 07:46:54 +0000] [100144] [ERROR] Worker (pid:113190) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 07:46:54 +0000] [113867] [INFO] Booting worker with pid: 113867
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+2023-10-04 07:47:14.462197: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 07:47:14.462198: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 07:47:16.085513: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-10-04 07:47:16.085512: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-10-04 07:47:18.709108: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 07:47:18.709108: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 07:47:18.727128: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 07:47:18.727148: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 07:47:18.735576: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 07:47:18.735963: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-10-04 07:47:20 +0000] [113867] [INFO] Started server process [113867]
+[2023-10-04 07:47:20 +0000] [113864] [INFO] Started server process [113864]
+[2023-10-04 07:47:20 +0000] [113864] [INFO] Waiting for application startup.
+[2023-10-04 07:47:20 +0000] [113867] [INFO] Waiting for application startup.
+[2023-10-04 07:47:20 +0000] [113864] [INFO] Application startup complete.
+[2023-10-04 07:47:20 +0000] [113867] [INFO] Application startup complete.
+[2023-10-04 08:41:41 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:113864)
+[2023-10-04 08:42:54 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:113867)
+[2023-10-04 08:43:08 +0000] [100144] [ERROR] Worker (pid:113867) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:43:08 +0000] [100144] [ERROR] Worker (pid:113864) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:43:08 +0000] [119683] [INFO] Booting worker with pid: 119683
+[2023-10-04 08:43:08 +0000] [119684] [INFO] Booting worker with pid: 119684
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-10-04 08:43:47 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:119683)
+[2023-10-04 08:44:08 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:119684)
+[2023-10-04 08:45:05 +0000] [100144] [ERROR] Worker (pid:119683) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:45:05 +0000] [100144] [ERROR] Worker (pid:119684) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:45:05 +0000] [120375] [INFO] Booting worker with pid: 120375
+[2023-10-04 08:45:05 +0000] [120376] [INFO] Booting worker with pid: 120376
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-10-04 08:45:47 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:120376)
+[2023-10-04 08:47:29 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:120375)
+[2023-10-04 08:49:45 +0000] [100144] [ERROR] Worker (pid:120376) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:49:45 +0000] [120618] [INFO] Booting worker with pid: 120618
+[2023-10-04 08:49:45 +0000] [100144] [ERROR] Worker (pid:120375) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:49:45 +0000] [120622] [INFO] Booting worker with pid: 120622
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-10-04 08:50:32 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:120618)
+[2023-10-04 08:51:56 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:120622)
+[2023-10-04 08:53:11 +0000] [100144] [ERROR] Worker (pid:120618) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:53:11 +0000] [121337] [INFO] Booting worker with pid: 121337
+[2023-10-04 08:53:11 +0000] [100144] [ERROR] Worker (pid:120622) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:53:11 +0000] [121346] [INFO] Booting worker with pid: 121346
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-10-04 08:54:01 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:121337)
+[2023-10-04 08:55:13 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:121346)
+[2023-10-04 08:56:23 +0000] [100144] [ERROR] Worker (pid:121337) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:56:24 +0000] [100144] [ERROR] Worker (pid:121346) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 08:56:24 +0000] [121672] [INFO] Booting worker with pid: 121672
+[2023-10-04 08:56:24 +0000] [121674] [INFO] Booting worker with pid: 121674
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2023-10-04 08:58:12 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:121672)
+[2023-10-04 09:05:45 +0000] [100144] [CRITICAL] WORKER TIMEOUT (pid:121674)
+[2023-10-04 09:05:46 +0000] [100144] [ERROR] Worker (pid:121674) was sent SIGKILL! Perhaps out of memory?
+[2023-10-04 09:05:46 +0000] [121872] [INFO] Booting worker with pid: 121872
+[2023-10-04 09:05:46 +0000] [100144] [ERROR] Worker (pid:121672) was sent code 134!
+[2023-10-04 09:05:46 +0000] [121873] [INFO] Booting worker with pid: 121873
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/ubuntu/intent_generation/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+2023-10-04 09:06:06.003320: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 09:06:06.003320: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 09:06:07.791127: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-10-04 09:06:07.791127: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-10-04 09:06:10.617336: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 09:06:10.617336: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 09:06:10.633910: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 09:06:10.633932: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 09:06:10.640538: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-04 09:06:10.640927: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-10-04 09:06:12 +0000] [121873] [INFO] Started server process [121873]
+[2023-10-04 09:06:12 +0000] [121872] [INFO] Started server process [121872]
+[2023-10-04 09:06:12 +0000] [121872] [INFO] Waiting for application startup.
+[2023-10-04 09:06:12 +0000] [121873] [INFO] Waiting for application startup.
+[2023-10-04 09:06:12 +0000] [121872] [INFO] Application startup complete.
+[2023-10-04 09:06:12 +0000] [121873] [INFO] Application startup complete.

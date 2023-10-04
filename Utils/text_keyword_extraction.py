@@ -62,7 +62,15 @@ def generate_keyword_list_v2(url_list, num_queries=10):
         keyword_list.append(f"{phrase.text}, rank={phrase.rank}, #count={phrase.count}")
     return (keyword_list, retrieved_url)
 
+
+
+
 def generate_keyword_list_v3(keyword, num_urls):
+    '''
+    keyword: string
+    num_urls: int
+    return -> (keyword_list:list[str], retrieved_url: list)
+    '''
     retrieved_url= generate_top_urls(keyword, num_urls)
     cleaned_text= generate_seo_metatitle(keyword, num_urls)
     try:
