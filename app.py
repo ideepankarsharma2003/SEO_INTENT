@@ -28,6 +28,7 @@ import json
 
 from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 from Utils.client import generate_top_urls
+from Utils.bert_fine_tuned_intent import get_intent
 
 
 
@@ -172,6 +173,26 @@ async def intent(text):
 
         # return (embeddings[0][0].item())
         return intent, score
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
+
+
+@app.get('/intent_bert')
+async def intent_bert(text):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # text= text.get("text")
+        
+        intent= get_intent(text)
+        # embeddings= embeddings.reshape(1, -1)
+        
+        # print(f"n_urls: {len(text)}")
+        # print(f"embeddings: {embeddings.shape}")
+
+        # return (embeddings[0][0].item())
+        return intent
     except Exception as e:
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
