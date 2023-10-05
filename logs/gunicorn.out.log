@@ -169,3 +169,11 @@ so far so good
 initializing app
 so far so good
 initializing app
+so far so good
+BERT model selected           : https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-8_H-512_A-8/1
+Preprocess model auto-selected: https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/2
+initializing app
+so far so good
+BERT model selected           : https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-8_H-512_A-8/1
+Preprocess model auto-selected: https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/2
+initializing app
