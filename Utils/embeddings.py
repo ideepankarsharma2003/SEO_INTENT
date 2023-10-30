@@ -11,7 +11,8 @@ import time
 
 
 # model_base = SentenceTransformer('thenlper/gte-base', device='cuda')
-model_base = SentenceTransformer('thenlper/gte-large', device='cuda')
+# model_base = SentenceTransformer('thenlper/gte-large', device='cuda')
+model_base = SentenceTransformer('llmrails/ember-v1', device='cuda')
 model_bge_large= model_base
 model_large= model_base
 # model_large = SentenceTransformer('thenlper/gte-large', device='cuda')
