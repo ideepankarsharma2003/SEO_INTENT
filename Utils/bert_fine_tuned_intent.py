@@ -184,4 +184,13 @@ def get_intent(keyword):
     
     print(f"maximum index: {max_index}, intent: {intent[max_index]}")
     print()
-    return intent[max_index]
+    raw_result_softmax= raw_result_softmax.numpy().tolist()
+    
+    d= {}
+    for i in range(5):
+        d[intent[i]]= str(raw_result_softmax[0][i])
+        
+    d["dominant_intent"]= intent[max_index]
+    print(d)
+    return  d
+

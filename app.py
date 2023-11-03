@@ -31,6 +31,7 @@ from Utils.client import generate_top_urls
 from Utils.get_intent_bert_basedANN import get_intent_one_by_one
 # from Utils.get_sentence_status import complete_sentence_analysis
 # from Utils.bert_fine_tuned_intent import get_intent
+# from main import generate_intent_v2
 
 
 
@@ -152,35 +153,50 @@ async def large(text:dict):
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
 '''
-
+'''
 @app.get('/train')
 async def trainRoute():
     os.system("python train.py")
     # os.system("dvc repro")
     return "Training done successfully!"
 
+'''
 
-@app.get('/intent')
-async def intent(text):
+# @app.get('/intent')
+# async def intent(text):
+    
+#     try: 
+#         # text= str_2_list_of_str(text)
+#         # text= text.get("text")
+        
+#         intent, score, similarity= generate_intent_v2(text)
+#         # embeddings= embeddings.reshape(1, -1)
+        
+#         # print(f"n_urls: {len(text)}")
+#         # print(f"embeddings: {embeddings.shape}")
+
+#         # return (embeddings[0][0].item())
+#         return intent, score
+#     except Exception as e:
+#         return Response(f'Error occured: {e}')
+#         # return Response(f'Error occured: {e}')
+
+'''
+@app.get('/intent_bert_based')
+async def intent_bert_based(text):
     
     try: 
         # text= str_2_list_of_str(text)
         # text= text.get("text")
         
-        intent, score, similarity= generate_intent_v2(text)
-        # embeddings= embeddings.reshape(1, -1)
-        
-        # print(f"n_urls: {len(text)}")
-        # print(f"embeddings: {embeddings.shape}")
-
-        # return (embeddings[0][0].item())
-        return intent, score
+        return get_intent(text)
+        return
     except Exception as e:
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
-
-@app.get('/intent_bert_based')
-async def intent_bert_based(text):
+'''
+@app.get('/intent_bert_based_v2')
+async def intent_bert_based_v2(text):
     
     try: 
         # text= str_2_list_of_str(text)
@@ -240,7 +256,7 @@ async def intent_bert(text):
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
 '''
-
+'''
 @app.get('/get_keywords')
 async def intent(text):
     
@@ -327,7 +343,7 @@ async def post_top_urls_metadescription(url:Url):
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
 
-
+'''
 
 
 # @app.post('/e5_large_v2')

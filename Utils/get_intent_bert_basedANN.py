@@ -25,7 +25,7 @@ from Utils.client import generate_seo_metatitle
 id2label= {0: 'Commercial', 1: 'Informational', 2: 'Navigational', 3: 'Transactional'}
 label2id= {'Commercial': 0, 'Informational': 1, 'Navigational': 2, 'Transactional': 3}
 
-model_name= "/home/ubuntu/SentenceStructureComparision/intent_classification_model_with_metatitle_with_local2/checkpoint-2700"
+model_name= "/home/ubuntu/FineTunedDistilledBertAIChecker/intent_classification_model_with_metatitle_with_local2/checkpoint-2700"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 model = AutoModelForSequenceClassification.from_pretrained(model_name).to("cuda")
@@ -44,6 +44,7 @@ def logit2prob(logit):
 
 def get_intent_one_by_one(keyword:str):
     inputs = tokenizer(generate_seo_metatitle(keyword), padding=True, truncation=True, return_tensors="pt").to("cuda")
+    # inputs = tokenizer(keyword, padding=True, truncation=True, return_tensors="pt").to("cuda")
     with torch.no_grad():
         logits = model(**inputs).logits
         
