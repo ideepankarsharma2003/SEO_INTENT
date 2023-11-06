@@ -22,13 +22,14 @@ class Keyword(BaseModel):
 class Url(BaseModel):
     keyword: str
     num_urls: int
+    keyword_list: list[str]
 
 
 import json
 
 from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 from Utils.client import generate_top_urls
-from Utils.get_intent_bert_basedANN import get_intent_one_by_one
+from Utils.get_intent_bert_basedANN import get_intent_one_by_one, get_intent_bulk
 # from Utils.get_sentence_status import complete_sentence_analysis
 # from Utils.bert_fine_tuned_intent import get_intent
 # from main import generate_intent_v2
@@ -213,6 +214,24 @@ async def intent_bert_based_v2(text):
     except Exception as e:
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
+        
+@app.post('/intent_bert_based_v2_bulk')
+async def intent_bert_based_v2_bulk(keyword:Url):
+    
+    try: 
+        # text= str_2_list_of_str(text)
+        # text= text.get("text")
+        # print(f"keywords= {keyword.keyword_list}")
+        
+        intent= get_intent_bulk(keyword.keyword_list)
+
+        # print(intent)
+        # print(type(intent))
+        # return [i['label'] for i in intent]
+        return intent
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
 
 
 
@@ -369,4 +388,6 @@ async def post_top_urls_metadescription(url:Url):
 
 
 if __name__=='__main__':
-    uvicorn.run(app, host='127.0.0.1', port=9003)
+    # uvicorn.run(app, host='127.0.0.1', port=9003)
+    # uvicorn.run(app, host='127.0.0.1', port=8081)
+    uvicorn.run(app, host='0.0.0.0', port=8081)
