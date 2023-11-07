@@ -51,6 +51,14 @@ def get_intent_bulk(keyword_list:list):
     return classifier(
         keyword_list
     )
+
+def get_intent_bulk_v2(keyword_list:list):
+    inputs = tokenizer(keyword_list, padding=True, truncation=True, return_tensors="pt").to("cuda")
+    with torch.no_grad():
+        logits = model(**inputs).logits
+    intent= [id2label[int(torch.argmax(i).cpu().numpy())] for i in logits]
+    torch.cuda.empty_cache()
+    return intent
     
     
     
