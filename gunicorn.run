@@ -1,13 +1,13 @@
 #! /bin/bash
 
 NAME=intentgen-fastapi
-DIR=/home/ubuntu/intent_generation
+DIR=/home/ubuntu/SEO_IntentGeneration
 USER=ubuntu
 GROUP=ubuntu
-WORKERS=2
+WORKERS=1
 WORKER_CLASS=uvicorn.workers.UvicornWorker
 VENV=$DIR/venv/bin/activate
-BIND=0.0.0.0:9000
+BIND=0.0.0.0:8081
 LOG_LEVEL=info
 
 cd $DIR
@@ -20,4 +20,5 @@ exec gunicorn app:app \
         --user=$USER \
         --group=$GROUP \
         --bind=$BIND \
-        --log-file=-
+        --log-file=- \
+        --timeout 300000 

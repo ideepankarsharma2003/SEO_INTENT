@@ -1,0 +1,3 @@
+$ sudo cp intent.conf /etc/supervisor/conf.d
+sudo supervisorctl reread
+sudo supervisorctl update

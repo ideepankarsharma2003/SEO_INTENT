@@ -224,3 +224,4 @@ tensorflow_hub
 tensorflow_text
 seaborn
 # pylab
+keybert
