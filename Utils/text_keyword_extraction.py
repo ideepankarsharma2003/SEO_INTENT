@@ -1,7 +1,7 @@
 from Utils.client import generate_top_urls, generate_seo_metatitle
 from Utils.basic_cleaner import clean
 import spacy
-import spacy_transformers
+# import spacy_transformers
 
 # nlp = spacy.load('en_core_web_trf')
 nlp = spacy.load('en_core_web_sm')
