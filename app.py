@@ -13,6 +13,8 @@ from starlette.responses import RedirectResponse
 #     # generate_e5_large_v2_embeddings,
 #     generate_intent_v2  
 #     )
+os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
+
 from utils.get_keywords_utils import generate_keywords_around_seed
 
 from pydantic import BaseModel
@@ -39,7 +41,7 @@ import json
 
 from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 from Utils.client import generate_top_urls
-# from Utils.get_intent_bert_basedANN import  get_intent_bulk
+from Utils.get_intent_bert_basedANN import  get_intent_bulk
 # from Utils.get_sentence_status import complete_sentence_analysis
 # from Utils.bert_fine_tuned_intent import get_intent
 # from main import generate_intent_v2
@@ -118,17 +120,17 @@ async def intent_bert_based(text):
 #         return Response(f'Error occured: {e}')
 #         # return Response(f'Error occured: {e}')
         
-# @app.post('/intent_bert_based_v2_bulk')
-# async def intent_bert_based_v2_bulk(keyword:Intent):
+@app.post('/intent_bert_based_v2_bulk')
+async def intent_bert_based_v2_bulk(keyword:Intent):
     
-#     try: 
+    try: 
         
-#         intent= get_intent_bulk(keyword.keyword_list)
+        intent= get_intent_bulk(keyword.keyword_list)
 
-#         return intent
-#     except Exception as e:
-#         return Response(f'Error occured: {e}')
-#         # return Response(f'Error occured: {e}')
+        return intent
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
 
 
 
