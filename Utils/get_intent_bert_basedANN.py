@@ -31,7 +31,7 @@ label2id= {'Commercial': 0, 'Informational': 1, 'Navigational': 2, 'Transactiona
 # model_name= "/home/ubuntu/FineTunedDistilledBertAIChecker/intent_classification_model_without_metatitle_with_local23/checkpoint-355"
 model_name= "ideepankarsharma2003/FinetunedIntentGeneration"
 # tokenizer = AutoTokenizer.from_pretrained(model_name)
-classifier = pipeline("text-classification", model=model_name)
+classifier = pipeline("text-classification", model=model_name, device=0)
 
 
 # model = AutoModelForSequenceClassification.from_pretrained(model_name).to("cuda")

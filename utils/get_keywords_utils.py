@@ -2,8 +2,8 @@
 from utils.client import generate_seo_metatitle
 from utils.cleaner import extract_paragraphs
 from keybert import KeyBERT
-# kw_model = KeyBERT(model='thenlper/gte-base')
-kw_model = KeyBERT(model='intfloat/multilingual-e5-large')
+kw_model = KeyBERT(model='thenlper/gte-base')
+# kw_model = KeyBERT(model='intfloat/multilingual-e5-large')
 
 
 
@@ -42,3 +42,50 @@ def generate_keywords_around_seed(
             
             
             )
+
+
+
+def generate_keywords_Ngram(
+    keywords_in: list[str],
+    num_keywords: int,
+    top_n: 3
+):
+    metatitle= ' \n'.join(keywords_in)
+    keywords_list= []
+    for i in range(1, top_n):
+        keywords = kw_model.extract_keywords(metatitle, 
+
+                                     keyphrase_ngram_range=(1, i), 
+
+                                     stop_words='english', 
+
+                                     highlight=False,
+                                     
+                                    #  use_mmr=True, 
+                                     
+                                    #  diversity=0.7,
+
+                                     top_n=num_keywords,
+                                     
+                                     nr_candidates=3*num_keywords
+                                     )
+
+        keywords_list+= keywords
+    
+    keywords_list= list(set(keywords_list))
+    # keywords_list= [list(i) for i in keywords_list]
+    max_count= 1
+    for i in range(len(keywords_list)):
+        temp= list(keywords_list[i])
+        mc_i= metatitle.count(
+                ' '+ temp[0]+' ')
+        temp.append(
+            mc_i
+        )
+        max_count= max(max_count, mc_i)
+        keywords_list[i]= temp
+    
+    return sorted(keywords_list,
+                    key=lambda x: x[1] if (x[2]>2 and x[1]>0.8) else (x[2]/max_count)-0.25,
+                    reverse=True)[:num_keywords]
+        

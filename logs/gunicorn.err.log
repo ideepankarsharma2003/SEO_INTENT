@@ -542,3 +542,173 @@ cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubunt
 [2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
 [2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
 [2023-11-08 10:38:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:56 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:14:56 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:20 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:20 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:29:58 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 12:29:59 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 16:22:25 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 17:08:59 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 18:52:34 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 18:52:35 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 21:21:49 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-08 21:21:50 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:00:46 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:15:52 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:06 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:06 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:20 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:53 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:53 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:54 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:39:54 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:47:02 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:48:06 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:49:20 +0000] [16500] [WARNING] Invalid HTTP request received.
+[2023-11-09 04:55:30 +0000] [16495] [INFO] Handling signal: term
+[2023-11-09 04:55:30 +0000] [16500] [INFO] Shutting down
+[2023-11-09 04:55:30 +0000] [16500] [INFO] Waiting for application shutdown.
+[2023-11-09 04:55:30 +0000] [16500] [INFO] Application shutdown complete.
+[2023-11-09 04:55:30 +0000] [16500] [INFO] Finished server process [16500]
+[2023-11-09 04:55:30 +0000] [16500] [INFO] Worker exiting (pid: 16500)
+[2023-11-09 04:55:35 +0000] [16495] [INFO] Shutting down: Master
+[2023-11-09 05:13:20 +0000] [156306] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 05:13:20 +0000] [156306] [INFO] Listening at: http://0.0.0.0:8081 (156306)
+[2023-11-09 05:13:20 +0000] [156306] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 05:13:20 +0000] [156314] [INFO] Booting worker with pid: 156314
+[2023-11-09 05:14:17 +0000] [156314] [INFO] Started server process [156314]
+[2023-11-09 05:14:17 +0000] [156314] [INFO] Waiting for application startup.
+[2023-11-09 05:14:17 +0000] [156314] [INFO] Application startup complete.
+[2023-11-09 05:14:17 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:14:17 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:14:18 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:14:18 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:34:01 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:34:08 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:34:12 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:34:23 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:34:59 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:35:08 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:35:11 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:35:16 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:37:00 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:37:28 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:39:25 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:39:36 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:39:55 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:39:59 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:43:26 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:43:34 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
+[2023-11-09 05:57:05 +0000] [156306] [INFO] Handling signal: term
+[2023-11-09 05:57:05 +0000] [156314] [INFO] Shutting down
+[2023-11-09 05:57:05 +0000] [156314] [INFO] Waiting for application shutdown.
+[2023-11-09 05:57:05 +0000] [156314] [INFO] Application shutdown complete.
+[2023-11-09 05:57:05 +0000] [156314] [INFO] Finished server process [156314]
+[2023-11-09 05:57:05 +0000] [156314] [INFO] Worker exiting (pid: 156314)
+[2023-11-09 05:57:08 +0000] [156306] [INFO] Shutting down: Master
+[2023-11-09 05:57:08 +0000] [176068] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 05:57:08 +0000] [176068] [INFO] Listening at: http://0.0.0.0:8081 (176068)
+[2023-11-09 05:57:08 +0000] [176068] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 05:57:08 +0000] [176071] [INFO] Booting worker with pid: 176071
+[2023-11-09 05:57:31 +0000] [176071] [INFO] Started server process [176071]
+[2023-11-09 05:57:31 +0000] [176071] [INFO] Waiting for application startup.
+[2023-11-09 05:57:31 +0000] [176071] [INFO] Application startup complete.
+[2023-11-09 06:01:10 +0000] [176068] [INFO] Handling signal: term
+[2023-11-09 06:01:10 +0000] [176071] [INFO] Shutting down
+[2023-11-09 06:01:10 +0000] [176071] [INFO] Waiting for application shutdown.
+[2023-11-09 06:01:10 +0000] [176071] [INFO] Application shutdown complete.
+[2023-11-09 06:01:10 +0000] [176071] [INFO] Finished server process [176071]
+[2023-11-09 06:01:10 +0000] [176071] [INFO] Worker exiting (pid: 176071)
+[2023-11-09 06:01:12 +0000] [176068] [INFO] Shutting down: Master
+[2023-11-09 06:01:13 +0000] [177670] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 06:01:13 +0000] [177670] [INFO] Listening at: http://0.0.0.0:8081 (177670)
+[2023-11-09 06:01:13 +0000] [177670] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 06:01:13 +0000] [177678] [INFO] Booting worker with pid: 177678
+[2023-11-09 06:01:36 +0000] [177678] [INFO] Started server process [177678]
+[2023-11-09 06:01:36 +0000] [177678] [INFO] Waiting for application startup.
+[2023-11-09 06:01:36 +0000] [177678] [INFO] Application startup complete.
+[2023-11-09 06:59:27 +0000] [177670] [INFO] Handling signal: term
+[2023-11-09 06:59:27 +0000] [177678] [INFO] Shutting down
+[2023-11-09 06:59:27 +0000] [177678] [INFO] Waiting for application shutdown.
+[2023-11-09 06:59:27 +0000] [177678] [INFO] Application shutdown complete.
+[2023-11-09 06:59:27 +0000] [177678] [INFO] Finished server process [177678]
+[2023-11-09 06:59:27 +0000] [177678] [INFO] Worker exiting (pid: 177678)
+[2023-11-09 06:59:30 +0000] [177670] [INFO] Shutting down: Master
+[2023-11-09 06:59:31 +0000] [188372] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 06:59:31 +0000] [188372] [INFO] Listening at: http://0.0.0.0:8081 (188372)
+[2023-11-09 06:59:31 +0000] [188372] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 06:59:31 +0000] [188380] [INFO] Booting worker with pid: 188380
+[2023-11-09 06:59:49 +0000] [188380] [INFO] Started server process [188380]
+[2023-11-09 06:59:49 +0000] [188380] [INFO] Waiting for application startup.
+[2023-11-09 06:59:49 +0000] [188380] [INFO] Application startup complete.
+[2023-11-09 07:57:05 +0000] [188380] [WARNING] Invalid HTTP request received.
+[2023-11-09 08:04:16 +0000] [188372] [INFO] Handling signal: term
+[2023-11-09 08:04:16 +0000] [188380] [INFO] Shutting down
+[2023-11-09 08:04:16 +0000] [188380] [INFO] Waiting for application shutdown.
+[2023-11-09 08:04:16 +0000] [188380] [INFO] Application shutdown complete.
+[2023-11-09 08:04:16 +0000] [188380] [INFO] Finished server process [188380]
+[2023-11-09 08:04:16 +0000] [188380] [INFO] Worker exiting (pid: 188380)
+[2023-11-09 08:04:18 +0000] [188372] [INFO] Shutting down: Master
+[2023-11-09 08:04:20 +0000] [209853] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 08:04:20 +0000] [209853] [INFO] Listening at: http://0.0.0.0:8081 (209853)
+[2023-11-09 08:04:20 +0000] [209853] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 08:04:20 +0000] [209873] [INFO] Booting worker with pid: 209873
+[2023-11-09 08:04:38 +0000] [209873] [INFO] Started server process [209873]
+[2023-11-09 08:04:38 +0000] [209873] [INFO] Waiting for application startup.
+[2023-11-09 08:04:38 +0000] [209873] [INFO] Application startup complete.
+[2023-11-09 08:12:36 +0000] [209853] [INFO] Handling signal: term
+[2023-11-09 08:12:36 +0000] [209873] [INFO] Shutting down
+[2023-11-09 08:12:37 +0000] [209873] [INFO] Waiting for application shutdown.
+[2023-11-09 08:12:37 +0000] [209873] [INFO] Application shutdown complete.
+[2023-11-09 08:12:37 +0000] [209873] [INFO] Finished server process [209873]
+[2023-11-09 08:12:37 +0000] [209873] [INFO] Worker exiting (pid: 209873)
+[2023-11-09 08:12:39 +0000] [209853] [INFO] Shutting down: Master
+[2023-11-09 08:12:40 +0000] [211322] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 08:12:40 +0000] [211322] [INFO] Listening at: http://0.0.0.0:8081 (211322)
+[2023-11-09 08:12:40 +0000] [211322] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 08:12:40 +0000] [211331] [INFO] Booting worker with pid: 211331
+[2023-11-09 08:12:54 +0000] [211331] [INFO] Started server process [211331]
+[2023-11-09 08:12:54 +0000] [211331] [INFO] Waiting for application startup.
+[2023-11-09 08:12:54 +0000] [211331] [INFO] Application startup complete.
+[2023-11-09 08:26:38 +0000] [211322] [INFO] Handling signal: term
+[2023-11-09 08:26:38 +0000] [211331] [INFO] Shutting down
+[2023-11-09 08:26:39 +0000] [211331] [INFO] Waiting for application shutdown.
+[2023-11-09 08:26:39 +0000] [211331] [INFO] Application shutdown complete.
+[2023-11-09 08:26:39 +0000] [211331] [INFO] Finished server process [211331]
+[2023-11-09 08:26:39 +0000] [211331] [INFO] Worker exiting (pid: 211331)
+[2023-11-09 08:26:41 +0000] [211322] [INFO] Shutting down: Master
+[2023-11-09 08:26:42 +0000] [214006] [INFO] Starting gunicorn 21.2.0
+[2023-11-09 08:26:42 +0000] [214006] [INFO] Listening at: http://0.0.0.0:8081 (214006)
+[2023-11-09 08:26:42 +0000] [214006] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-09 08:26:42 +0000] [214015] [INFO] Booting worker with pid: 214015
+[2023-11-09 08:27:09 +0000] [214015] [INFO] Started server process [214015]
+[2023-11-09 08:27:09 +0000] [214015] [INFO] Waiting for application startup.
+[2023-11-09 08:27:09 +0000] [214015] [INFO] Application startup complete.

@@ -15,26 +15,34 @@ from starlette.responses import RedirectResponse
 #     )
 os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
 
-from utils.get_keywords_utils import generate_keywords_around_seed
+from utils.get_keywords_utils import (
+                                      generate_keywords_around_seed,
+                                      generate_keywords_Ngram
+                                      )
 
 from pydantic import BaseModel
 
 class KeyBertKeywords(BaseModel):
-    seed_keyword:str
+    seed_keyword:str= ""
     num_keywords: int= 50
     num_urls: int=10
     top_n: int= 7
+    
+class KeyBertKeywordsNGrams(BaseModel):
+    keywords: list[str]= [""]
+    num_keywords: int= 50
+    top_n: int= 4
 
 class Keyword(BaseModel):
     url_list: list
 
 class Url(BaseModel):
-    keyword: str
+    keyword: str=""
     num_urls: int=10
-    keyword_list: list[str]
+    keyword_list: list[str]= [""]
 
 class Intent(BaseModel):
-    keyword_list: list[str] or str
+    keyword_list: list[str] or str= [""]
 
 
 import json
@@ -204,6 +212,23 @@ async def get_keywords_keybert(kbtext: KeyBertKeywords):
             kbtext.seed_keyword,
             kbtext.num_keywords,
             kbtext.num_urls,
+            kbtext.top_n
+        )
+        return keyword_list
+    except Exception as e:
+        return Response(f'Error occured: {e}')
+        # return Response(f'Error occured: {e}')
+        
+        
+
+@app.post('/get_keywords_keybert_ngrams')
+async def get_keywords_keybert_ngrams(kbtext: KeyBertKeywordsNGrams):
+    
+    try: 
+        
+        keyword_list= generate_keywords_Ngram(
+            kbtext.keywords,
+            kbtext.num_keywords,
             kbtext.top_n
         )
         return keyword_list

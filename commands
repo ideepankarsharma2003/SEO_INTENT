@@ -1,3 +1,28 @@
-$ sudo cp intent.conf /etc/supervisor/conf.d
+sudo cp intent.conf /etc/supervisor/conf.d
 sudo supervisorctl reread
 sudo supervisorctl update
+
+
+sudo cp qagen.paperbot.ai.conf /etc/nginx/conf.d/
+sudo nginx -t && sudo nginx -s reload
+
+sudo certbot --nginx -d qagen.paperbot.ai
+
+sudo systemctl stop nginx
+
+sudo supervisorctl stop all
+sudo supervisorctl start all
+sudo supervisorctl restart all
+
+
+
+sudo cd /etc/nginx/sites-enabled
+sudo rm -f default
+sudo cd /etc/nginx/sites-available
+sudo rm -f default
+service nginx reload
+
+sudo mv /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default-1
+sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default-1
+sudo rm /etc/nginx/sites-enabled/default-1
+sudo rm /etc/nginx/sites-available/default-1
