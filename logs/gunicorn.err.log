@@ -1,793 +1,95 @@
-[2023-11-08 07:22:17 +0000] [182857] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 07:22:17 +0000] [182857] [INFO] Listening at: http://0.0.0.0:8081 (182857)
-[2023-11-08 07:22:17 +0000] [182857] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 07:22:17 +0000] [182860] [INFO] Booting worker with pid: 182860
-[2023-11-08 07:22:17 +0000] [182861] [INFO] Booting worker with pid: 182861
-2023-11-08 07:22:23.017792: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:22:23.097087: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:22:23.097422: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:22:23.097634: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:22:23.109445: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+[2023-11-20 06:26:09 +0000] [332905] [INFO] Starting gunicorn 21.2.0
+[2023-11-20 06:26:09 +0000] [332905] [INFO] Listening at: http://0.0.0.0:8081 (332905)
+[2023-11-20 06:26:09 +0000] [332905] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-20 06:26:09 +0000] [332917] [INFO] Booting worker with pid: 332917
+2023-11-20 06:26:15.505013: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-20 06:26:15.505304: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-20 06:26:15.507490: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-20 06:26:15.518385: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:22:23.213958: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:22:23.302886: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:22:23.302951: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:22:23.302995: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:22:23.315732: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2023-11-20 06:26:16.716365: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-11-20 06:26:21.170541: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:26:21.174450: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:26:21.176904: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-11-20 06:26:29 +0000] [332917] [INFO] Started server process [332917]
+[2023-11-20 06:26:29 +0000] [332917] [INFO] Waiting for application startup.
+[2023-11-20 06:26:29 +0000] [332917] [INFO] Application startup complete.
+[2023-11-20 06:29:16 +0000] [332905] [INFO] Handling signal: term
+[2023-11-20 06:29:26 +0000] [332917] [INFO] Shutting down
+[2023-11-20 06:29:26 +0000] [332917] [INFO] Waiting for application shutdown.
+[2023-11-20 06:29:26 +0000] [332917] [INFO] Application shutdown complete.
+[2023-11-20 06:29:26 +0000] [332917] [INFO] Finished server process [332917]
+[2023-11-20 06:29:26 +0000] [332917] [INFO] Worker exiting (pid: 332917)
+[2023-11-20 06:29:28 +0000] [334765] [INFO] Starting gunicorn 21.2.0
+[2023-11-20 06:29:28 +0000] [334765] [INFO] Listening at: http://0.0.0.0:8081 (334765)
+[2023-11-20 06:29:28 +0000] [334765] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-20 06:29:28 +0000] [334799] [INFO] Booting worker with pid: 334799
+2023-11-20 06:29:35.219553: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-20 06:29:35.219603: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-20 06:29:35.224820: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-20 06:29:35.243949: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:22:24.520612: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:22:24.820199: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:22:39.255848: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:22:39.275585: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:22:39.278387: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:22:39.414816: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:22:39.434676: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:22:39.437582: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 07:22:48 +0000] [182857] [ERROR] Worker (pid:182860) was sent SIGKILL! Perhaps out of memory?
-[2023-11-08 07:22:48 +0000] [183038] [INFO] Booting worker with pid: 183038
-[2023-11-08 07:23:02 +0000] [182861] [INFO] Started server process [182861]
-[2023-11-08 07:23:02 +0000] [182861] [INFO] Waiting for application startup.
-[2023-11-08 07:23:02 +0000] [182861] [INFO] Application startup complete.
-2023-11-08 07:23:06.644692: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:23:08.568273: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:23:08.571484: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:23:08.578155: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:23:09.880641: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2023-11-20 06:29:37.152285: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-11-20 06:29:43.322421: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:29:43.330594: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:29:43.333102: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-11-20 06:29:52 +0000] [334799] [INFO] Started server process [334799]
+[2023-11-20 06:29:52 +0000] [334799] [INFO] Waiting for application startup.
+[2023-11-20 06:29:52 +0000] [334799] [INFO] Application startup complete.
+[2023-11-20 06:42:03 +0000] [334765] [INFO] Handling signal: term
+[2023-11-20 06:42:04 +0000] [334799] [INFO] Shutting down
+[2023-11-20 06:42:04 +0000] [334799] [INFO] Waiting for application shutdown.
+[2023-11-20 06:42:04 +0000] [334799] [INFO] Application shutdown complete.
+[2023-11-20 06:42:04 +0000] [334799] [INFO] Finished server process [334799]
+[2023-11-20 06:42:04 +0000] [334799] [INFO] Worker exiting (pid: 334799)
+[2023-11-20 06:42:06 +0000] [334765] [INFO] Shutting down: Master
+[2023-11-20 06:42:14 +0000] [339690] [INFO] Starting gunicorn 21.2.0
+[2023-11-20 06:42:14 +0000] [339690] [INFO] Listening at: http://0.0.0.0:8081 (339690)
+[2023-11-20 06:42:14 +0000] [339690] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-20 06:42:14 +0000] [339711] [INFO] Booting worker with pid: 339711
+2023-11-20 06:42:23.530834: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-20 06:42:23.530872: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-20 06:42:23.536083: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-20 06:42:23.552659: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:23:11.700914: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:23:44.567797: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:23:44.713492: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:23:44.716172: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 07:23:54 +0000] [183038] [INFO] Started server process [183038]
-[2023-11-08 07:23:54 +0000] [183038] [INFO] Waiting for application startup.
-[2023-11-08 07:23:54 +0000] [183038] [INFO] Application startup complete.
-[2023-11-08 07:24:04 +0000] [182857] [ERROR] Worker (pid:182861) was sent SIGKILL! Perhaps out of memory?
-[2023-11-08 07:24:04 +0000] [183331] [INFO] Booting worker with pid: 183331
-[2023-11-08 07:24:05 +0000] [182857] [INFO] Handling signal: term
-[2023-11-08 07:24:05 +0000] [182857] [ERROR] Worker (pid:183331) was sent SIGTERM!
-[2023-11-08 07:24:05 +0000] [183038] [INFO] Shutting down
-[2023-11-08 07:24:05 +0000] [183038] [INFO] Waiting for application shutdown.
-[2023-11-08 07:24:05 +0000] [183038] [INFO] Application shutdown complete.
-[2023-11-08 07:24:05 +0000] [183038] [INFO] Finished server process [183038]
-[2023-11-08 07:24:05 +0000] [183038] [INFO] Worker exiting (pid: 183038)
-[2023-11-08 07:24:09 +0000] [182857] [INFO] Shutting down: Master
-[2023-11-08 07:25:01 +0000] [183634] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 07:25:01 +0000] [183634] [INFO] Listening at: http://0.0.0.0:8081 (183634)
-[2023-11-08 07:25:01 +0000] [183634] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 07:25:01 +0000] [183639] [INFO] Booting worker with pid: 183639
-[2023-11-08 07:25:01 +0000] [183640] [INFO] Booting worker with pid: 183640
-2023-11-08 07:25:06.744121: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:25:06.816852: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:25:06.838689: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:25:06.838982: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:25:06.839112: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:25:06.850960: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2023-11-20 06:42:26.535884: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Downloading .gitattributes:   0%|          | 0.00/1.52k [00:00<?, ?B/s]Downloading .gitattributes: 100%|██████████| 1.52k/1.52k [00:00<00:00, 11.7MB/s]
+Downloading README.md:   0%|          | 0.00/62.5k [00:00<?, ?B/s]Downloading README.md: 100%|██████████| 62.5k/62.5k [00:00<00:00, 20.8MB/s]
+Downloading config.json:   0%|          | 0.00/707 [00:00<?, ?B/s]Downloading config.json: 100%|██████████| 707/707 [00:00<00:00, 8.21MB/s]
+Downloading model.onnx:   0%|          | 0.00/139M [00:00<?, ?B/s]Downloading model.onnx:   8%|▊         | 10.5M/139M [00:00<00:01, 104MB/s]Downloading model.onnx:  15%|█▌        | 21.0M/139M [00:00<00:01, 59.7MB/s]Downloading model.onnx:  23%|██▎       | 31.5M/139M [00:00<00:02, 51.3MB/s]Downloading model.onnx:  30%|███       | 41.9M/139M [00:00<00:01, 53.7MB/s]Downloading model.onnx:  38%|███▊      | 52.4M/139M [00:00<00:01, 53.0MB/s]Downloading model.onnx:  53%|█████▎    | 73.4M/139M [00:01<00:01, 56.4MB/s]Downloading model.onnx:  61%|██████    | 83.9M/139M [00:01<00:01, 42.7MB/s]Downloading model.onnx:  76%|███████▌  | 105M/139M [00:02<00:00, 49.4MB/s] Downloading model.onnx:  83%|████████▎ | 115M/139M [00:02<00:00, 41.3MB/s]Downloading model.onnx:  98%|█████████▊| 136M/139M [00:02<00:00, 45.2MB/s]Downloading model.onnx: 100%|██████████| 139M/139M [00:03<00:00, 44.6MB/s]
+Downloading model_quantized.onnx:   0%|          | 0.00/35.2M [00:00<?, ?B/s]Downloading model_quantized.onnx: 100%|██████████| 35.2M/35.2M [00:00<00:00, 371MB/s]
+Downloading pytorch_model.bin:   0%|          | 0.00/139M [00:00<?, ?B/s]Downloading pytorch_model.bin:  30%|███       | 41.9M/139M [00:00<00:00, 392MB/s]Downloading pytorch_model.bin:  60%|██████    | 83.9M/139M [00:00<00:00, 403MB/s]Downloading pytorch_model.bin:  91%|█████████ | 126M/139M [00:00<00:00, 402MB/s] Downloading pytorch_model.bin: 100%|██████████| 139M/139M [00:00<00:00, 391MB/s]
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/125 [00:00<?, ?B/s]Downloading (…)cial_tokens_map.json: 100%|██████████| 125/125 [00:00<00:00, 787kB/s]
+Downloading tokenizer.json:   0%|          | 0.00/711k [00:00<?, ?B/s]Downloading tokenizer.json: 100%|██████████| 711k/711k [00:00<00:00, 7.11MB/s]
+Downloading tokenizer_config.json:   0%|          | 0.00/1.27k [00:00<?, ?B/s]Downloading tokenizer_config.json: 100%|██████████| 1.27k/1.27k [00:00<00:00, 8.36MB/s]
+Downloading vocab.txt:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading vocab.txt: 100%|██████████| 232k/232k [00:00<00:00, 36.7MB/s]
+No sentence-transformers model found with name /home/ubuntu/.cache/torch/sentence_transformers/andersonbcdefg_bge-small-4096. Creating a new one with MEAN pooling.
+2023-11-20 06:42:40.578650: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:42:40.585648: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 06:42:40.588205: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-11-20 06:42:48 +0000] [339711] [INFO] Started server process [339711]
+[2023-11-20 06:42:48 +0000] [339711] [INFO] Waiting for application startup.
+[2023-11-20 06:42:48 +0000] [339711] [INFO] Application startup complete.
+[2023-11-20 06:50:16 +0000] [339690] [INFO] Handling signal: term
+[2023-11-20 06:50:16 +0000] [339711] [INFO] Shutting down
+[2023-11-20 06:50:16 +0000] [339711] [INFO] Waiting for application shutdown.
+[2023-11-20 06:50:16 +0000] [339711] [INFO] Application shutdown complete.
+[2023-11-20 06:50:16 +0000] [339711] [INFO] Finished server process [339711]
+[2023-11-20 06:50:16 +0000] [339711] [INFO] Worker exiting (pid: 339711)
+[2023-11-20 06:50:19 +0000] [339690] [INFO] Shutting down: Master
+[2023-11-20 12:23:50 +0000] [511757] [INFO] Starting gunicorn 21.2.0
+[2023-11-20 12:23:50 +0000] [511757] [INFO] Listening at: http://0.0.0.0:8081 (511757)
+[2023-11-20 12:23:50 +0000] [511757] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-11-20 12:23:50 +0000] [511771] [INFO] Booting worker with pid: 511771
+2023-11-20 12:23:57.501227: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-20 12:23:57.501569: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-20 12:23:57.503612: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-20 12:23:57.514126: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:25:06.902468: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:25:06.903329: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:25:06.905885: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:25:06.918180: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:25:08.115094: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:25:08.229567: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:25:42.178818: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:25:42.178818: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:25:42.344329: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:25:42.344329: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:25:42.348948: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:25:42.349264: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 07:25:53 +0000] [183639] [INFO] Started server process [183639]
-[2023-11-08 07:25:53 +0000] [183640] [INFO] Started server process [183640]
-[2023-11-08 07:25:53 +0000] [183640] [INFO] Waiting for application startup.
-[2023-11-08 07:25:53 +0000] [183640] [INFO] Application startup complete.
-[2023-11-08 07:25:53 +0000] [183639] [INFO] Waiting for application startup.
-[2023-11-08 07:25:53 +0000] [183639] [INFO] Application startup complete.
-[2023-11-08 07:25:58 +0000] [183634] [INFO] Handling signal: term
-[2023-11-08 07:25:58 +0000] [183640] [INFO] Shutting down
-[2023-11-08 07:25:58 +0000] [183639] [INFO] Shutting down
-[2023-11-08 07:25:58 +0000] [183640] [INFO] Waiting for application shutdown.
-[2023-11-08 07:25:58 +0000] [183640] [INFO] Application shutdown complete.
-[2023-11-08 07:25:58 +0000] [183640] [INFO] Finished server process [183640]
-[2023-11-08 07:25:58 +0000] [183639] [INFO] Waiting for application shutdown.
-[2023-11-08 07:25:58 +0000] [183640] [INFO] Worker exiting (pid: 183640)
-[2023-11-08 07:25:58 +0000] [183639] [INFO] Application shutdown complete.
-[2023-11-08 07:25:58 +0000] [183639] [INFO] Finished server process [183639]
-[2023-11-08 07:25:58 +0000] [183639] [INFO] Worker exiting (pid: 183639)
-[2023-11-08 07:31:24 +0000] [184037] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 07:31:24 +0000] [184037] [INFO] Listening at: http://0.0.0.0:8081 (184037)
-[2023-11-08 07:31:24 +0000] [184037] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 07:31:24 +0000] [184075] [INFO] Booting worker with pid: 184075
-2023-11-08 07:31:34.433728: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:31:36.243859: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:31:36.243948: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:31:36.254804: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:31:37.572390: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:31:39.422076: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:32:08.283403: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:32:08.442170: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:32:08.445725: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 07:32:18 +0000] [184075] [INFO] Started server process [184075]
-[2023-11-08 07:32:18 +0000] [184075] [INFO] Waiting for application startup.
-[2023-11-08 07:32:18 +0000] [184075] [INFO] Application startup complete.
-[2023-11-08 07:34:15 +0000] [184037] [INFO] Handling signal: term
-[2023-11-08 07:34:15 +0000] [184075] [INFO] Shutting down
-[2023-11-08 07:34:15 +0000] [184075] [INFO] Waiting for application shutdown.
-[2023-11-08 07:34:15 +0000] [184075] [INFO] Application shutdown complete.
-[2023-11-08 07:34:15 +0000] [184075] [INFO] Finished server process [184075]
-[2023-11-08 07:34:15 +0000] [184075] [INFO] Worker exiting (pid: 184075)
-[2023-11-08 07:34:18 +0000] [184037] [INFO] Shutting down: Master
-[2023-11-08 07:34:31 +0000] [187164] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 07:34:31 +0000] [187164] [INFO] Listening at: http://0.0.0.0:8081 (187164)
-[2023-11-08 07:34:31 +0000] [187164] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 07:34:31 +0000] [187167] [INFO] Booting worker with pid: 187167
-2023-11-08 07:34:35.173584: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 07:34:35.221723: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 07:34:35.221770: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 07:34:35.221810: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 07:34:35.230246: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 07:34:36.153159: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 07:34:46.085164: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:34:46.110791: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 07:34:46.113353: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 07:34:47 +0000] [187167] [INFO] Started server process [187167]
-[2023-11-08 07:34:47 +0000] [187167] [INFO] Waiting for application startup.
-[2023-11-08 07:34:47 +0000] [187167] [INFO] Application startup complete.
-[2023-11-08 07:41:57 +0000] [187167] [WARNING] Invalid HTTP request received.
-[2023-11-08 07:43:07 +0000] [187164] [INFO] Handling signal: term
-[2023-11-08 07:43:07 +0000] [187167] [INFO] Shutting down
-[2023-11-08 07:43:07 +0000] [187167] [INFO] Waiting for application shutdown.
-[2023-11-08 07:43:08 +0000] [187167] [INFO] Application shutdown complete.
-[2023-11-08 07:43:08 +0000] [187167] [INFO] Finished server process [187167]
-[2023-11-08 07:43:08 +0000] [187167] [INFO] Worker exiting (pid: 187167)
-[2023-11-08 07:43:10 +0000] [187164] [INFO] Shutting down: Master
-[2023-11-08 09:46:09 +0000] [644] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 09:46:09 +0000] [644] [INFO] Listening at: http://0.0.0.0:8081 (644)
-[2023-11-08 09:46:09 +0000] [644] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 09:46:09 +0000] [661] [INFO] Booting worker with pid: 661
-2023-11-08 09:46:19.564154: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 09:46:20.643636: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 09:46:20.643958: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 09:46:20.648955: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 09:46:21.115793: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 09:46:23.405454: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 09:46:45.410989: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 09:46:45.556390: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 09:46:45.559378: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 09:46:48 +0000] [661] [INFO] Started server process [661]
-[2023-11-08 09:46:48 +0000] [661] [INFO] Waiting for application startup.
-[2023-11-08 09:46:48 +0000] [661] [INFO] Application startup complete.
-[2023-11-08 09:51:59 +0000] [644] [INFO] Handling signal: term
-[2023-11-08 09:51:59 +0000] [661] [INFO] Shutting down
-[2023-11-08 09:51:59 +0000] [661] [INFO] Waiting for application shutdown.
-[2023-11-08 09:51:59 +0000] [661] [INFO] Application shutdown complete.
-[2023-11-08 09:51:59 +0000] [661] [INFO] Finished server process [661]
-[2023-11-08 09:51:59 +0000] [661] [INFO] Worker exiting (pid: 661)
-[2023-11-08 09:52:04 +0000] [644] [INFO] Shutting down: Master
-[2023-11-08 09:52:05 +0000] [2892] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 09:52:05 +0000] [2892] [INFO] Listening at: http://0.0.0.0:8081 (2892)
-[2023-11-08 09:52:05 +0000] [2892] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 09:52:05 +0000] [2897] [INFO] Booting worker with pid: 2897
-2023-11-08 09:52:13.632779: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-11-08 09:52:14.351819: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 09:52:14.351866: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 09:52:14.356163: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 09:52:14.731680: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 09:52:16.769054: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 09:52:38.448141: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 09:52:38.563662: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 09:52:38.566448: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 09:52:50 +0000] [2897] [INFO] Started server process [2897]
-[2023-11-08 09:52:50 +0000] [2897] [INFO] Waiting for application startup.
-[2023-11-08 09:52:50 +0000] [2897] [INFO] Application startup complete.
-[2023-11-08 10:02:49 +0000] [2892] [INFO] Handling signal: term
-[2023-11-08 10:02:49 +0000] [2897] [INFO] Shutting down
-[2023-11-08 10:02:49 +0000] [2897] [INFO] Waiting for application shutdown.
-[2023-11-08 10:02:49 +0000] [2897] [INFO] Application shutdown complete.
-[2023-11-08 10:02:49 +0000] [2897] [INFO] Finished server process [2897]
-[2023-11-08 10:02:49 +0000] [2897] [INFO] Worker exiting (pid: 2897)
-[2023-11-08 10:02:54 +0000] [2892] [INFO] Shutting down: Master
-[2023-11-08 10:16:01 +0000] [10332] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:16:01 +0000] [10332] [INFO] Listening at: http://0.0.0.0:8081 (10332)
-[2023-11-08 10:16:01 +0000] [10332] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:16:01 +0000] [10337] [INFO] Booting worker with pid: 10337
-2023-11-08 10:16:05.771727: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10631] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 10:16:05.771769: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 10:16:05.773222: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1533] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 10:16:05.780451: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 10:16:06.628634: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 10:16:23.337531: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:16:23.359698: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:16:23.361195: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 10:16:26 +0000] [10337] [ERROR] Exception in worker process
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1086, in _get_module
-    return importlib.import_module("." + module_name, self.__name__)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/models/bert/modeling_tf_bert.py", line 41, in <module>
-    from ...modeling_tf_utils import (
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/modeling_tf_utils.py", line 76, in <module>
-    from keras.__internal__ import KerasTensor
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/__init__.py", line 3, in <module>
-    from keras.__internal__ import backend
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/backend/__init__.py", line 3, in <module>
-    from keras.src.backend import _initialize_variables as initialize_variables
-ImportError: cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
-    worker.init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/uvicorn/workers.py", line 66, in init_process
-    super(UvicornWorker, self).init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
-    self.load_wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
-    self.wsgi = self.app.wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
-    self.callable = self.load()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
-    return self.load_wsgiapp()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
-    return util.import_app(self.app_uri)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
-    mod = importlib.import_module(module)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/app.py", line 44, in <module>
-    from Utils.get_intent_bert_basedANN import  get_intent_bulk
-  File "/home/ubuntu/SEO_IntentGeneration/Utils/get_intent_bert_basedANN.py", line 34, in <module>
-    classifier = pipeline("text-classification", model=model_name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 788, in pipeline
-    framework, model = infer_framework_load_model(
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/base.py", line 245, in infer_framework_load_model
-    _class = getattr(transformers_module, f"TF{architecture}", None)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1077, in __getattr__
-    value = getattr(module, name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1076, in __getattr__
-    module = self._get_module(self._class_to_module[name])
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1088, in _get_module
-    raise RuntimeError(
-RuntimeError: Failed to import transformers.models.bert.modeling_tf_bert because of the following error (look up to see its traceback):
-cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-[2023-11-08 10:16:26 +0000] [10337] [INFO] Worker exiting (pid: 10337)
-[2023-11-08 10:16:30 +0000] [10332] [ERROR] Worker (pid:10337) exited with code 3
-[2023-11-08 10:16:30 +0000] [10332] [ERROR] Shutting down: Master
-[2023-11-08 10:16:30 +0000] [10332] [ERROR] Reason: Worker failed to boot.
-[2023-11-08 10:16:31 +0000] [10511] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:16:31 +0000] [10511] [INFO] Listening at: http://0.0.0.0:8081 (10511)
-[2023-11-08 10:16:31 +0000] [10511] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:16:31 +0000] [10514] [INFO] Booting worker with pid: 10514
-2023-11-08 10:16:40.556254: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10631] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 10:16:40.556297: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 10:16:40.677344: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1533] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 10:16:40.974707: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 10:16:42.718407: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 10:17:14.522462: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:17:14.548479: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:17:14.549983: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 10:17:17 +0000] [10514] [ERROR] Exception in worker process
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1086, in _get_module
-    return importlib.import_module("." + module_name, self.__name__)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/models/bert/modeling_tf_bert.py", line 41, in <module>
-    from ...modeling_tf_utils import (
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/modeling_tf_utils.py", line 76, in <module>
-    from keras.__internal__ import KerasTensor
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/__init__.py", line 3, in <module>
-    from keras.__internal__ import backend
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/backend/__init__.py", line 3, in <module>
-    from keras.src.backend import _initialize_variables as initialize_variables
-ImportError: cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
-    worker.init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/uvicorn/workers.py", line 66, in init_process
-    super(UvicornWorker, self).init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
-    self.load_wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
-    self.wsgi = self.app.wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
-    self.callable = self.load()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
-    return self.load_wsgiapp()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
-    return util.import_app(self.app_uri)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
-    mod = importlib.import_module(module)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/app.py", line 44, in <module>
-    from Utils.get_intent_bert_basedANN import  get_intent_bulk
-  File "/home/ubuntu/SEO_IntentGeneration/Utils/get_intent_bert_basedANN.py", line 34, in <module>
-    classifier = pipeline("text-classification", model=model_name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 788, in pipeline
-    framework, model = infer_framework_load_model(
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/base.py", line 245, in infer_framework_load_model
-    _class = getattr(transformers_module, f"TF{architecture}", None)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1077, in __getattr__
-    value = getattr(module, name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1076, in __getattr__
-    module = self._get_module(self._class_to_module[name])
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1088, in _get_module
-    raise RuntimeError(
-RuntimeError: Failed to import transformers.models.bert.modeling_tf_bert because of the following error (look up to see its traceback):
-cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-[2023-11-08 10:17:17 +0000] [10514] [INFO] Worker exiting (pid: 10514)
-[2023-11-08 10:17:21 +0000] [10511] [ERROR] Worker (pid:10514) exited with code 3
-[2023-11-08 10:17:21 +0000] [10511] [ERROR] Shutting down: Master
-[2023-11-08 10:17:21 +0000] [10511] [ERROR] Reason: Worker failed to boot.
-[2023-11-08 10:17:22 +0000] [10700] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:17:22 +0000] [10700] [INFO] Listening at: http://0.0.0.0:8081 (10700)
-[2023-11-08 10:17:22 +0000] [10700] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:17:22 +0000] [10712] [INFO] Booting worker with pid: 10712
-2023-11-08 10:17:31.558048: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10631] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 10:17:31.558091: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 10:17:31.679950: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1533] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 10:17:31.868074: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 10:17:33.509814: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2023-11-08 10:18:04.716150: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:18:04.737091: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2023-11-08 10:18:04.738575: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-[2023-11-08 10:18:07 +0000] [10712] [ERROR] Exception in worker process
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1086, in _get_module
-    return importlib.import_module("." + module_name, self.__name__)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/models/bert/modeling_tf_bert.py", line 41, in <module>
-    from ...modeling_tf_utils import (
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/modeling_tf_utils.py", line 76, in <module>
-    from keras.__internal__ import KerasTensor
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/__init__.py", line 3, in <module>
-    from keras.__internal__ import backend
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/backend/__init__.py", line 3, in <module>
-    from keras.src.backend import _initialize_variables as initialize_variables
-ImportError: cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
-    worker.init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/uvicorn/workers.py", line 66, in init_process
-    super(UvicornWorker, self).init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
-    self.load_wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
-    self.wsgi = self.app.wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
-    self.callable = self.load()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
-    return self.load_wsgiapp()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
-    return util.import_app(self.app_uri)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
-    mod = importlib.import_module(module)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/app.py", line 44, in <module>
-    from Utils.get_intent_bert_basedANN import  get_intent_bulk
-  File "/home/ubuntu/SEO_IntentGeneration/Utils/get_intent_bert_basedANN.py", line 34, in <module>
-    classifier = pipeline("text-classification", model=model_name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 788, in pipeline
-    framework, model = infer_framework_load_model(
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/base.py", line 245, in infer_framework_load_model
-    _class = getattr(transformers_module, f"TF{architecture}", None)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1077, in __getattr__
-    value = getattr(module, name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1076, in __getattr__
-    module = self._get_module(self._class_to_module[name])
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1088, in _get_module
-    raise RuntimeError(
-RuntimeError: Failed to import transformers.models.bert.modeling_tf_bert because of the following error (look up to see its traceback):
-cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-[2023-11-08 10:18:07 +0000] [10712] [INFO] Worker exiting (pid: 10712)
-[2023-11-08 10:18:10 +0000] [10700] [ERROR] Worker (pid:10712) exited with code 3
-[2023-11-08 10:18:10 +0000] [10700] [ERROR] Shutting down: Master
-[2023-11-08 10:18:10 +0000] [10700] [ERROR] Reason: Worker failed to boot.
-[2023-11-08 10:18:12 +0000] [11097] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:18:12 +0000] [11097] [INFO] Listening at: http://0.0.0.0:8081 (11097)
-[2023-11-08 10:18:12 +0000] [11097] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:18:12 +0000] [11105] [INFO] Booting worker with pid: 11105
-2023-11-08 10:18:20.489948: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10631] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2023-11-08 10:18:20.489988: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2023-11-08 10:18:20.494563: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1533] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2023-11-08 10:18:20.608795: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-11-08 10:18:22.341694: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-[2023-11-08 10:20:23 +0000] [11105] [ERROR] Exception in worker process
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1086, in _get_module
-    return importlib.import_module("." + module_name, self.__name__)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/models/bert/modeling_tf_bert.py", line 41, in <module>
-    from ...modeling_tf_utils import (
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/modeling_tf_utils.py", line 76, in <module>
-    from keras.__internal__ import KerasTensor
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/__init__.py", line 3, in <module>
-    from keras.__internal__ import backend
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/__internal__/backend/__init__.py", line 3, in <module>
-    from keras.src.backend import _initialize_variables as initialize_variables
-ImportError: cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
-    worker.init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/uvicorn/workers.py", line 66, in init_process
-    super(UvicornWorker, self).init_process()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
-    self.load_wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
-    self.wsgi = self.app.wsgi()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
-    self.callable = self.load()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
-    return self.load_wsgiapp()
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
-    return util.import_app(self.app_uri)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
-    mod = importlib.import_module(module)
-  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/ubuntu/SEO_IntentGeneration/app.py", line 44, in <module>
-    from Utils.get_intent_bert_basedANN import  get_intent_bulk
-  File "/home/ubuntu/SEO_IntentGeneration/Utils/get_intent_bert_basedANN.py", line 34, in <module>
-    classifier = pipeline("text-classification", model=model_name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 788, in pipeline
-    framework, model = infer_framework_load_model(
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/pipelines/base.py", line 245, in infer_framework_load_model
-    _class = getattr(transformers_module, f"TF{architecture}", None)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1077, in __getattr__
-    value = getattr(module, name)
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1076, in __getattr__
-    module = self._get_module(self._class_to_module[name])
-  File "/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1088, in _get_module
-    raise RuntimeError(
-RuntimeError: Failed to import transformers.models.bert.modeling_tf_bert because of the following error (look up to see its traceback):
-cannot import name '_initialize_variables' from 'keras.src.backend' (/home/ubuntu/SEO_IntentGeneration/venv/lib/python3.10/site-packages/keras/src/backend/__init__.py)
-[2023-11-08 10:20:23 +0000] [11105] [INFO] Worker exiting (pid: 11105)
-[2023-11-08 10:20:28 +0000] [11097] [ERROR] Worker (pid:11105) exited with code 3
-[2023-11-08 10:20:28 +0000] [11097] [ERROR] Shutting down: Master
-[2023-11-08 10:20:28 +0000] [11097] [ERROR] Reason: Worker failed to boot.
-[2023-11-08 10:20:29 +0000] [11881] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:20:29 +0000] [11881] [INFO] Listening at: http://0.0.0.0:8081 (11881)
-[2023-11-08 10:20:29 +0000] [11881] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:20:29 +0000] [11894] [INFO] Booting worker with pid: 11894
-[2023-11-08 10:21:09 +0000] [11894] [INFO] Started server process [11894]
-[2023-11-08 10:21:09 +0000] [11894] [INFO] Waiting for application startup.
-[2023-11-08 10:21:09 +0000] [11894] [INFO] Application startup complete.
-[2023-11-08 10:26:22 +0000] [11881] [INFO] Handling signal: term
-[2023-11-08 10:26:22 +0000] [11894] [INFO] Shutting down
-[2023-11-08 10:26:22 +0000] [11894] [INFO] Waiting for application shutdown.
-[2023-11-08 10:26:22 +0000] [11894] [INFO] Application shutdown complete.
-[2023-11-08 10:26:22 +0000] [11894] [INFO] Finished server process [11894]
-[2023-11-08 10:26:22 +0000] [11894] [INFO] Worker exiting (pid: 11894)
-[2023-11-08 10:26:26 +0000] [11881] [INFO] Shutting down: Master
-[2023-11-08 10:30:03 +0000] [16495] [INFO] Starting gunicorn 21.2.0
-[2023-11-08 10:30:03 +0000] [16495] [INFO] Listening at: http://0.0.0.0:8081 (16495)
-[2023-11-08 10:30:03 +0000] [16495] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-08 10:30:03 +0000] [16500] [INFO] Booting worker with pid: 16500
-[2023-11-08 10:30:34 +0000] [16500] [INFO] Started server process [16500]
-[2023-11-08 10:30:34 +0000] [16500] [INFO] Waiting for application startup.
-[2023-11-08 10:30:34 +0000] [16500] [INFO] Application startup complete.
-[2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 10:38:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 10:38:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:24 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:11:25 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:55 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:56 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:14:56 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:15:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:29:58 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 12:29:59 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 16:22:25 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 17:08:59 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 18:52:34 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 18:52:35 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 21:21:49 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-08 21:21:50 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:00:46 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:15:52 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:06 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:06 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:21 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:53 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:53 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:54 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:39:54 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:47:02 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:48:06 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:48:07 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:49:19 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:49:20 +0000] [16500] [WARNING] Invalid HTTP request received.
-[2023-11-09 04:55:30 +0000] [16495] [INFO] Handling signal: term
-[2023-11-09 04:55:30 +0000] [16500] [INFO] Shutting down
-[2023-11-09 04:55:30 +0000] [16500] [INFO] Waiting for application shutdown.
-[2023-11-09 04:55:30 +0000] [16500] [INFO] Application shutdown complete.
-[2023-11-09 04:55:30 +0000] [16500] [INFO] Finished server process [16500]
-[2023-11-09 04:55:30 +0000] [16500] [INFO] Worker exiting (pid: 16500)
-[2023-11-09 04:55:35 +0000] [16495] [INFO] Shutting down: Master
-[2023-11-09 05:13:20 +0000] [156306] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 05:13:20 +0000] [156306] [INFO] Listening at: http://0.0.0.0:8081 (156306)
-[2023-11-09 05:13:20 +0000] [156306] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 05:13:20 +0000] [156314] [INFO] Booting worker with pid: 156314
-[2023-11-09 05:14:17 +0000] [156314] [INFO] Started server process [156314]
-[2023-11-09 05:14:17 +0000] [156314] [INFO] Waiting for application startup.
-[2023-11-09 05:14:17 +0000] [156314] [INFO] Application startup complete.
-[2023-11-09 05:14:17 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:14:17 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:14:18 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:14:18 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:34:01 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:34:08 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:34:12 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:34:23 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:34:59 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:35:08 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:35:11 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:35:16 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:37:00 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:37:28 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:39:25 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:39:36 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:39:55 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:39:59 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:43:26 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:43:34 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:47:41 +0000] [156314] [WARNING] Invalid HTTP request received.
-[2023-11-09 05:57:05 +0000] [156306] [INFO] Handling signal: term
-[2023-11-09 05:57:05 +0000] [156314] [INFO] Shutting down
-[2023-11-09 05:57:05 +0000] [156314] [INFO] Waiting for application shutdown.
-[2023-11-09 05:57:05 +0000] [156314] [INFO] Application shutdown complete.
-[2023-11-09 05:57:05 +0000] [156314] [INFO] Finished server process [156314]
-[2023-11-09 05:57:05 +0000] [156314] [INFO] Worker exiting (pid: 156314)
-[2023-11-09 05:57:08 +0000] [156306] [INFO] Shutting down: Master
-[2023-11-09 05:57:08 +0000] [176068] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 05:57:08 +0000] [176068] [INFO] Listening at: http://0.0.0.0:8081 (176068)
-[2023-11-09 05:57:08 +0000] [176068] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 05:57:08 +0000] [176071] [INFO] Booting worker with pid: 176071
-[2023-11-09 05:57:31 +0000] [176071] [INFO] Started server process [176071]
-[2023-11-09 05:57:31 +0000] [176071] [INFO] Waiting for application startup.
-[2023-11-09 05:57:31 +0000] [176071] [INFO] Application startup complete.
-[2023-11-09 06:01:10 +0000] [176068] [INFO] Handling signal: term
-[2023-11-09 06:01:10 +0000] [176071] [INFO] Shutting down
-[2023-11-09 06:01:10 +0000] [176071] [INFO] Waiting for application shutdown.
-[2023-11-09 06:01:10 +0000] [176071] [INFO] Application shutdown complete.
-[2023-11-09 06:01:10 +0000] [176071] [INFO] Finished server process [176071]
-[2023-11-09 06:01:10 +0000] [176071] [INFO] Worker exiting (pid: 176071)
-[2023-11-09 06:01:12 +0000] [176068] [INFO] Shutting down: Master
-[2023-11-09 06:01:13 +0000] [177670] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 06:01:13 +0000] [177670] [INFO] Listening at: http://0.0.0.0:8081 (177670)
-[2023-11-09 06:01:13 +0000] [177670] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 06:01:13 +0000] [177678] [INFO] Booting worker with pid: 177678
-[2023-11-09 06:01:36 +0000] [177678] [INFO] Started server process [177678]
-[2023-11-09 06:01:36 +0000] [177678] [INFO] Waiting for application startup.
-[2023-11-09 06:01:36 +0000] [177678] [INFO] Application startup complete.
-[2023-11-09 06:59:27 +0000] [177670] [INFO] Handling signal: term
-[2023-11-09 06:59:27 +0000] [177678] [INFO] Shutting down
-[2023-11-09 06:59:27 +0000] [177678] [INFO] Waiting for application shutdown.
-[2023-11-09 06:59:27 +0000] [177678] [INFO] Application shutdown complete.
-[2023-11-09 06:59:27 +0000] [177678] [INFO] Finished server process [177678]
-[2023-11-09 06:59:27 +0000] [177678] [INFO] Worker exiting (pid: 177678)
-[2023-11-09 06:59:30 +0000] [177670] [INFO] Shutting down: Master
-[2023-11-09 06:59:31 +0000] [188372] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 06:59:31 +0000] [188372] [INFO] Listening at: http://0.0.0.0:8081 (188372)
-[2023-11-09 06:59:31 +0000] [188372] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 06:59:31 +0000] [188380] [INFO] Booting worker with pid: 188380
-[2023-11-09 06:59:49 +0000] [188380] [INFO] Started server process [188380]
-[2023-11-09 06:59:49 +0000] [188380] [INFO] Waiting for application startup.
-[2023-11-09 06:59:49 +0000] [188380] [INFO] Application startup complete.
-[2023-11-09 07:57:05 +0000] [188380] [WARNING] Invalid HTTP request received.
-[2023-11-09 08:04:16 +0000] [188372] [INFO] Handling signal: term
-[2023-11-09 08:04:16 +0000] [188380] [INFO] Shutting down
-[2023-11-09 08:04:16 +0000] [188380] [INFO] Waiting for application shutdown.
-[2023-11-09 08:04:16 +0000] [188380] [INFO] Application shutdown complete.
-[2023-11-09 08:04:16 +0000] [188380] [INFO] Finished server process [188380]
-[2023-11-09 08:04:16 +0000] [188380] [INFO] Worker exiting (pid: 188380)
-[2023-11-09 08:04:18 +0000] [188372] [INFO] Shutting down: Master
-[2023-11-09 08:04:20 +0000] [209853] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 08:04:20 +0000] [209853] [INFO] Listening at: http://0.0.0.0:8081 (209853)
-[2023-11-09 08:04:20 +0000] [209853] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 08:04:20 +0000] [209873] [INFO] Booting worker with pid: 209873
-[2023-11-09 08:04:38 +0000] [209873] [INFO] Started server process [209873]
-[2023-11-09 08:04:38 +0000] [209873] [INFO] Waiting for application startup.
-[2023-11-09 08:04:38 +0000] [209873] [INFO] Application startup complete.
-[2023-11-09 08:12:36 +0000] [209853] [INFO] Handling signal: term
-[2023-11-09 08:12:36 +0000] [209873] [INFO] Shutting down
-[2023-11-09 08:12:37 +0000] [209873] [INFO] Waiting for application shutdown.
-[2023-11-09 08:12:37 +0000] [209873] [INFO] Application shutdown complete.
-[2023-11-09 08:12:37 +0000] [209873] [INFO] Finished server process [209873]
-[2023-11-09 08:12:37 +0000] [209873] [INFO] Worker exiting (pid: 209873)
-[2023-11-09 08:12:39 +0000] [209853] [INFO] Shutting down: Master
-[2023-11-09 08:12:40 +0000] [211322] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 08:12:40 +0000] [211322] [INFO] Listening at: http://0.0.0.0:8081 (211322)
-[2023-11-09 08:12:40 +0000] [211322] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 08:12:40 +0000] [211331] [INFO] Booting worker with pid: 211331
-[2023-11-09 08:12:54 +0000] [211331] [INFO] Started server process [211331]
-[2023-11-09 08:12:54 +0000] [211331] [INFO] Waiting for application startup.
-[2023-11-09 08:12:54 +0000] [211331] [INFO] Application startup complete.
-[2023-11-09 08:26:38 +0000] [211322] [INFO] Handling signal: term
-[2023-11-09 08:26:38 +0000] [211331] [INFO] Shutting down
-[2023-11-09 08:26:39 +0000] [211331] [INFO] Waiting for application shutdown.
-[2023-11-09 08:26:39 +0000] [211331] [INFO] Application shutdown complete.
-[2023-11-09 08:26:39 +0000] [211331] [INFO] Finished server process [211331]
-[2023-11-09 08:26:39 +0000] [211331] [INFO] Worker exiting (pid: 211331)
-[2023-11-09 08:26:41 +0000] [211322] [INFO] Shutting down: Master
-[2023-11-09 08:26:42 +0000] [214006] [INFO] Starting gunicorn 21.2.0
-[2023-11-09 08:26:42 +0000] [214006] [INFO] Listening at: http://0.0.0.0:8081 (214006)
-[2023-11-09 08:26:42 +0000] [214006] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2023-11-09 08:26:42 +0000] [214015] [INFO] Booting worker with pid: 214015
-[2023-11-09 08:27:09 +0000] [214015] [INFO] Started server process [214015]
-[2023-11-09 08:27:09 +0000] [214015] [INFO] Waiting for application startup.
-[2023-11-09 08:27:09 +0000] [214015] [INFO] Application startup complete.
-[2023-11-09 12:07:58 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:08:07 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:08:24 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:08:30 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:12 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:12 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:12 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:13 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:13 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:13 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:21 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:21 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:21 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:21 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:21 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:32 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:32 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:32 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:33 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:33 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:33 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:09:57 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:10:46 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:11:05 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:12:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:12:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:14:06 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 12:54:42 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 13:39:47 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 13:39:47 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 16:18:26 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 17:16:40 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 18:24:31 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 18:24:31 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 19:35:25 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-09 19:35:25 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 01:05:07 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 01:05:07 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 02:14:16 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 03:20:39 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 03:20:40 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 03:20:40 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 03:20:40 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:21:46 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:22 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:28 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:29 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:29 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:29 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:37 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:41:44 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:50:44 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:50:48 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:51:13 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 04:51:17 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 05:10:59 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 05:11:11 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:07:30 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:07:36 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:07:40 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:08:56 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:09:00 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:45:12 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:45:13 +0000] [214015] [WARNING] Invalid HTTP request received.
-[2023-11-10 06:58:55 +0000] [214015] [WARNING] Invalid HTTP request received.
+2023-11-20 12:23:58.552648: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-11-20 12:24:00.387718: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 12:24:00.391885: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-11-20 12:24:00.394436: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+[2023-11-20 12:24:09 +0000] [511771] [INFO] Started server process [511771]
+[2023-11-20 12:24:09 +0000] [511771] [INFO] Waiting for application startup.
+[2023-11-20 12:24:09 +0000] [511771] [INFO] Application startup complete.

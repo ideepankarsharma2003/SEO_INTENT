@@ -14,11 +14,12 @@ from starlette.responses import RedirectResponse
 #     generate_intent_v2  
 #     )
 os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
+import time
 
-from utils.get_keywords_utils import (
-                                      generate_keywords_around_seed,
-                                      generate_keywords_Ngram
-                                      )
+# from utils.get_keywords_utils import (
+#                                       generate_keywords_around_seed,
+#                                       generate_keywords_Ngram
+#                                       )
 
 from pydantic import BaseModel
 
@@ -184,7 +185,7 @@ async def intent_bert(text):
 '''
 
 @app.get('/get_keywords')
-async def intent(text):
+async def get_keywords(text):
     
     try: 
         # text= str_2_list_of_str(text)
@@ -202,7 +203,7 @@ async def intent(text):
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
         
-
+'''
 @app.post('/get_keywords_keybert')
 async def get_keywords_keybert(kbtext: KeyBertKeywords):
     
@@ -220,22 +221,31 @@ async def get_keywords_keybert(kbtext: KeyBertKeywords):
         # return Response(f'Error occured: {e}')
         
         
+'''
+
+
+'''
 
 @app.post('/get_keywords_keybert_ngrams')
 async def get_keywords_keybert_ngrams(kbtext: KeyBertKeywordsNGrams):
     
     try: 
+        start_time = time.time()
+        
         
         keyword_list= generate_keywords_Ngram(
             kbtext.keywords,
             kbtext.num_keywords,
-            kbtext.top_n
+            kbtext.top_n,
+            start_time
         )
+        print("--- %s seconds ---[GENERATED N-GRAMS]\n\n" % (time.time() - start_time), flush=True)
+        
         return keyword_list
     except Exception as e:
         return Response(f'Error occured: {e}')
         # return Response(f'Error occured: {e}')
-        
+        '''
         
         
 @app.post('/get_top_urls')

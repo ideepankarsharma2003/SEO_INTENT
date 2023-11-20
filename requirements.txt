@@ -225,3 +225,4 @@ tensorflow_text
 seaborn
 # pylab
 keybert
+# deepsparse-nightly[sentence_transformers]
