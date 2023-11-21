@@ -93,3 +93,15 @@ To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other ope
 [2023-11-20 12:24:09 +0000] [511771] [INFO] Started server process [511771]
 [2023-11-20 12:24:09 +0000] [511771] [INFO] Waiting for application startup.
 [2023-11-20 12:24:09 +0000] [511771] [INFO] Application startup complete.
+[2023-11-20 16:18:54 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-20 17:08:45 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-20 23:14:57 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-20 23:15:00 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 02:38:25 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 04:12:43 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 04:12:43 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 04:23:11 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 04:26:12 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 04:26:12 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 05:10:07 +0000] [511771] [WARNING] Invalid HTTP request received.
+[2023-11-21 05:32:50 +0000] [511771] [WARNING] Invalid HTTP request received.

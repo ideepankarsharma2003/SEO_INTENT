@@ -7,8 +7,10 @@ sudo cp qagen.paperbot.ai.conf /etc/nginx/conf.d/
 sudo nginx -t && sudo nginx -s reload
 
 sudo certbot --nginx -d qagen.paperbot.ai
+sudo systemctl reload nginx
 
 sudo systemctl stop nginx
+sudo systemctl restart nginx
 
 sudo supervisorctl stop all
 sudo supervisorctl start all
@@ -26,3 +28,39 @@ sudo mv /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default-1
 sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default-1
 sudo rm /etc/nginx/sites-enabled/default-1
 sudo rm /etc/nginx/sites-available/default-1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####################################
+#certbot commands
+
+
+
+sudo snap install core; sudo snap refresh core
+sudo apt remove certbot
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+
+
+sudo nano /etc/nginx/sites-available/example.com
+sudo nginx -t
+sudo systemctl reload nginx
+sudo ufw allow 'Nginx Full'
+sudo ufw delete allow 'Nginx HTTP'
+
+
+
+sudo certbot --nginx -d example.com -d www.example.com
