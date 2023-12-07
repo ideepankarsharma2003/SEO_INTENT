@@ -180,6 +180,7 @@ async def post_top_urls_metadescription(url:Url):
         # return Response(f'Error occured: {e}')
 
 
+app.include_router(router)
 
 
 if __name__=='__main__':
