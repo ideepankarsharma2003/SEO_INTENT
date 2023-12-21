@@ -14,7 +14,7 @@ from starlette.responses import RedirectResponse
 #     generate_intent_v2  
 #     )
 from keys import fastapi_key
-os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
+# os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
 import time
 
 # from utils.get_keywords_utils import (
@@ -53,10 +53,12 @@ class Intent(BaseModel):
 
 
 import json
-
-from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 from Utils.client import generate_top_urls
-from Utils.get_intent_bert_basedANN import  get_intent_bulk
+from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
+
+# from Utils.get_intent_bert_basedANN import  get_intent_bulk
+
+
 # from Utils.get_sentence_status import complete_sentence_analysis
 # from Utils.bert_fine_tuned_intent import get_intent
 # from main import generate_intent_v2
@@ -95,7 +97,7 @@ async def index():
 
 @router.post('/intent_bert_based_v2_bulk')
 async def intent_bert_based_v2_bulk(keyword:Intent):
-    
+    '''fine tuned model to find the intent of the keyword'''    
     try: 
         
         
@@ -104,59 +106,47 @@ async def intent_bert_based_v2_bulk(keyword:Intent):
         return intent
     except Exception as e:
         return Response(f'Error occured: {e}')
-        # return Response(f'Error occured: {e}')
+
+
+
 
 
 @router.get('/get_keywords')
 async def get_keywords(text):
-    
+    '''generate keywords for the text'''
     try: 
-        # text= str_2_list_of_str(text)
-        # text= text.get("text")
-        
         keyword_list= generate_keyword_list(text)
 
         return keyword_list
     except Exception as e:
         return Response(f'Error occured: {e}')
-        # return Response(f'Error occured: {e}')
+    
+    
+    
      
         
 @router.post('/get_top_urls')
 async def get_top_urls(text:Url):
-    
+    '''get top ranking urls for a given search query'''    
     try: 
         
         list_of_urls= generate_top_urls(text.keyword, text.num_urls)
-        # print('list_of_urls', list_of_urls)
         return list_of_urls
-        # return get_top_urls(text)
-        # return JSONResponse({
-        #     "embeddings": (get_top_urls(text))
-        # }, media_type='application/json')
     except Exception as e:
         return Response(f'Error occured: {e}')
-        # return Response(f'Error occured: {e}')
+
 
         
 @router.post('/get_keywords_from_urls_list')
-async def post_top_urls(keyword:Keyword):
+async def get_keywords_from_urls_list(keyword:Keyword):
     
     try: 
         
         url_list= keyword.url_list
-        # print(text)
-        # print(type(text))
         list_of_keywords= generate_keyword_list_v2(url_list)
-        # print('list_of_urls', list_of_urls)
         return list_of_keywords
-        # return get_top_urls(text)
-        # return JSONResponse({
-        #     "embeddings": (get_top_urls(text))
-        # }, media_type='application/json')
     except Exception as e:
         return Response(f'Error occured: {e}')
-        # return Response(f'Error occured: {e}')
         
         
 @router.post('/post_top_urls_metadescription')
@@ -166,24 +156,14 @@ async def post_top_urls_metadescription(url:Url):
         
         keyword= url.keyword
         num_urls= url.num_urls
-        # print(text)
-        # print(type(text))
         list_of_keywords= generate_keyword_list_v3(keyword, num_urls)
-        # print('list_of_urls', list_of_urls)
         return list_of_keywords
-        # return get_top_urls(text)
-        # return JSONResponse({
-        #     "embeddings": (get_top_urls(text))
-        # }, media_type='application/json')
     except Exception as e:
         return Response(f'Error occured: {e}')
-        # return Response(f'Error occured: {e}')
 
 
 app.include_router(router)
 
 
 if __name__=='__main__':
-    # uvicorn.run(app, host='127.0.0.1', port=9003)
-    # uvicorn.run(app, host='127.0.0.1', port=8081)
     uvicorn.run(app, host='0.0.0.0', port=8081)
