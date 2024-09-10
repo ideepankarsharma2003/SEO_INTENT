@@ -50,6 +50,11 @@ class Url(BaseModel):
 class Intent(BaseModel):
     keyword_list: list[str] or str= [""]
     # fastapi_key: str=""
+    
+    
+    
+class MediaStreamFetch(BaseModel):
+    url: str
 
 
 import json
@@ -128,12 +133,14 @@ async def get_keywords(text):
 @router.post('/get_top_urls')
 async def get_top_urls(text:Url):
     '''get top ranking urls for a given search query'''    
-    try: 
-        
+    try:
+        print("-"*10)
+        print(text.model_dump_json(indent=4)) 
         list_of_urls= generate_top_urls(text.keyword, text.num_urls)
         return list_of_urls
+        print("-"*10)
     except Exception as e:
-        return Response(f'Error occured: {e}')
+        return Response(f'Error occured: {e}', status_code=500)
 
 
         
@@ -149,6 +156,9 @@ async def get_keywords_from_urls_list(keyword:Keyword):
         return Response(f'Error occured: {e}')
         
         
+        
+        
+        
 @router.post('/post_top_urls_metadescription')
 async def post_top_urls_metadescription(url:Url):
     
@@ -160,10 +170,30 @@ async def post_top_urls_metadescription(url:Url):
         return list_of_keywords
     except Exception as e:
         return Response(f'Error occured: {e}')
+        
+        
+        
+       
+       
+# from utils.fb_scrape import extract_fbvideo_from_url       
+# @router.post('/fb_video_stream_url')
+# def post_top_urls_metadescription(data:MediaStreamFetch):
+    
+#     try: 
+        
+#         url= data.url
+#         base_url= extract_fbvideo_from_url(url)
+#         if not base_url:
+#             raise Exception("Couldn't find stream url from url")
+#         return {
+#             "base_url": base_url
+#         }
+#     except Exception as e:
+#         return Response(f'Error occured: {e}')
 
 
 app.include_router(router)
 
 
 if __name__=='__main__':
-    uvicorn.run(app, host='0.0.0.0', port=8081)
+    uvicorn.run(app, host='0.0.0.0', port=8001)

@@ -223,3 +223,4 @@ seaborn
 keybert
 # deepsparse-nightly[sentence_transformers]
 gunicorn
+pytest-playwright
