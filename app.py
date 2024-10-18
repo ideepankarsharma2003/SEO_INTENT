@@ -58,7 +58,7 @@ class MediaStreamFetch(BaseModel):
 
 
 import json
-from Utils.client import generate_top_urls
+from Utils.client import generate_top_urls, generate_dict_of_urls
 from Utils.text_keyword_extraction import generate_keyword_list, generate_keyword_list_v2, generate_keyword_list_v3
 
 # from Utils.get_intent_bert_basedANN import  get_intent_bulk
@@ -137,8 +137,21 @@ async def get_top_urls(text:Url):
         print("-"*10)
         print(text.model_dump_json(indent=4)) 
         list_of_urls= generate_top_urls(text.keyword, text.num_urls)
-        return list_of_urls
         print("-"*10)
+        return list_of_urls
+    except Exception as e:
+        return Response(f'Error occured: {e}', status_code=500)
+    
+    
+@router.post('/get_top_urls_with_title_description')
+async def get_top_urls_with_title_description(text:Url):
+    '''get top ranking urls for a given search query'''    
+    try:
+        print("-"*10)
+        print(text.model_dump_json(indent=4)) 
+        dict_of_urls= generate_dict_of_urls(text.keyword, text.num_urls)
+        print("-"*10)
+        return dict_of_urls
     except Exception as e:
         return Response(f'Error occured: {e}', status_code=500)
 

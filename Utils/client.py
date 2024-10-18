@@ -141,6 +141,43 @@ def generate_top_urls(keyword, num_query_results=10)->list:
         
 
 
+def generate_dict_of_urls(keyword, num_query_results=10)->list:
+    # print(keyword)
+    post_data = dict()
+    # You can set only one task at a time
+    post_data[len(post_data)] = dict(
+        language_code="en",
+        location_code=2840,
+        keyword=keyword
+    )
+    
+    response = client.post("/v3/serp/google/organic/live/regular", post_data)
+
+
+
+    if response["status_code"] == 20000:
+        # print(response)
+        d= response['tasks'][0]
+        # print(d)
+        result_dict= d['result'][0]['items']
+        urls= dict()
+        for i in result_dict[:num_query_results]:
+            # summary+= i['title']+' '
+            urls[i['url']]= {
+                "title": i['title'], 
+                'description': i['description']
+            }
+        # print(summary)
+        # print(urls)
+        return (urls)
+        
+        # do something with result
+    else:
+        print("error. Code: %d Message: %s" % (response["status_code"], response["status_message"] , f" for keyword {keyword}"))
+        
+        
+
+
 
 
 
